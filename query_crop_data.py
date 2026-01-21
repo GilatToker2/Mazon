@@ -137,7 +137,7 @@ def create_pesticide_tables_by_mechanism(crop_ids, crop_infos):
                         table_data[col] = []
                     table_data[col].append('')
             else:
-                row = crop_data.iloc[0]
+                # Combine all rows for this crop_id - take first non-empty value from any row
                 table_data['Crop_ID'].append(crop_id)
                 table_data['English_Name'].append(english_name)
                 table_data['Hebrew_Name'].append(hebrew_name)
@@ -146,11 +146,15 @@ def create_pesticide_tables_by_mechanism(crop_ids, crop_infos):
                     if col not in table_data:
                         table_data[col] = []
 
-                    value = row[col]
-                    if pd.notna(value) and str(value).strip() != '':
-                        table_data[col].append(str(value).strip())
-                    else:
-                        table_data[col].append('')
+                    # Find first non-empty value across all rows for this crop_id
+                    combined_value = ''
+                    for idx in range(len(crop_data)):
+                        value = crop_data.iloc[idx][col]
+                        if pd.notna(value) and str(value).strip() != '':
+                            combined_value = str(value).strip()
+                            break
+
+                    table_data[col].append(combined_value)
 
         return pd.DataFrame(table_data)
 
