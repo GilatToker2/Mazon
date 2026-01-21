@@ -114,8 +114,8 @@ def main():
     with st.spinner("טוען רשימת גידולים..."):
         hebrew_crops = load_hebrew_crops()
 
-    # Create two columns for input - reversed for RTL (search on right)
-    col2, col1 = st.columns([1, 4])
+    # Create two columns for input - search button on left side
+    col1, col2 = st.columns([4, 1])
 
     with col1:
         # Selectbox with search capability
@@ -227,12 +227,19 @@ def main():
 
     # Footer
     st.markdown("---")
-    st.markdown("""
-    **הערות:**
-    - התחל להקליד בתיבת הבחירה כדי לסנן את רשימת הגידולים
-    - הטבלאות ניתנות להורדה ישירות מכל טאב
-    - הנתונים מבוססים על מנגנוני רגולציה: IL (ישראל), EU (האיחוד האירופי), US (ארצות הברית)
-    """)
+    st.markdown(
+        """
+        <div dir="rtl" style="text-align: right;">
+            <p><b>הערות:</b></p>
+            <ul>
+                <li>התחל להקליד בתיבת הבחירה כדי לסנן את רשימת הגידולים</li>
+                <li>הטבלאות ניתנות להורדה ישירות מכל טאב</li>
+                <li>הנתונים מבוססים על מנגנוני רגולציה: ישראל (IL), האיחוד האירופי (EU), ארצות הברית (US)</li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 
 if __name__ == "__main__":
