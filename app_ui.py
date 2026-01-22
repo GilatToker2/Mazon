@@ -225,6 +225,7 @@ def main():
             except Exception as e:
                 st.error(f"❌ שגיאה: {str(e)}")
 
+
     # Footer
     st.markdown("---")
     st.markdown(
