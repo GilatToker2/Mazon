@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'mazon-web-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_24B391CD0CB24126A5B06ED4719C20E5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD5FD87D71074A70AE043AD964378593 }}
