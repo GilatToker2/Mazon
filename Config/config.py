@@ -4,13 +4,19 @@ Fill in your Azure OpenAI credentials before running the translation scripts.
 """
 
 import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+env_path = Path(__file__).parent.parent / '.env'
+load_dotenv(dotenv_path=env_path)
 
 # Azure OpenAI API Configuration
-AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY', '8bzusfmUItCctFE8B1GyYVakq31Yzpw6cwuqVLWCpi3g35k653ZuJQQJ99BFACHYHv6XJ3w3AAABACOGN8mS')
-AZURE_OPENAI_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT', 'https://aoai-moodle-vi-eastus2.openai.azure.com/')
-AZURE_OPENAI_API_VERSION = os.getenv('AZURE_OPENAI_API_VERSION', '2023-05-15')
-AZURE_OPENAI_CHAT_COMPLETION_MODEL = os.getenv('AZURE_OPENAI_CHAT_COMPLETION_MODEL', 'gpt-4.1')
+AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
+AZURE_OPENAI_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT')
+AZURE_OPENAI_API_VERSION = os.getenv('AZURE_OPENAI_API_VERSION')
+AZURE_OPENAI_CHAT_COMPLETION_MODEL = os.getenv('AZURE_OPENAI_CHAT_COMPLETION_MODEL')
 
 # Other Configuration (if needed)
-INDEX_NAME = os.getenv('INDEX_NAME', 'default-index')
+INDEX_NAME = os.getenv('INDEX_NAME')
 QUIZ_QUESTIONS_COUNT = int(os.getenv('QUIZ_QUESTIONS_COUNT', '10'))
