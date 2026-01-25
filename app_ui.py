@@ -102,6 +102,16 @@ st.markdown("""
         text-align: right !important;
     }
     
+    /* Selectbox arrow (chevron) on the RIGHT */
+    .stSelectbox div[data-baseweb="select"] > div {
+        flex-direction: row-reverse !important;
+    }
+    
+    /* align to the RIGHT (only markdown text blocks) */
+    div[data-testid="stMarkdownContainer"] {
+        direction: rtl !important;
+        text-align: right !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
