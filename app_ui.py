@@ -69,7 +69,11 @@ st.markdown("""
 
     /* Tabs styling */
     .stTabs [data-baseweb="tab-list"] {
-        justify-content: flex-end;
+        direction: rtl;
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        text-align: right;
     }
 
     /* DataFrame styling */
@@ -81,6 +85,23 @@ st.markdown("""
     h1, h2, h3 {
         text-align: right;
     }
+    
+    
+    
+    div[data-baseweb="popover"] [role="listbox"]{
+        direction: rtl !important;
+    }
+    
+    div[data-baseweb="popover"] [role="option"]{
+        justify-content: flex-end !important;  /* <-- this is the key */
+        text-align: right !important;
+    }
+    
+    div[data-baseweb="popover"] [role="option"] > div{
+        width: 100% !important;               /* make text container span full width */
+        text-align: right !important;
+    }
+    
 </style>
 """, unsafe_allow_html=True)
 
