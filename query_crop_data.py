@@ -207,32 +207,21 @@ def query_crop_data(hebrew_word):
     # Filter out empty tables (no pesticide restrictions)
     # A table is considered empty if it only has the identification columns (Crop_ID, English_Name, Hebrew_Name)
     tables_to_display = []
-    saved_files = []
-    base_filename = hebrew_word.replace(" ", "_")
 
     # Check IL Table
     num_il_pesticides = len(il_table.columns) - 3  # -3 for identification columns
     if num_il_pesticides > 0:
         tables_to_display.append(('IL', il_table, num_il_pesticides))
-        il_file = f'pesticide_IL_{base_filename}.csv'
-        il_table.to_csv(il_file, index=False)
-        saved_files.append(('IL', il_file))
 
     # Check EU Table
     num_eu_pesticides = len(eu_table.columns) - 3
     if num_eu_pesticides > 0:
         tables_to_display.append(('EU', eu_table, num_eu_pesticides))
-        eu_file = f'pesticide_EU_{base_filename}.csv'
-        eu_table.to_csv(eu_file, index=False)
-        saved_files.append(('EU', eu_file))
 
     # Check US Table
     num_us_pesticides = len(us_table.columns) - 3
     if num_us_pesticides > 0:
         tables_to_display.append(('US', us_table, num_us_pesticides))
-        us_file = f'pesticide_US_{base_filename}.csv'
-        us_table.to_csv(us_file, index=False)
-        saved_files.append(('US', us_file))
 
     # Display only non-empty tables
     if not tables_to_display:
@@ -246,13 +235,6 @@ def query_crop_data(hebrew_word):
             print(f"Found {num_pesticides} pesticides for {len(table)} crop ID(s)")
             print(table.to_string(index=False))
             print()
-
-        # Display saved files
-        print(f"{'=' * 80}")
-        print(f"Tables saved to:")
-        for mechanism, filepath in saved_files:
-            print(f"  - {mechanism}: {filepath}")
-        print(f"{'=' * 80}")
 
     return il_table, eu_table, us_table
 
