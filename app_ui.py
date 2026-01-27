@@ -71,7 +71,7 @@ st.markdown("""
     .stTabs [data-baseweb="tab-list"] {
         direction: rtl;
     }
-    
+
     .stTabs [data-baseweb="tab"] {
         text-align: right;
     }
@@ -85,28 +85,28 @@ st.markdown("""
     h1, h2, h3 {
         text-align: right;
     }
-    
-    
-    
+
+
+
     div[data-baseweb="popover"] [role="listbox"]{
         direction: rtl !important;
     }
-    
+
     div[data-baseweb="popover"] [role="option"]{
         justify-content: flex-end !important;  /* <-- this is the key */
         text-align: right !important;
     }
-    
+
     div[data-baseweb="popover"] [role="option"] > div{
         width: 100% !important;               /* make text container span full width */
         text-align: right !important;
     }
-    
+
     /* Selectbox arrow (chevron) on the RIGHT */
     .stSelectbox div[data-baseweb="select"] > div {
         flex-direction: row-reverse !important;
     }
-    
+
     /* align to the RIGHT (only markdown text blocks) */
     div[data-testid="stMarkdownContainer"] {
         direction: rtl !important;
@@ -190,13 +190,13 @@ def main():
 
                     st.success(f"✅ נמצא: {selected_crop}")
 
-                    # Display counts in columns
+                    # Display counts in columns (RTL order: IL right, EU center, US left)
                     metric_col1, metric_col2, metric_col3 = st.columns(3)
-                    with metric_col3:  # Reversed order for RTL
+                    with metric_col1:  # Right side - Israel
                         st.metric("🇮🇱 ישראל (IL)", f"{il_count} חומרי הדברה")
-                    with metric_col2:
+                    with metric_col2:  # Center - EU
                         st.metric("🇪🇺 האיחוד האירופי (EU)", f"{eu_count} חומרי הדברה")
-                    with metric_col1:
+                    with metric_col3:  # Left side - US
                         st.metric("🇺🇸 ארצות הברית (US)", f"{us_count} חומרי הדברה")
 
                 st.markdown("---")
@@ -212,10 +212,14 @@ def main():
 
                         # Download button
                         csv = il_table.to_csv(index=False, encoding='utf-8-sig')
+                        # Use English name from the table for filename, fallback to "crop" if not available
+                        english_name = il_table['English_Name'].iloc[0] if 'English_Name' in il_table.columns and len(
+                            il_table) > 0 else "crop"
+                        safe_filename = english_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
                         st.download_button(
                             label="💾 הורד כקובץ CSV",
                             data=csv,
-                            file_name=f"IL_{selected_crop.replace(' ', '_')}.csv",
+                            file_name=f"IL_{safe_filename}.csv",
                             mime="text/csv",
                         )
                     else:
@@ -228,10 +232,14 @@ def main():
 
                         # Download button
                         csv = eu_table.to_csv(index=False, encoding='utf-8-sig')
+                        # Use English name from the table for filename, fallback to "crop" if not available
+                        english_name = eu_table['English_Name'].iloc[0] if 'English_Name' in eu_table.columns and len(
+                            eu_table) > 0 else "crop"
+                        safe_filename = english_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
                         st.download_button(
                             label="💾 הורד כקובץ CSV",
                             data=csv,
-                            file_name=f"EU_{selected_crop.replace(' ', '_')}.csv",
+                            file_name=f"EU_{safe_filename}.csv",
                             mime="text/csv",
                         )
                     else:
@@ -244,10 +252,14 @@ def main():
 
                         # Download button
                         csv = us_table.to_csv(index=False, encoding='utf-8-sig')
+                        # Use English name from the table for filename, fallback to "crop" if not available
+                        english_name = us_table['English_Name'].iloc[0] if 'English_Name' in us_table.columns and len(
+                            us_table) > 0 else "crop"
+                        safe_filename = english_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
                         st.download_button(
                             label="💾 הורד כקובץ CSV",
                             data=csv,
-                            file_name=f"US_{selected_crop.replace(' ', '_')}.csv",
+                            file_name=f"US_{safe_filename}.csv",
                             mime="text/csv",
                         )
                     else:
@@ -255,7 +267,6 @@ def main():
 
             except Exception as e:
                 st.error(f"❌ שגיאה: {str(e)}")
-
 
     # Footer
     st.markdown("---")
