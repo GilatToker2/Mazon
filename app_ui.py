@@ -209,20 +209,6 @@ def main():
                     if il_table is not None and len(il_table.columns) > 3:
                         st.markdown(f"**נמצאו {len(il_table.columns) - 3} חומרי הדברה**")
                         st.dataframe(il_table, use_container_width=True, hide_index=True)
-
-                        # Download button
-                        csv = il_table.to_csv(index=False, encoding='utf-8-sig')
-                        # Use English name from the table for filename, fallback to "crop" if not available
-                        english_name = il_table['English_Name'].iloc[0] if 'English_Name' in il_table.columns and len(
-                            il_table) > 0 else "crop"
-                        safe_filename = english_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
-                        st.download_button(
-                            label="💾 הורד כקובץ CSV",
-                            data=csv,
-                            file_name=f"IL_{safe_filename}.csv",
-                            mime="text/csv",
-                            key=f"download_il_{selected_crop}"
-                        )
                     else:
                         st.info("אין נתונים זמינים עבור מנגנון IL")
 
@@ -230,20 +216,6 @@ def main():
                     if eu_table is not None and len(eu_table.columns) > 3:
                         st.markdown(f"**נמצאו {len(eu_table.columns) - 3} חומרי הדברה**")
                         st.dataframe(eu_table, use_container_width=True, hide_index=True)
-
-                        # Download button
-                        csv = eu_table.to_csv(index=False, encoding='utf-8-sig')
-                        # Use English name from the table for filename, fallback to "crop" if not available
-                        english_name = eu_table['English_Name'].iloc[0] if 'English_Name' in eu_table.columns and len(
-                            eu_table) > 0 else "crop"
-                        safe_filename = english_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
-                        st.download_button(
-                            label="💾 הורד כקובץ CSV",
-                            data=csv,
-                            file_name=f"EU_{safe_filename}.csv",
-                            mime="text/csv",
-                            key=f"download_eu_{selected_crop}"
-                        )
                     else:
                         st.info("אין נתונים זמינים עבור מנגנון EU")
 
@@ -251,20 +223,6 @@ def main():
                     if us_table is not None and len(us_table.columns) > 3:
                         st.markdown(f"**נמצאו {len(us_table.columns) - 3} חומרי הדברה**")
                         st.dataframe(us_table, use_container_width=True, hide_index=True)
-
-                        # Download button
-                        csv = us_table.to_csv(index=False, encoding='utf-8-sig')
-                        # Use English name from the table for filename, fallback to "crop" if not available
-                        english_name = us_table['English_Name'].iloc[0] if 'English_Name' in us_table.columns and len(
-                            us_table) > 0 else "crop"
-                        safe_filename = english_name.replace(' ', '_').replace('/', '_').replace('\\', '_')
-                        st.download_button(
-                            label="💾 הורד כקובץ CSV",
-                            data=csv,
-                            file_name=f"US_{safe_filename}.csv",
-                            mime="text/csv",
-                            key=f"download_us_{selected_crop}"
-                        )
                     else:
                         st.info("אין נתונים זמינים עבור מנגנון US")
 
@@ -279,7 +237,6 @@ def main():
             <p><b>הערות:</b></p>
             <ul>
                 <li>התחל להקליד בתיבת הבחירה כדי לסנן את רשימת הגידולים</li>
-                <li>הטבלאות ניתנות להורדה ישירות מכל טאב</li>
                 <li>הנתונים מבוססים על מנגנוני רגולציה: ישראל (IL), האיחוד האירופי (EU), ארצות הברית (US)</li>
             </ul>
         </div>
