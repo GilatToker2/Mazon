@@ -221,6 +221,7 @@ def main():
                             data=csv,
                             file_name=f"IL_{safe_filename}.csv",
                             mime="text/csv",
+                            key=f"download_il_{selected_crop}"
                         )
                     else:
                         st.info("אין נתונים זמינים עבור מנגנון IL")
@@ -241,6 +242,7 @@ def main():
                             data=csv,
                             file_name=f"EU_{safe_filename}.csv",
                             mime="text/csv",
+                            key=f"download_eu_{selected_crop}"
                         )
                     else:
                         st.info("אין נתונים זמינים עבור מנגנון EU")
@@ -261,6 +263,7 @@ def main():
                             data=csv,
                             file_name=f"US_{safe_filename}.csv",
                             mime="text/csv",
+                            key=f"download_us_{selected_crop}"
                         )
                     else:
                         st.info("אין נתונים זמינים עבור מנגנון US")
