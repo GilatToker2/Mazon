@@ -1,0 +1,3556 @@
+{
+  "crops": {
+    "Sweet corn cannery waste": {
+      "id": 136,
+      "name": "SWEET CORN",
+      "reasoning": "המונח 'Sweet corn cannery waste' מתייחס לפסולת של תירס מתוק, ולכן בחרתי בתירס מתוק (ID 136) כהתאמה הקרובה ביותר."
+    },
+    "Soya bean hulls": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Soya bean hulls' מתייחס לקליפות סויה, אך ברשימת הגידולים אין סויה או חלקיה, לכן אין התאמה."
+    },
+    "Durian": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Durian' (דוריאן) אינו מופיע ברשימת הגידולים ולכן אין התאמה."
+    },
+    "Carambola": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Carambola' (קרמבולה) אינו מופיע ברשימת הגידולים ולכן אין התאמה."
+    },
+    "Cotton seed, hulls": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "'Cotton seed, hulls' מתייחס לחלקי כותנה (גרעינים וקליפות), והגידול הקרוב ביותר הוא כותנה (ID 56)."
+    },
+    "Citrus pulp, dried": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "'Citrus pulp, dried' הוא תוצר לוואי של פירות הדר, לכן פירות הדר (ID 103) הוא ההתאמה הנכונה."
+    },
+    "Soya bean meal": {
+      "id": null,
+      "name": null,
+      "reasoning": "הערך 'Soya bean meal' מתייחס לארוחה של פולי סויה, אך ברשימת הגידולים אין סויה או מוצרי משנה שלה. לכן לא נמצא התאמה."
+    },
+    "Apple pomace, wet": {
+      "id": null,
+      "name": null,
+      "reasoning": "הערך 'Apple pomace, wet' מתייחס לתוצר לוואי של תפוח עץ (Apple), אך אין ברשימה קטגוריה של פסולת או תוצר לוואי של תפוח עץ, רק 'תפוח עץ' (ID 140). לא ניתן לקבוע התאמה מדויקת."
+    },
+    "Cotton seed, meal": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "'Cotton seed, meal' הוא תוצר של כותנה (Cotton). ברשימה יש 'כותנה' (ID 56), ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Sorghum forage (dry)": {
+      "id": 36,
+      "name": "SORGHUM BICOLOR",
+      "reasoning": "השם 'Sorghum forage (dry)' מתאר מספוא סורגום יבש. ברשימת הייחוס יש 'SORGHUM BICOLOR' (וידן, מספוא סורגום) תחת מזהה 36, שהוא ההתאמה הסבירה ביותר."
+    },
+    "Barley bran, unprocessed": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Barley bran, unprocessed' מתאר סובין שעורה לא מעובד. ברשימת הייחוס יש 'BARLEY' (שעורה תרבותית, מזהה 130), אך אין אזכור לסובין בנפרד ולכן לא ניתן לקבוע התאמה חד משמעית."
+    },
+    "Grape pomace, dried": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Grape pomace, dried' הוא גפת ענבים מיובשת. ברשימת הייחוס יש 'GRAPES' (ענבים, מזהה 89), אך לא מצוינת גפת בנפרד ולכן לא ניתן לקבוע התאמה חד משמעית."
+    },
+    "Sugar beet pulp, dry": {
+      "id": 82,
+      "name": "SUGAR BEET",
+      "reasoning": "'Sugar beet pulp, dry' הוא עיסת סלק סוכר יבשה. ברשימת הייחוס יש 'SUGAR BEET' (סלק סוכר, מזהה 82), שהוא הגידול ממנו מופקת העיסה ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Alfalfa, hay and/or straw": {
+      "id": 8,
+      "name": "ALFALFA",
+      "reasoning": "Alfalfa הוא תרגום ישיר של אספסת (ID 8). הביטוי 'hay and/or straw' מתייחס לתוצרי המספוא של הגידול, אך הגידול עצמו הוא אספסת."
+    },
+    "Clover, hay and/or straw": {
+      "id": 137,
+      "name": "CLOVER",
+      "reasoning": "Clover הוא תרגום ישיר של תלתן (ID 137). הביטוי 'hay and/or straw' מתייחס לתוצרי המספוא של הגידול, אך הגידול עצמו הוא תלתן."
+    },
+    "Legume animal feeds": {
+      "id": 111,
+      "name": "LEGUMS",
+      "reasoning": "המונח 'Legume animal feeds' מתייחס למספוא מקטניות, והערך 'קטניות' (ID 111) הוא הקרוב ביותר ברשימת הייחוס."
+    },
+    "Soya bean, hay and/or straw": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Soya bean, hay and/or straw' אינו מופיע במפורש ברשימת הייחוס. אין התאמה ישירה לסויה או למספוא סויה, ולכן לא ניתן למפות בוודאות."
+    },
+    "Bean, hay and/or straw": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "השם 'Bean, hay and/or straw' מתייחס לשעועית ולתוצרי מספוא/קש. ברשימת הייחוס 'שעועית ירוקה' (ID 129) הוא הקרוב ביותר, כי אין קטגוריה נפרדת לקש שעועית."
+    },
+    "Peanut fodder": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Peanut fodder' ברשימת הגידולים. יש גידול בשם 'אגוז אדמה - PEANUT' (ID 3) אך לא ברור אם הכוונה למספוא או לפרי, ולכן לא בוצעה התאמה."
+    },
+    "Pea, hay and/or straw": {
+      "id": null,
+      "name": null,
+      "reasoning": "הביטוי 'Pea, hay and/or straw' אינו מופיע ברשימת הגידולים באנגלית. יש התאמה חלקית ל-'PEAS' (אפונה, ID 10), אך לא ברור אם הכוונה היא לאפונה עצמה או לתוצרי מספוא (חציר/קש). לכן לא ניתן לקבוע התאמה חד-משמעית."
+    },
+    "Almond hulls": {
+      "id": null,
+      "name": null,
+      "reasoning": "המונח 'Almond hulls' מתייחס לקליפות של שקדים, אך ברשימת הגידולים יש רק 'שקד' (ID 131) ללא הבחנה בין קליפה לפרי. לא ניתן לקבוע בוודאות התאמה לגידול ברשימה."
+    },
+    "Fodder beet": {
+      "id": 81,
+      "name": "FODDER BEET",
+      "reasoning": "'Fodder beet' הוא שם נפוץ ל'סלק מספוא' שמופיע ברשימת הגידולים (ID 81)."
+    },
+    "Sugar cane fodder": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Sugar cane fodder' אינו מופיע ברשימת הגידולים, ואין קטגוריה מתאימה לקני סוכר למספוא. לכן לא נמצאה התאמה."
+    },
+    "Fruits and vegetables": {
+      "id": "[51, 95]",
+      "name": "[\"VEGETABLES\", \"FRUITS\"]",
+      "reasoning": "הביטוי 'Fruits and vegetables' מתאים לשני ערכים: 'ירקות' (51) ו'פירות' (95), כי אלו שמות כלליים המתייחסים לכלל הירקות והפירות."
+    },
+    "Mint hay": {
+      "id": 74,
+      "name": "MINT",
+      "reasoning": "'Mint hay' מתייחס ל'מנטה' (74), למרות שאין אזכור ישיר של חציר, אך 'Mint' הוא גידול עיקרי ברשימה."
+    },
+    "Cotton fodder, dry": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "'Cotton fodder, dry' מתייחס ל'כותנה' (56), כי מדובר בתוצר יבש של כותנה למאכל בעלי חיים."
+    },
+    "Hay and/or straw of grasses for animal feed (subgroup)": {
+      "id": 91,
+      "name": "RHODS GRASS",
+      "reasoning": "'Hay and/or straw of grasses for animal feed' מתייחס ל'עשב רודס' (91), שהוא דגן עיקרי למאכל בעלי חיים, אך ייתכן שיש עוד מינים ולכן נבחרה ההתאמה הקרובה ביותר."
+    },
+    "Straw, fodder (dry) and hay of cereal grains and other grass-like plants": {
+      "id": 116,
+      "name": "WHEAT STRAW",
+      "reasoning": "'Straw, fodder (dry) and hay of cereal grains and other grass-like plants' מתאים ל'קש חיטה' (116), כי מדובר בתוצרי לוואי של דגנים ועשבים."
+    },
+    "Barley, hay and/or straw": {
+      "id": "[130, 116]",
+      "name": "[\"BARLEY\", \"WHEAT STRAW\"]",
+      "reasoning": "Barley הוא 'שעורה תרבותית' (ID 130) ברשימה. 'hay and/or straw' מתייחס לתוצרי לוואי כמו 'קש חיטה' (ID 116), אך אין 'קש שעורה' ברשימה, ולכן בחרנו גם את 'שעורה תרבותית' וגם את 'קש חיטה' כאופציות סבירות."
+    },
+    "Maize fodder (dry)": {
+      "id": 135,
+      "name": "FORAGE CORN",
+      "reasoning": "השם 'Maize fodder (dry)' מתאר תירס מספוא, שהוא תירס המשמש כמספוא לבעלי חיים. ברשימת הייחוס מופיע 'תירס מספוא' (FORAGE CORN) עם מזהה 135, ולכן זו ההתאמה הנכונה."
+    },
+    "Oat straw and fodder, dry": {
+      "id": 116,
+      "name": "WHEAT STRAW",
+      "reasoning": "השם באנגלית 'Oat straw and fodder, dry' מתייחס לקש שיבולת שועל ומספוא יבש. ברשימת הייחוס יש 'קש חיטה' (116), אך אין ערך מדויק לקש שיבולת שועל. עם זאת, בהתחשב בכך ש'קש' הוא המרכיב המרכזי, בחרתי באפשרות הקרובה ביותר."
+    },
+    "Rice, hay and/or straw": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rice, hay and/or straw' ברשימת הגידולים. אין ברשימה אורז או תוצרי לוואי שלו (קש/חציר), ולכן לא ניתן למפות."
+    },
+    "Rye straw and fodder, dry": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rye straw and fodder, dry' ברשימת הגידולים. ייתכן שמדובר בשיבולת שועל (OAT) או דגנים אחרים, אך אין התאמה מדויקת או תרגום ישיר לשם זה."
+    },
+    "Sorghum straw and fodder, dry": {
+      "id": "[32, 36]",
+      "name": "[\"SORGHUM\", \"SORGHUM BICOLOR\"]",
+      "reasoning": "השם 'Sorghum straw and fodder, dry' מתייחס לסורגום (Sorghum), כאשר ברשימת הייחוס יש שני ערכים רלוונטיים: 'דורה-סורגום' (ID 32) ו-'וידן - SORGHUM BICOLOR' (ID 36). שניהם סוגי סורגום, ולכן שניהם נכללים. לא נמצא ערך ייחודי ל'קש סורגום' ולכן אלו האפשרויות הקרובות ביותר."
+    },
+    "Triticale, hay and/or straw": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Triticale, hay and/or straw' אינו מופיע ברשימת הגידולים באנגלית או בעברית, ואין שם מקביל ברור לטריטיקאלה או לתת-מוצרים שלו (חציר/קש). ייתכן שמדובר בגידול דומה לדגניים (ID 30) או לקש חיטה (ID 116), אך אין התאמה מדויקת ולכן לא ניתן למפות בוודאות."
+    },
+    "Wheat, hay and/or straw": {
+      "id": "[42, 116]",
+      "name": "[\"WHEAT\", \"WHEAT STRAW\"]",
+      "reasoning": "השם 'Wheat, hay and/or straw' מתייחס לחיטה ולתוצרי לוואי שלה (חציר וקש). 'WHEAT' (חיטה) הוא ID 42, ו-'WHEAT STRAW' (קש חיטה) הוא ID 116. שניהם רלוונטיים ולכן שניהם נבחרו."
+    },
+    "Straw and hay of cereal grains (excluding pseudocereals) (subgroup)": {
+      "id": "[116, 30]",
+      "name": "[\"WHEAT STRAW\", \"CEREALS\"]",
+      "reasoning": "הביטוי 'Straw and hay of cereal grains' מתייחס לקש ותבן של דגנים. ברשימת הייחוס יש 'קש חיטה' (116) ו-'דגניים' (30), שניהם מתאימים להגדרה זו. לא צויין סוג דגן מסוים ולכן שניהם נבחרו."
+    },
+    "Sugar beet leaves or tops (dry)": {
+      "id": 83,
+      "name": "BEET, GREENS",
+      "reasoning": "הביטוי 'Sugar beet leaves or tops (dry)' מתאר את העלים או החלק העליון של סלק סוכר. ברשימת הייחוס יש 'סלק עלים' (BEET, GREENS) עם ID 83, שמתאים לתיאור זה. לא נמצאו אפשרויות נוספות."
+    },
+    "Wheat germ": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Wheat germ' ברשימת הגידולים. 'Wheat germ' הוא הנבט של החיטה, אך ברשימה מופיעה רק 'WHEAT' (חיטה) כגידול כללי ולא כנבט. לכן, לא ניתן למפות בוודאות."
+    },
+    "Wheat wholemeal": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "המונח 'Wheat wholemeal' מתייחס לחיטה מלאה, שזהו קמח חיטה מלא. ברשימת הייחוס, 'WHEAT' (חיטה) הוא ID 42. אין קטגוריה נפרדת לקמח חיטה מלא, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Wheat flour": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "המונח 'Wheat flour' מתייחס לקמח חיטה. ברשימת הייחוס, 'WHEAT' (חיטה) הוא ID 42. אין קטגוריה נפרדת לקמח, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Wheat bran, processed": {
+      "id": null,
+      "name": null,
+      "reasoning": "המונח 'Wheat bran, processed' מתייחס לסובין חיטה מעובד, אך ברשימת הגידולים אין קטגוריה נפרדת לסובין חיטה או תוצרי לוואי של חיטה, אלא רק 'חיטה' (WHEAT) ו'קש חיטה' (WHEAT STRAW). לכן לא ניתן להתאים בוודאות לאף מזהה מהרשימה."
+    },
+    "Rye wholemeal": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Rye wholemeal' הוא קמח שיפון מלא, אך ברשימת הגידולים לא מופיע שיפון (RYE) או תוצריו, לכן אין התאמה ישירה."
+    },
+    "Maize flour": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "'Maize flour' הוא קמח תירס. ברשימת הגידולים מופיע 'תירס' (CORN, מזהה 134) שהוא הגידול המתאים ביותר, למרות שמדובר במוצר מעובד."
+    },
+    "Maize meal": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "'Maize meal' הוא גם כן מוצר מעובד של תירס (גריסי תירס). ברשימת הגידולים מופיע 'תירס' (CORN, מזהה 134) כהתאמה הקרובה ביותר."
+    },
+    "Rye flour": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Rye flour' הוא קמח שיפון, אך שיפון (RYE) לא מופיע ברשימת הגידולים, לכן אין התאמה."
+    },
+    "Cereal bran, processed": {
+      "id": 30,
+      "name": "CEREALS",
+      "reasoning": "המונח 'Cereal bran, processed' מתייחס לסובין דגנים מעובד. ברשימת הייחוס יש 'דגניים' (CEREALS, מזהה 30) שהוא הקטגוריה הכללית המתאימה ביותר, למרות שאין אזכור ישיר לסובין."
+    },
+    "Rice, polished": {
+      "id": null,
+      "name": null,
+      "reasoning": "המונח 'Rice, polished' מתייחס לאורז מלוטש, אך ברשימת הייחוס אין קטגוריה לאורז או תת-סוג של דגנים עבור אורז. לכן לא ניתן למפות בוודאות."
+    },
+    "Rice bran, unprocessed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rice bran, unprocessed' או שם דומה ברשימת הגידולים. לא קיימת התייחסות לאורז או לסובין אורז ברשימה."
+    },
+    "Rice hulls": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rice hulls' ברשימת הגידולים. ייתכן שמדובר בתוצר לוואי של אורז, אך אין קטגוריה מתאימה ברשימה."
+    },
+    "Rice, husked": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rice, husked' ברשימת הגידולים. אין ברשימה אורז או תוצרי אורז, ולכן לא ניתן למפות."
+    },
+    "Wheat bran, unprocessed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Wheat bran, unprocessed' ברשימת הגידולים. יש גידול בשם 'WHEAT' (חיטה, ID 42), אך 'bran' (סובין) אינו מופיע בנפרד ולכן לא ניתן למפות בוודאות."
+    },
+    "Rye bran, unprocessed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rye bran, unprocessed' ברשימת הגידולים. גידול 'Rye' (שיפון) אינו מופיע ברשימה ולכן לא ניתן למפות."
+    },
+    "Prunes": {
+      "id": 126,
+      "name": "PLUM",
+      "reasoning": "השם 'Prunes' מתייחס לשזיפים מיובשים. ברשימת הייחוס מופיע 'שזיף' (PLUM) תחת מזהה 126, שהוא הפרי שממנו מכינים Prunes. לכן, זו התאמה ישירה."
+    },
+    "Bran, unprocessed of cereal grain (except buckwheat, cañihua and quinoa)": {
+      "id": 30,
+      "name": "CEREALS",
+      "reasoning": "הביטוי 'Bran, unprocessed of cereal grain (except buckwheat, cañihua and quinoa)' מתייחס לסובין של דגנים (CEREALS), כאשר דגנים מיוחדים אינם כלולים. ברשימת הייחוס מופיע 'דגניים' (CEREALS) תחת מזהה 30, ולכן זו ההתאמה המתאימה ביותר."
+    },
+    "Grape, dried (= Currants, Raisins and Sultanas)": {
+      "id": 89,
+      "name": "GRAPES",
+      "reasoning": "השם 'Grape, dried (= Currants, Raisins and Sultanas)' מתייחס לענבים מיובשים, שהם צימוקים, סולטנות וקורנטס. ברשימת הייחוס יש 'ענבים' (ID 89), ואין קטגוריה נפרדת לצימוקים, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Dried fruits": {
+      "id": 95,
+      "name": "FRUITS",
+      "reasoning": "השם 'Dried fruits' מתורגם לפירות מיובשים. ברשימת הייחוס יש קטגוריה כללית 'פירות' (ID 95), ואין קטגוריה נפרדת לפירות מיובשים, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Peach, dried": {
+      "id": 13,
+      "name": "PEACH",
+      "reasoning": "השם 'Peach, dried' מתייחס לאפרסק מיובש. ברשימת הייחוס יש 'אפרסק' (ID 13), ואין קטגוריה נפרדת לאפרסק מיובש, לכן זו ההתאמה הנכונה."
+    },
+    "Hops, dry": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Hops, dry' ברשימת הגידולים באנגלית או בתרגום לעברית. ייתכן שמדובר בגידול שאינו מופיע ברשימה או בשם שאינו תואם."
+    },
+    "Basil leaves, dried": {
+      "id": 120,
+      "name": "BASIL",
+      "reasoning": "השם 'Basil leaves, dried' מתייחס לעלים מיובשים של בזיליקום. ברשימת הייחוס מופיע 'ריחן מצוי / בזיל' (BASIL), שהוא השם המתאים ביותר. אין אפשרות סבירה נוספת."
+    },
+    "Sugar beet molasses": {
+      "id": 82,
+      "name": "SUGAR BEET",
+      "reasoning": "השם 'Sugar beet molasses' מתייחס למולסה שמקורה בסלק סוכר. ברשימת הייחוס מופיע 'סלק סוכר' (SUGAR BEET), שהוא המקור למולסה זו."
+    },
+    "Dried herbs": {
+      "id": 105,
+      "name": "HERBS",
+      "reasoning": "השם 'Dried herbs' מתייחס ל'צמחי תבלין' (HERBS) בצורתם המיובשת. ברשימת הייחוס מופיע 'צמחי תבלין', שהוא הקטגוריה הכללית המתאימה ביותר."
+    },
+    "Sugar cane molasses": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים גידול בשם 'Sugar cane molasses' או מונח דומה. ייתכן שמדובר בתוצר לוואי של קנה סוכר, אך קנה סוכר אינו מופיע ברשימה."
+    },
+    "Tea, green, black (black, fermented and dried)": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים גידול בשם 'Tea' או תרגום שלו (תה). לכן אין התאמה."
+    },
+    "Berries and other small fruits": {
+      "id": 88,
+      "name": "GOOSEBERRY",
+      "reasoning": "הביטוי 'Berries and other small fruits' מתייחס לפירות יער קטנים. ברשימת הייחוס, 'ענבי שועל' (GOOSEBERRY, מזהה 88) הוא הקרוב ביותר, אך ייתכן שישנם פירות נוספים שלא מופיעים ברשימה. בחרתי באפשרות זו כי היא מתאימה ביותר למונח הכללי."
+    },
+    "Blueberries": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Blueberries' (אוכמניות) אינו מופיע ברשימת הייחוס באנגלית או בעברית ולכן לא ניתן למפות."
+    },
+    "Dried vegetables": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Dried vegetables' (ירקות מיובשים) הוא מונח כללי שאינו מופיע ברשימת הייחוס, ואין קטגוריה מתאימה או כללית לירקות מיובשים בלבד."
+    },
+    "Currants, black, red, white": {
+      "id": 88,
+      "name": "GOOSEBERRY",
+      "reasoning": "השם 'Currants, black, red, white' מתייחס לסוגי דומדמניות (gooseberry באנגלית לעיתים מתייחס גם לדומדמניות אדומות, שחורות ולבנות). ברשימת הייחוס, 'ענבי שועל' (ID 88) הוא התרגום הנפוץ ל-gooseberry/currant, ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Bilberry": {
+      "id": null,
+      "name": null,
+      "reasoning": "Bilberry (אוכמנית) אינו מופיע ברשימת הגידולים ולכן לא ניתן למפות אותו."
+    },
+    "Blackberries": {
+      "id": null,
+      "name": null,
+      "reasoning": "Blackberries (פטל שחור) אינו מופיע ברשימת הגידולים ולכן לא ניתן למפות אותו."
+    },
+    "Cranberry": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים גידול בשם 'Cranberry' או תרגום ישיר שלו (חמוציות). ייתכן שהגידול אינו כלול ברשימה."
+    },
+    "Elderberries": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים שם באנגלית או בעברית התואם ל-'Elderberries'. ייתכן שמדובר בגידול שאינו כלול ברשימה."
+    },
+    "Dewberries (including boysenberry and loganberry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים שם באנגלית או בעברית התואם ל-'Dewberries', 'boysenberry' או 'loganberry'. ייתכן שמדובר בגידולים שאינם כלולים ברשימה."
+    },
+    "Gooseberry": {
+      "id": 88,
+      "name": "GOOSEBERRY",
+      "reasoning": "Gooseberry הוא תרגום ישיר לעברית 'ענבי שועל', שמופיע ברשימת הייחוס עם מזהה 88."
+    },
+    "Grapes": {
+      "id": 89,
+      "name": "GRAPES",
+      "reasoning": "Grapes הוא תרגום ישיר לעברית 'ענבים', שמופיע ברשימת הייחוס עם מזהה 89."
+    },
+    "Raspberries, red, black": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Raspberries, red, black' או תרגום ישיר שלו ברשימת הגידולים. פטל אדום או שחור אינו מופיע ברשימה."
+    },
+    "Juneberries": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Juneberries' או תרגום ישיר שלו ברשימת הגידולים. ייתכן שמדובר בגידול שאינו כלול ברשימה."
+    },
+    "Strawberry": {
+      "id": 133,
+      "name": "STRAWBERRY",
+      "reasoning": "המונח 'Strawberry' תואם באופן מדויק את הערך 'תות שדה לפרי' (ID 133) ברשימת הייחוס באנגלית. אין אפשרויות נוספות או שמות נרדפים רלוונטיים."
+    },
+    "Currant, black": {
+      "id": 88,
+      "name": "GOOSEBERRY",
+      "reasoning": "השם 'Currant, black' מתורגם לעברית כ'ענבי שועל', שהוא השם המדויק ברשימת הייחוס (ID 88)."
+    },
+    "Citrus fruits (group)": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "'Citrus fruits (group)' הוא תיאור קבוצתי של פירות הדר, התואם ל-'פרי הדר' ברשימת הייחוס (ID 103)."
+    },
+    "Lemons and limes (including citron) (subgroup)": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "הביטוי 'Lemons and limes (including citron) (subgroup)' מתייחס לתת-קבוצה של פירות הדר, הכוללת לימונים, ליים ואתרוג. ברשימת הייחוס יש קטגוריה כללית 'CITRUS FRUIT' (פרי הדר, מזהה 103), שמתאימה לכל הפירות הללו. לא קיימת קטגוריה נפרדת ללימון, ליים או אתרוג, ולכן נבחרה הקטגוריה הכללית."
+    },
+    "Mandarins (including mandarin-like hybrids) (subgroup)": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "השם 'Mandarins (including mandarin-like hybrids) (subgroup)' מתייחס לקבוצת פירות הדר הכוללת קלמנטינות ומנדרינות, שהם תת-קבוצה של פירות הדר. ברשימת הייחוס, 'פרי הדר' (CITRUS FRUIT) הוא הקטגוריה המתאימה ביותר."
+    },
+    "Lemon": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "השם 'Lemon' הוא סוג של פרי הדר. ברשימת הייחוס אין לימון בנפרד, אך יש קטגוריה כללית של 'פרי הדר' (CITRUS FRUIT), שהיא ההתאמה הסבירה ביותר."
+    },
+    "Oranges, sweet, sour (including Orange-like hybrids) (subgroup)": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "השם באנגלית 'Oranges, sweet, sour (including Orange-like hybrids) (subgroup)' מתייחס לכלל פירות ההדר, כולל תפוזים מתוקים, חמוצים והיברידים דמויי תפוז. ברשימת הייחוס, 'פרי הדר' (CITRUS FRUIT) הוא הקטגוריה הרחבה המתאימה ביותר (ID 103)."
+    },
+    "Pummelo and grapefruits (including Shaddock-like hybrids, among others Grapefruit) (subgroup)": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "השם 'Pummelo and grapefruits (including Shaddock-like hybrids, among others Grapefruit) (subgroup)' מתייחס לתת-קבוצה של פירות הדר הכוללת אשכולית ופומלה (ושדוק הוא שם נוסף לפומלה). ברשימת הייחוס יש קטגוריה כללית 'פרי הדר' (CITRUS FRUIT, מזהה 103), הכוללת את כל פירות ההדר ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Assorted tropical and sub-tropical fruits - inedible peel": {
+      "id": 98,
+      "name": "SUBTROPICAL FRUITS",
+      "reasoning": "הביטוי 'Assorted tropical and sub-tropical fruits - inedible peel' מתאר פירות סובטרופיים, שהם קבוצה רחבה הכוללת פירות עם קליפה לא אכילה. ברשימת הייחוס יש קטגוריה בשם 'פירות סובטרופיים' (ID 98), שהיא ההתאמה הסבירה ביותר."
+    },
+    "Avocado": {
+      "id": 1,
+      "name": "AVOCADO",
+      "reasoning": "'Avocado' הוא התאמה מדויקת לשם האנגלי 'AVOCADO' ברשימת הייחוס (ID 1)."
+    },
+    "Banana": {
+      "id": 16,
+      "name": "BANANA",
+      "reasoning": "השם 'Banana' תואם במדויק לשם באנגלית 'BANANA' ברשימת הייחוס (ID 16), ולכן זו התאמה חד-משמעית."
+    },
+    "Mango": {
+      "id": 73,
+      "name": "MANGO",
+      "reasoning": "השם 'Mango' באנגלית תואם באופן מדויק לשם ברשימת הייחוס (ID 73: מנגו - MANGO), לכן זוהי התאמה חד-משמעית."
+    },
+    "Papaya": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Papaya' אינו מופיע ברשימת הגידולים באנגלית או בעברית ואין שם דומה או שם נרדף ברשימה. לכן לא ניתן למפות לגידול מתאים."
+    },
+    "Pineapple": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא באנגלית או בעברית ברשימת הגידולים שם תואם ל-Pineapple (אננס). ייתכן שהגידול אינו כלול ברשימה."
+    },
+    "Passion fruit": {
+      "id": 100,
+      "name": "PASSION FRUIT",
+      "reasoning": "השם Passion fruit תואם לערך 'פסיפלורה (שעונית)' באנגלית ובעברית (ID 100)."
+    },
+    "Cattle milk fat": {
+      "id": "[20, 44, 26]",
+      "name": "[\"CATTLE\", \"MILK\", \"FAT\"]",
+      "reasoning": "המונח 'Cattle milk fat' מתייחס לשומן חלב שמקורו בבקר. ברשימת הייחוס קיימים שלושה ערכים רלוונטיים: בקר (20), חלב (44), ושומן (26). מאחר שהמונח כולל גם את מקור החלב (בקר), גם את המוצר (חלב), וגם את הרכיב (שומן), כל שלושת הערכים עשויים להתאים."
+    },
+    "Apple": {
+      "id": 140,
+      "name": "APPLE",
+      "reasoning": "'Apple' הוא התאמה מדויקת ל-'תפוח עץ' (ID 140) ברשימת הייחוס באנגלית."
+    },
+    "Pear": {
+      "id": 4,
+      "name": "PEAR",
+      "reasoning": "השם 'Pear' תואם במדויק לשם האנגלי של גידול מספר 4 'אגס' ברשימת הייחוס."
+    },
+    "Pome fruits (group)": {
+      "id": 97,
+      "name": "POME FRUITS",
+      "reasoning": "הביטוי 'Pome fruits (group)' מתייחס לקבוצת פירות גרעיניים, הכוללת תפוח, אגס, חבוש ועוד. ברשימת הייחוס, קיים ערך בשם 'פירות גרעיניים' (POME FRUITS, מזהה 97), שהוא ההתאמה המדויקת ביותר."
+    },
+    "Stone fruits (group)": {
+      "id": 96,
+      "name": "STONE FRUIT",
+      "reasoning": "המונח 'Stone fruits (group)' תואם ל-'פירות גלעיניים' באנגלית, שהוא בדיוק הערך ברשימת הייחוס עם מזהה 96."
+    },
+    "Cherries (subgroup)": {
+      "id": 31,
+      "name": "CHERRY",
+      "reasoning": "השם 'Cherries (subgroup)' מתאים ל-'CHERRY' שברשימת הייחוס (ID 31). למרות שמדובר בתת-קבוצה, אין קטגוריה מתאימה יותר ברשימה, ולכן זהו ההתאמה הסבירה ביותר."
+    },
+    "Plums (including fresh prunes) (subgroup)": {
+      "id": 126,
+      "name": "PLUM",
+      "reasoning": "Plums (including fresh prunes) מתייחס לשזיף באנגלית, שהוא שזיף (ID 126) ברשימת הייחוס. אין גידול אחר שמתאים יותר לתיאור זה."
+    },
+    "Nectarine": {
+      "id": 77,
+      "name": "NECTARINE",
+      "reasoning": "השם 'Nectarine' מופיע ברשימת הייחוס באנגלית תחת מזהה 77. מדובר בהתאמה מדויקת בין שם הגידול באנגלית לשם ברשימה."
+    },
+    "Apricot": {
+      "id": 76,
+      "name": "APRICOT",
+      "reasoning": "השם 'Apricot' מופיע ברשימת הייחוס באנגלית תחת מזהה 76. מדובר בהתאמה מדויקת בין שם הגידול באנגלית לשם ברשימה."
+    },
+    "Peach": {
+      "id": 13,
+      "name": "PEACH",
+      "reasoning": "השם 'Peach' תואם באופן מדויק לשם האנגלי של הגידול 'אפרסק' (ID 13) ברשימת הייחוס."
+    },
+    "Date": {
+      "id": 138,
+      "name": "DATE",
+      "reasoning": "המונח 'Date' באנגלית תואם ל-'תמר' בעברית, שמופיע ברשימת הייחוס עם מזהה 138. אין שמות נרדפים רלוונטיים נוספים."
+    },
+    "Table olives": {
+      "id": 37,
+      "name": "OLIVES",
+      "reasoning": "'Table olives' מתייחס לזיתים למאכל. ברשימת הייחוס, 'OLIVES' (זית אירופאי) הוא המונח המתאים ביותר עם מזהה 37."
+    },
+    "Fig": {
+      "id": 132,
+      "name": "FIG",
+      "reasoning": "'Fig' באנגלית הוא 'תאנה' בעברית, שמופיע ברשימת הייחוס עם מזהה 132. אין שמות נרדפים רלוונטיים נוספים."
+    },
+    "Barley": {
+      "id": 130,
+      "name": "BARLEY",
+      "reasoning": "Barley הוא תרגום ישיר של 'שעורה תרבותית', שמופיע ברשימת הייחוס תחת ID 130. אין שמות דומים או חלופות נוספות באנגלית."
+    },
+    "Persimmon, Japanese": {
+      "id": 12,
+      "name": "PERSIMMON",
+      "reasoning": "'Persimmon, Japanese' מתייחס לאפרסמון, שמופיע ברשימת הייחוס תחת ID 12. לא קיימות ברשימה קטגוריות נוספות לאפרסמון יפני ולכן זו ההתאמה היחידה."
+    },
+    "Maize": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "השם 'Maize' הוא באנגלית עבור 'תירס', שנמצא ברשימת הייחוס עם מזהה 134. אין שמות דומים נוספים שיכולים להתאים."
+    },
+    "Oats": {
+      "id": 122,
+      "name": "OAT",
+      "reasoning": "Oats הוא תרגום מדויק של המונח האנגלי לשיבולת שועל, שמופיע ברשימת הייחוס עם מזהה 122. אין שמות נרדפים רלוונטיים נוספים."
+    },
+    "Rice": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rice' (אורז) ברשימת הגידולים. ייתכן שהגידול אינו כלול ברשימה או שיש הבדל בשם."
+    },
+    "Rye": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Rye' (שיפון) אינו מופיע ברשימת הגידולים באנגלית או בעברית ולכן לא ניתן למפות אותו בוודאות."
+    },
+    "Sorghum grain": {
+      "id": "[32, 36]",
+      "name": "[\"SORGHUM\", \"SORGHUM BICOLOR\"]",
+      "reasoning": "המונח 'Sorghum grain' מתייחס לדגן סורגום. ברשימת הייחוס קיימים שני ערכים רלוונטיים: 'דורה-סורגום' (ID 32) ו'וידן - SORGHUM BICOLOR' (ID 36), שניהם סוגי סורגום. לא ניתן לדעת בוודאות לאיזה מהם הכוונה ולכן שניהם נכללים."
+    },
+    "Triticale": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Triticale' אינו מופיע ברשימת הגידולים באנגלית או בעברית, ואין שם נרדף ברור או תרגום ישיר ברשימה. לכן לא ניתן למפות לגידול מתאים."
+    },
+    "Wheat": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "השם 'Wheat' הוא התאמה מדויקת לשם האנגלי של גידול מספר 42 'חיטה'. אין אפשרויות נוספות."
+    },
+    "Popcorn": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Popcorn' ברשימת הגידולים. ייתכן שמדובר בזן של תירס (Corn), אך אין אזכור מפורש לפופקורן או לתירס לפופקורן ברשימה, ולכן לא ניתן לשייך בוודאות."
+    },
+    "Cereal grains (group)": {
+      "id": 30,
+      "name": "CEREALS",
+      "reasoning": "המונח 'Cereal grains (group)' תואם ל-'CEREALS' באנגלית, שמופיע ברשימת הייחוס כ-'דגניים' (ID 30). לא נמצאו אפשרויות נוספות מתאימות."
+    },
+    "Sugar cane": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Sugar cane' ברשימת הגידולים. ייתכן שמדובר בקנה סוכר, אך הוא אינו מופיע ברשימה."
+    },
+    "Parsley, leaves": {
+      "id": 93,
+      "name": "PARSLEY (roots and leaves)",
+      "reasoning": "השם 'Parsley, leaves' מתאים ל'פטרוסלינון (שורש ועלים)' (ID 93), שכן מדובר בעלים של פטרוזיליה. אין אפשרות סבירה נוספת ברשימה."
+    },
+    "Basil, leaves": {
+      "id": 120,
+      "name": "BASIL",
+      "reasoning": "השם 'Basil, leaves' מתאים ל'ריחן מצוי / בזיל' (ID 120), שמוכר באנגלית כ-Basil. אין אפשרות סבירה נוספת ברשימה."
+    },
+    "Apple juice": {
+      "id": 140,
+      "name": "APPLE",
+      "reasoning": "המונח 'Apple juice' מתייחס למיץ תפוחים. ברשימת הייחוס יש 'תפוח עץ' (APPLE, מזהה 140), שהוא הפרי שממנו מופק המיץ. אין קטגוריה נפרדת למיצים, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Grape juice": {
+      "id": 89,
+      "name": "GRAPES",
+      "reasoning": "'Grape juice' הוא מיץ ענבים. ברשימת הייחוס יש 'ענבים' (GRAPES, מזהה 89), שהוא המקור למיץ. אין קטגוריה נפרדת למיצים, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Spices": {
+      "id": 105,
+      "name": "HERBS",
+      "reasoning": "'Spices' מתורגם ל'צמחי תבלין' (HERBS, מזהה 105) ברשימת הייחוס. למרות שייתכן שמדובר במספר סוגי תבלינים, זו הקטגוריה הכללית המתאימה ביותר."
+    },
+    "Pepper, black, white": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pepper, black, white' מתייחס ככל הנראה לפלפל שחור ולבן (Piper nigrum), אך ברשימת הייחוס 'פלפל' (PEPPER, מזהה 99) מתייחס לפלפל ירוק/אדום (Capsicum). אין התאמה ישירה לפלפל שחור/לבן, לכן אין התאמה."
+    },
+    "Citrus juice": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "'Citrus juice' הוא מיץ פירות הדר. ברשימת הייחוס יש 'פרי הדר' (CITRUS FRUIT, מזהה 103), שהוא הקטגוריה המתאימה ביותר למקור המיץ."
+    },
+    "Orange juice": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים מיץ תפוזים או מיץ הדרים. קיימת קטגוריה 'פירות הדר' (103), אך היא מתייחסת לפרי ולא למיץ. לכן, אין התאמה ישירה."
+    },
+    "Mammalian fats (except milk fats)": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "הביטוי 'Mammalian fats (except milk fats)' מתאר שומן שמקורו ביונקים, למעט שומן חלב. ברשימה מופיעה קטגוריה 'בשר, שומן' (26) שמתאימה להגדרה זו."
+    },
+    "Tomato juice": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים מיץ עגבניות או מיץ ירקות. קיימת קטגוריה 'עגבניה' (84), אך היא מתייחסת לפרי ולא למיץ. לכן, אין התאמה ישירה."
+    },
+    "Sheep fat": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "המונח 'Sheep fat' מתייחס לשומן של כבשים. ברשימת הייחוס יש קטגוריה כללית 'בשר, שומן' (ID 26), אך אין קטגוריה ייעודית לשומן כבשים. לכן, בחרתי בקטגוריה הכללית לשומן."
+    },
+    "Pig fat": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "המונח 'Pig fat' מתייחס לשומן חזיר. ברשימת הייחוס אין קטגוריה ייעודית לשומן חזיר, אך יש קטגוריה כללית 'בשר, שומן' (ID 26). לכן, זו ההתאמה הסבירה ביותר."
+    },
+    "Cattle fat": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "המונח 'Cattle fat' מתייחס לשומן בקר. ברשימת הייחוס אין קטגוריה נפרדת לשומן בקר, אך יש קטגוריה כללית 'בשר, שומן' (ID 26). לכן, זו ההתאמה הסבירה ביותר."
+    },
+    "Milks": {
+      "id": 44,
+      "name": "MILK",
+      "reasoning": "'Milks' הוא צורת רבים של 'Milk', וברשימת הייחוס יש 'חלב' (ID 44) באנגלית 'MILK'. לכן זו התאמה ישירה."
+    },
+    "Cattle milk": {
+      "id": 44,
+      "name": "MILK",
+      "reasoning": "הביטוי 'Cattle milk' תואם באופן ישיר לערך 'חלב' (Milk) ברשימת הייחוס, שמספרו 44."
+    },
+    "Cattle meat": {
+      "id": 22,
+      "name": "MEAT",
+      "reasoning": "הביטוי 'Cattle meat' תואם לערך 'בשר' (Meat) ברשימת הייחוס, שמספרו 22."
+    },
+    "Milk of cattle, goats & sheep": {
+      "id": "[44, 54]",
+      "name": "[\"MILK\", \"SHEEPS\"]",
+      "reasoning": "הביטוי 'Milk of cattle, goats & sheep' כולל חלב בקר, עזים וכבשים. ברשימת הייחוס יש 'חלב' (Milk, 44) ו'כבשים' (Sheeps, 54). חלב עזים אינו מופיע בנפרד, לכן נבחרו הערכים הקרובים ביותר."
+    },
+    "Meat (from mammals other than marine mammals)": {
+      "id": 22,
+      "name": "MEAT",
+      "reasoning": "הביטוי 'Meat (from mammals other than marine mammals)' מתייחס לבשר שמקורו ביונקים שאינם יונקים ימיים. ברשימת הייחוס, 'בשר' (ID 22) הוא ההתאמה הכללית והמתאימה ביותר."
+    },
+    "Pig meat": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pig meat' אינו מופיע ברשימת הייחוס ואין קטגוריה נפרדת לבשר חזיר. לכן, לא נמצאה התאמה ישירה."
+    },
+    "Goat meat": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Goat meat' (בשר עז) אינו מופיע ברשימת הייחוס ואין קטגוריה נפרדת לבשר עז. לכן, לא נמצאה התאמה ישירה."
+    },
+    "Sheep meat": {
+      "id": 54,
+      "name": "SHEEPS",
+      "reasoning": "'Sheep meat' מתייחס לבשר כבשים. ברשימת הייחוס מופיעה קטגוריה 'כבשים' (ID 54) שהיא ההתאמה הקרובה ביותר."
+    },
+    "Meat of cattle, pigs & sheep": {
+      "id": "[22, 20, 54]",
+      "name": "[\"MEAT\", \"CATTLE\", \"SHEEPS\"]",
+      "reasoning": "הביטוי 'Meat of cattle, pigs & sheep' מתייחס לבשר של בקר, חזירים וכבשים. ברשימת הייחוס יש קטגוריה 'בשר' (22), 'בקר' (20) ו'כבשים' (54). אין קטגוריה נפרדת לחזירים, אך קטגוריית 'בשר' כוללת ככל הנראה את כל סוגי הבשר. לכן נבחרו שלוש הקטגוריות הללו."
+    },
+    "Edible offal (mammalian)": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Edible offal (mammalian)' מתורגם ל'בשר, חלקי פנים' ברשימת הייחוס (25). מדובר בחלקי פנים אכילים של יונקים, ולכן זו ההתאמה המדויקת ביותר."
+    },
+    "Cattle kidney": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "הביטוי 'Cattle kidney' מתייחס לאיבר פנימי של בקר. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) כולל איברים פנימיים של בעלי חיים, ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Kidney of cattle, goats, pigs and sheep": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "הביטוי 'Kidney of cattle, goats, pigs and sheep' מתייחס לאיברים פנימיים אכילים של בקר, עזים, חזירים וכבשים. ברשימת הייחוס יש קטגוריה 'בשר, חלקי פנים' (ID 25) שמתאימה לתיאור זה."
+    },
+    "Goat, edible offal of": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Goat, edible offal of' מתייחס לחלקי פנים אכילים של עזים. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) הוא הקטגוריה המתאימה ביותר, מאחר והיא כוללת חלקי פנים של כל בעלי החיים."
+    },
+    "Pig, edible offal of": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Pig, edible offal of' מתייחס לחלקי פנים אכילים של חזירים. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) הוא הקטגוריה המתאימה ביותר, מאחר והיא כוללת חלקי פנים של כל בעלי החיים."
+    },
+    "Liver of cattle, goats, pigs & sheep": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Liver of cattle, goats, pigs & sheep' מתייחס לאיבר כבד של בעלי חיים אלו, הנחשב לחלקי פנים אכילים. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) הוא הקטגוריה המתאימה ביותר."
+    },
+    "Cattle, edible offal of": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Cattle, edible offal of' מתייחס לחלקי פנים אכילים של בקר. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) הוא הקטגוריה המתאימה ביותר, מאחר והיא כוללת חלקי פנים של כל בעלי החיים."
+    },
+    "Cattle liver": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Cattle liver' הוא כבד של בקר, הנחשב לחלקי פנים אכילים. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) הוא הקטגוריה המתאימה ביותר."
+    },
+    "Edible offal of cattle, pigs & sheep": {
+      "id": 25,
+      "name": "EDIBLE OFFAL",
+      "reasoning": "'Edible offal of cattle, pigs & sheep' מתייחס לחלקי פנים אכילים של בקר, חזירים וכבשים. ברשימת הייחוס, 'בשר, חלקי פנים' (ID 25) הוא הקטגוריה המתאימה ביותר."
+    },
+    "Soya bean oil, crude": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול ברשימת הייחוס התואם ל-Soya bean oil, crude (שמן סויה גולמי). אין ברשימה סויה או שמן סויה."
+    },
+    "Olive oil, virgin": {
+      "id": 37,
+      "name": "OLIVES",
+      "reasoning": "Olive oil, virgin הוא שמן זית כתית. הגידול המתאים ביותר הוא 'זית אירופאי' (OLIVES, ID 37), למרות שמדובר במוצר שמן ולא בפרי עצמו."
+    },
+    "Rape seed oil, crude": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול ברשימת הייחוס התואם ל-Rape seed oil, crude (שמן קנולה/לפתית גולמי). אין ברשימה קנולה, לפתית או שמן קנולה."
+    },
+    "Maize oil, crude": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "השם 'Maize oil, crude' מתייחס לשמן גולמי מתירס. ברשימת הייחוס, 'תירס' מופיע תחת ID 134. לא נמצאו שמנים כקטגוריה נפרדת, אך תירס הוא הגידול המתאים ביותר."
+    },
+    "Cotton seed oil, crude": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "השם 'Cotton seed oil, crude' מתייחס לשמן גולמי מזרעי כותנה. ברשימת הייחוס, 'כותנה' מופיע תחת ID 56. לא קיימת קטגוריה נפרדת לשמן, אך כותנה היא ההתאמה הסבירה ביותר."
+    },
+    "Olive oil, refined": {
+      "id": 37,
+      "name": "OLIVES",
+      "reasoning": "המונח 'Olive oil, refined' מתייחס לשמן זית מזוכך. ברשימת הייחוס יש 'Olives' (זית אירופאי, ID 37) שהוא הגידול שממנו מפיקים שמן זית. אין קטגוריה נפרדת לשמן, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Linseed oil, crude": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Linseed oil, crude' הוא שמן פשתן. לא קיימת ברשימת הייחוס קטגוריה עבור פשתן או שמן פשתן, ולכן אין התאמה."
+    },
+    "Peanut oil, crude": {
+      "id": 3,
+      "name": "PEANUT",
+      "reasoning": "'Peanut oil, crude' הוא שמן בוטנים. ברשימת הייחוס מופיע 'PEANUT' (אגוז אדמה, ID 3) שהוא הגידול שממנו מפיקים את השמן. אין קטגוריה נפרדת לשמן, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Soya bean oil, refined": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Soya bean oil, refined' הוא שמן סויה. לא קיימת ברשימת הייחוס קטגוריה עבור סויה או שמן סויה, לכן אין התאמה."
+    },
+    "Sunflower seed oil, crude": {
+      "id": 45,
+      "name": "SUNFLOWER",
+      "reasoning": "'Sunflower seed oil, crude' הוא שמן חמניות. ברשימת הייחוס מופיע 'SUNFLOWER' (חמנית מצויה, ID 45) שהוא הגידול שממנו מפיקים את השמן. אין קטגוריה נפרדת לשמן, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Rape seed oil, edible": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Rape seed oil, edible' הוא שמן קנולה (לפתית). לא קיימת ברשימת הייחוס קטגוריה עבור rape seed/קנולה או שמן קנולה, לכן אין התאמה."
+    },
+    "Maize oil, edible": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "השם 'Maize oil, edible' מתייחס לשמן תירס למאכל. 'Maize' הוא תירס, וברשימת הייחוס תירס מופיע תחת ID 134. אין קטגוריה נפרדת לשמן תירס, ולכן בוחרים בתירס עצמו."
+    },
+    "Cotton seed oil, edible": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "השם 'Cotton seed oil, edible' מתייחס לשמן זרעי כותנה למאכל. ברשימת הייחוס מופיעה כותנה תחת ID 56. אין קטגוריה נפרדת לשמן זרעי כותנה, לכן בוחרים בכותנה."
+    },
+    "Peanut oil, edible": {
+      "id": 3,
+      "name": "PEANUT",
+      "reasoning": "השם 'Peanut oil, edible' מתייחס לשמן בוטנים למאכל. ברשימת הייחוס יש 'אגוז אדמה - PEANUT' (ID 3), שהוא השם המקובל לבוטנים. למרות שמדובר בשמן, אין קטגוריה נפרדת לשמן בוטנים ולכן בחרתי באגוז אדמה."
+    },
+    "Eggs": {
+      "id": 15,
+      "name": "EGGS",
+      "reasoning": "השם 'Eggs' תואם במדויק ל'ביצים' (ID 15) ברשימת הייחוס."
+    },
+    "Sunflower seed oil, edible": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Sunflower seed oil, edible' מתייחס לשמן חמניות למאכל. ברשימת הייחוס יש 'חמנית מצויה - SUNFLOWER' (ID 45), אך לא מצויין שמן חמניות בנפרד. מאחר והערך מתייחס לשמן בלבד ולא לזרעים או לצמח, לא ניתן לקבוע התאמה חד משמעית ולכן לא בוצעה התאמה."
+    },
+    "Poultry fats": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "המונח 'Poultry fats' מתייחס לשומן עוף. ברשימת הייחוס מופיע 'בשר, שומן' (ID 26) שמתאים לשומן מהחי, כולל עופות. אין קטגוריה נפרדת לשומן עוף, ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Chicken eggs": {
+      "id": 15,
+      "name": "EGGS",
+      "reasoning": "'Chicken eggs' הם ביצי תרנגולת. ברשימת הייחוס מופיע 'ביצים' (ID 15) שמתאים לכלל הביצים, כולל תרנגולת. לכן זו ההתאמה הנכונה."
+    },
+    "Chicken fat": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "המונח 'Chicken fat' מתאר שומן עוף. ברשימת הייחוס מופיע 'בשר, שומן' (ID 26) שמתייחס לשומן מבשר, אך לא מצוין אם מדובר בעוף או בבקר. עם זאת, זו ההתאמה הקרובה ביותר, מאחר ואין קטגוריה נפרדת לשומן עוף."
+    },
+    "Poultry meat": {
+      "id": 23,
+      "name": "POULTRY MEAT",
+      "reasoning": "'Poultry meat' הוא בשר עוף. ברשימת הייחוס יש קטגוריה 'בשר עוף' (ID 23) שמתאימה בדיוק."
+    },
+    "Chicken meat": {
+      "id": 23,
+      "name": "POULTRY MEAT",
+      "reasoning": "הביטוי 'Chicken meat' מתאר בשר עוף, שהוא תרגום ישיר ל-'POULTRY MEAT' (בשר עוף) ברשימת הייחוס, ולכן זו התאמה מדויקת."
+    },
+    "Poultry, edible offal of": {
+      "id": 24,
+      "name": "POULTRY OFFAL",
+      "reasoning": "'Poultry, edible offal of' מתאר חלקי פנים אכילים של עוף, שזה תרגום ישיר ל-'POULTRY OFFAL' (בשר עוף, חלקי פנים) ברשימת הייחוס, ולכן זו התאמה מדויקת."
+    },
+    "Chicken, edible offal of": {
+      "id": "[24, 25]",
+      "name": "[\"POULTRY OFFAL\", \"EDIBLE OFFAL\"]",
+      "reasoning": "הביטוי 'Chicken, edible offal of' מתייחס לאיברים פנימיים אכילים של עוף. ברשימת הייחוס יש 'בשר עוף, חלקי פנים' (24) ו'בשר, חלקי פנים' (25). שניהם רלוונטיים כי הראשון מתמקד בעוף והשני כללי יותר, ולכן שניהם נבחרו."
+    },
+    "Cacao beans": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Cacao beans' (פולי קקאו) אינם מופיעים ברשימת הגידולים ולכן לא ניתן למפות ערך זה."
+    },
+    "Poultry skin": {
+      "id": "[23, 26]",
+      "name": "[\"POULTRY MEAT\", \"FAT\"]",
+      "reasoning": "'Poultry skin' מתייחס לעור של עוף. ברשימת הייחוס יש 'בשר עוף' (23) ו'בשר, שומן' (26) שיכולים להתאים, כי עור עוף נחשב גם חלק מהבשר וגם מקור לשומן, לכן שניהם נבחרו."
+    },
+    "Coffee beans": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Coffee beans' או שם דומה ברשימת הגידולים. ייתכן שמדובר בגידול שאינו כלול ברשימה."
+    },
+    "Mustard seed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול ברשימת הייחוס בשם 'Mustard seed' או שם דומה. ייתכן שמדובר בגידול שאינו מופיע ברשימה."
+    },
+    "Rape seed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול ברשימת הייחוס בשם 'Rape seed' או שם דומה. ייתכן שמדובר בגידול שאינו מופיע ברשימה."
+    },
+    "Coffee beans, roasted": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול ברשימת הייחוס בשם 'Coffee beans, roasted' או שם דומה. ייתכן שמדובר בגידול שאינו מופיע ברשימה."
+    },
+    "Cotton seed": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "השם 'Cotton seed' מתייחס לזרע של כותנה. ברשימת הייחוס מופיעה 'כותנה' (COTTON, מזהה 56), ואין קטגוריה נפרדת לזרעים בלבד. לכן, זו ההתאמה הסבירה ביותר."
+    },
+    "Linseed": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Linseed' מתייחס לפשתן, אך ברשימת הגידולים אין מופע של פשתן או שם דומה באנגלית או בעברית. לכן לא נמצא גידול מתאים."
+    },
+    "Peanut": {
+      "id": 3,
+      "name": "PEANUT",
+      "reasoning": "'Peanut' הוא התאמה מדויקת לאגוז אדמה (ID 3) ברשימת הגידולים, ולכן זו ההתאמה הנכונה."
+    },
+    "Sunflower seed": {
+      "id": 45,
+      "name": "SUNFLOWER",
+      "reasoning": "Sunflower seed הוא שם נפוץ לזרעי חמנית. ברשימת הייחוס מופיעה 'חמנית מצויה' (SUNFLOWER), שהיא הגידול המתאים ביותר. אין אפשרות נוספת מתאימה."
+    },
+    "Oilseeds and oilfruits (group)": {
+      "id": null,
+      "name": null,
+      "reasoning": "הביטוי 'Oilseeds and oilfruits (group)' מתאר קבוצה כללית של גידולים שמפיקים שמן, אך אין קטגוריה כזו ברשימת הגידולים ואין התאמה ישירה לשם באנגלית או בעברית. לכן לא ניתן למפות בוודאות."
+    },
+    "Peanut, whole": {
+      "id": 3,
+      "name": "PEANUT",
+      "reasoning": "'Peanut, whole' הוא תיאור של בוטן שלם. ברשימת הגידולים מופיע 'PEANUT' (אגוז אדמה) תחת מזהה 3, שהוא השם המקובל לבוטן באנגלית. לכן זו התאמה ישירה."
+    },
+    "Almonds": {
+      "id": 131,
+      "name": "ALMOND",
+      "reasoning": "המונח 'Almonds' הוא צורת הרבים של 'Almond', אשר תואם לערך 'שקד' (ID 131) ברשימת הייחוס. אין אפשרויות נוספות."
+    },
+    "Oilseed, except peanut": {
+      "id": "[45, 49]",
+      "name": "[\"SUNFLOWER\", \"SAFFLOWER\"]",
+      "reasoning": "המונח 'Oilseed, except peanut' מתייחס לגידולים לשמן שאינם בוטנים. ברשימת הייחוס קיימים שני גידולים עיקריים לשמן: 'Sunflower' (חמנית מצויה, ID 45) ו-'Safflower' (חריע, ID 49). שניהם גידולי שמן נפוצים שאינם בוטנים, ולכן שניהם נכללים כמועמדים."
+    },
+    "Hazelnuts": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם Hazelnuts או תרגום ישיר לאגוזי לוז ברשימת הגידולים. ייתכן שהגידול אינו קיים ברשימה."
+    },
+    "Pecan": {
+      "id": 102,
+      "name": "PECAN",
+      "reasoning": "Pecan הוא תרגום ישיר ל'פקאן תרבותי' שמופיע ברשימה עם מזהה 102."
+    },
+    "Macadamia nuts": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם Macadamia nuts או תרגום ישיר לאגוזי מקדמיה ברשימת הגידולים. ייתכן שהגידול אינו קיים ברשימה."
+    },
+    "Walnuts": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא אגוז מלך (Walnut) ברשימת הגידולים. ייתכן שהגידול אינו מופיע או שמופיע בשם אחר שאינו ברור מהרשימה."
+    },
+    "Tree nuts (group)": {
+      "id": null,
+      "name": null,
+      "reasoning": "הביטוי 'Tree nuts (group)' מתייחס לקבוצת אגוזים, אך ברשימת הגידולים אין קטגוריה קבוצתית כזו או שמות של אגוזים נוספים (כגון אגוז מלך, פיסטוק). לכן לא ניתן למפות בוודאות."
+    },
+    "Pistachio nuts": {
+      "id": null,
+      "name": null,
+      "reasoning": "פיסטוק (Pistachio nuts) אינו מופיע ברשימת הגידולים. ייתכן שהגידול אינו כלול או שמופיע בשם אחר שאינו מזוהה מהרשימה."
+    },
+    "Garlic": {
+      "id": 123,
+      "name": "GARLIC",
+      "reasoning": "השם 'Garlic' הוא התאמה מדויקת לשם האנגלי של הגידול 'שום' (ID 123) ברשימת הייחוס."
+    },
+    "Bulb vegetables (group)": {
+      "id": "[17, 18, 65, 123, 85]",
+      "name": "[\"ONION\", \"SPRING ONION\", \"LEEK\", \"GARLIC\", \"CHIVES\"]",
+      "reasoning": "המונח 'Bulb vegetables (group)' מתייחס לירקות בצליים. ברשימת הייחוס קיימים מספר גידולים בקטגוריה זו: בצל (17), בצל ירוק (18), לוף/כרשה/כרתי (65), שום (123), עירית בצלית (85). כל אלה ירקות בצליים ולכן כולם נכללים."
+    },
+    "Bulb vegetables, except fennel, bulb": {
+      "id": "[17, 18, 65, 123, 85]",
+      "name": "[\"ONION\", \"SPRING ONION\", \"LEEK\", \"GARLIC\", \"CHIVES\"]",
+      "reasoning": "הביטוי 'Bulb vegetables, except fennel, bulb' מתייחס לכל ירקות הבצליים למעט שומר (Fennel, bulb). שומר הוא ID 124 ולכן יש להחריג אותו. שאר הגידולים הבצליים (בצל 17, בצל ירוק 18, לוף/כרשה/כרתי 65, שום 123, עירית בצלית 85) רלוונטיים."
+    },
+    "Leek": {
+      "id": 65,
+      "name": "LEEK",
+      "reasoning": "השם 'Leek' תואם בדיוק לערך 'לוף (כרתי/כרש/כרשה)' ברשימת הייחוס באנגלית. אין שמות דומים נוספים ולכן זו התאמה חד-משמעית."
+    },
+    "Onion, bulb": {
+      "id": 17,
+      "name": "ONION",
+      "reasoning": "השם 'Onion, bulb' מתאים לגידול 'בצל' (ID 17) ברשימת הייחוס, מאחר ש'bulb' מתייחס לחלק הפקעת של הבצל, שהוא השימוש הנפוץ במונח באנגלית."
+    },
+    "Shallot": {
+      "id": 65,
+      "name": "LEEK",
+      "reasoning": "Shallot הוא סוג של בצל ירוק/לוף (leek), אך ברשימת הייחוס המונח הקרוב ביותר הוא 'לוף (כרתי/כרש/כרשה)' (ID 65), שכן בצל שאלוט לא מופיע במפורש. זהו התאמה שמרנית למונח הקרוב ביותר."
+    },
+    "Onion, Welsh": {
+      "id": 65,
+      "name": "LEEK",
+      "reasoning": "'Onion, Welsh' הוא שם נפוץ לבצל ירוק, וברשימת הייחוס המונח המתאים ביותר הוא 'לוף (כרתי/כרש/כרשה)' (ID 65), הכולל גם שמות נרדפים לבצל ירוק."
+    },
+    "Brassica vegetables (except Brassica leafy vegetables) (group)": {
+      "id": 60,
+      "name": "BRASSICA",
+      "reasoning": "השם באנגלית 'Brassica vegetables (except Brassica leafy vegetables) (group)' מתייחס לירקות ממשפחת המצליבים, אך לא כולל ירקות עלים ממשפחה זו. ברשימת הייחוס, 'כרוביים' (BRASSICA, מזהה 60) הוא הקטגוריה הכללית המתאימה ביותר, ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Broccoli": {
+      "id": 21,
+      "name": "BROCCOLI",
+      "reasoning": "השם 'Broccoli' תואם בדיוק לשם האנגלי 'BROCCOLI' ברשימת הייחוס (ID 21). אין שמות דומים נוספים ולכן זו התאמה חד-משמעית."
+    },
+    "Brussels sprouts": {
+      "id": 58,
+      "name": "BRUSSELS SPROUTS",
+      "reasoning": "השם 'Brussels sprouts' תואם בדיוק לשם האנגלי 'BRUSSELS SPROUTS' ברשימת הייחוס (ID 58). אין שמות דומים נוספים ולכן זו התאמה חד-משמעית."
+    },
+    "Cabbage, Savoy": {
+      "id": 57,
+      "name": "CABBAGE",
+      "reasoning": "השם 'Cabbage, Savoy' מתייחס לזן של כרוב, ולכן ההתאמה היא ל'כרוב' (CABBAGE, מזהה 57). אין ברשימת הייחוס זיהוי נפרד לכרוב סבוי."
+    },
+    "Cauliflower": {
+      "id": 61,
+      "name": "CAULIFLOWER",
+      "reasoning": "השם 'Cauliflower' הוא התאמה מדויקת ל'כרובית' (CAULIFLOWER, מזהה 61) ברשימת הייחוס."
+    },
+    "Kohlrabi": {
+      "id": 108,
+      "name": "KOHLRABI",
+      "reasoning": "Kohlrabi הוא תרגום ישיר ל'קולרבי' שמופיע ברשימת הייחוס באנגלית ובעברית (ID 108), לכן זו התאמה חד-משמעית."
+    },
+    "Cabbages, head": {
+      "id": 57,
+      "name": "CABBAGE",
+      "reasoning": "'Cabbages, head' מתייחס לכרוב ראשי, שזהו 'כרוב' באנגלית (CABBAGE, ID 57). לא נמצאו שמות דומים נוספים, לכן זו התאמה ישירה."
+    },
+    "Flowerhead brassicas (includes Broccoli: Broccoli, Chinese and cauliflower)": {
+      "id": "[21, 61]",
+      "name": "[\"BROCCOLI\", \"CAULIFLOWER\"]",
+      "reasoning": "השם באנגלית 'Flowerhead brassicas (includes Broccoli: Broccoli, Chinese and cauliflower)' מתייחס לקבוצת ירקות ממשפחת המצליבים שכוללת ברוקולי וכרובית. ברשימת הייחוס: ברוקולי (ID 21) וכרובית (ID 61) מופיעים בנפרד, ולכן שניהם נבחרו. לא נמצא ברשימה סוג נוסף של 'Chinese broccoli', אך אלו שני הסוגים המרכזיים המוזכרים."
+    },
+    "Cucumber": {
+      "id": 72,
+      "name": "CUCUMBER",
+      "reasoning": "השם 'Cucumber' הוא התאמה מדויקת לשם האנגלי של גידול מספר 72 'CUCUMBER' (מלפפון). אין שמות דומים נוספים שעשויים להתאים."
+    },
+    "Gherkin": {
+      "id": 72,
+      "name": "CUCUMBER",
+      "reasoning": "Gherkin הוא שם נפוץ למלפפון קטן, ובאנגלית crop ID 72 הוא 'CUCUMBER', שהוא המונח הכללי למלפפון. לכן, זוהי ההתאמה הסבירה ביותר."
+    },
+    "Pumpkins": {
+      "id": 35,
+      "name": "PUMPKINS",
+      "reasoning": "המונח 'Pumpkins' הוא התאמה ישירה ל-'PUMPKINS' ברשימת הייחוס (ID 35). אין שמות נרדפים רלוונטיים נוספים."
+    },
+    "Squash, summer": {
+      "id": 115,
+      "name": "SQUASH",
+      "reasoning": "'Squash, summer' מתייחס לזן קיץ של דלעת, וברשימת הייחוס 'SQUASH' (ID 115) הוא המונח המתאים ביותר. אין התאמות נוספות רלוונטיות."
+    },
+    "Winter squash": {
+      "id": 115,
+      "name": "SQUASH",
+      "reasoning": "המונח 'Winter squash' מתייחס לזנים של דלעת שנקטפים בשלים, ובעברית בדרך כלל מתורגם כ'קישוא חורפי' או 'דלעת חורפית'. ברשימת הייחוס, 'קישוא' (ID 115) הוא המונח הקרוב ביותר, ואין קטגוריה נפרדת ל-Winter squash."
+    },
+    "Watermelon": {
+      "id": 2,
+      "name": "WATERMELON",
+      "reasoning": "'Watermelon' הוא התאמה מדויקת ל'אבטיח' (ID 2) ברשימת הייחוס."
+    },
+    "Fruiting vegetables, cucurbits (group)": {
+      "id": 33,
+      "name": "CUCURBITS",
+      "reasoning": "הביטוי 'Fruiting vegetables, cucurbits (group)' מתייחס לדלועיים, שהם קבוצה של ירקות פירותיים ממשפחת הדלועיים. ברשימת הייחוס, 'דלועיים' (CUCURBITS) הוא ערך מספר 33, ולכן זו ההתאמה המתאימה ביותר."
+    },
+    "Melons (except watermelon)": {
+      "id": 70,
+      "name": "MELON",
+      "reasoning": "השם 'Melons (except watermelon)' מתאים לערך 'מלון' (ID 70) ברשימת הייחוס, שכן 'מלון' הוא השם הכללי למלונים באנגלית, וההערה בסוגריים מוציאה את האבטיח (WATERMELON, ID 2) מהכלל. לכן, רק 'מלון' מתאים."
+    },
+    "Common bean (dry)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "השם 'Common bean (dry)' מתייחס לשעועית יבשה, התואם ביותר הוא 'שעועית ירוקה' (BEANS, ID 129), למרות שבאנגלית הכינוי 'green beans' מתייחס לשעועית ירוקה, אך ברשימה זו זהו הקרוב ביותר לשעועית יבשה."
+    },
+    "Chick-pea (dry)": {
+      "id": 43,
+      "name": "CHICK PEA",
+      "reasoning": "'Chick-pea (dry)' הוא חימצה (חומוס) ברשימת הגידולים, תואם ל-CHICK PEA (ID 43)."
+    },
+    "Lentil (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Lentil (dry)' מתייחס לעדשים, אך ברשימת הגידולים אין ערך מפורש לעדשים ולכן לא נמצאה התאמה."
+    },
+    "Cowpea (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Cowpea (dry)' מתייחס ללוביה, אך ברשימת הגידולים אין ערך מפורש ל-COWPEA או לוביה ולכן לא נמצאה התאמה."
+    },
+    "Broad bean (dry)": {
+      "id": 92,
+      "name": "BROAD BEAN",
+      "reasoning": "'Broad bean (dry)' הוא פול, התואם ל-BROAD BEAN (ID 92) ברשימת הגידולים."
+    },
+    "Soya bean (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Soya bean (dry)' או שם דומה ברשימת הגידולים. ייתכן שמדובר בסויה, אך היא אינה מופיעה ברשימה."
+    },
+    "Mung bean (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Mung bean (dry)' או שם דומה ברשימת הגידולים. ייתכן שמדובר בזן של שעועית, אך אין זיהוי מדויק ברשימה."
+    },
+    "Field pea (dry)": {
+      "id": 10,
+      "name": "PEAS",
+      "reasoning": "Field pea (dry) הוא שם נפוץ לאפונה יבשה, באנגלית 'PEAS', שמופיע ברשימת הייחוס תחת אפון (ID 10)."
+    },
+    "Pulses (group)": {
+      "id": 111,
+      "name": "LEGUMS",
+      "reasoning": "Pulses (group) מתייחס לקבוצת הקטניות, באנגלית 'LEGUMS', שמופיעה ברשימת הייחוס תחת קטניות (ID 111)."
+    },
+    "Bean (dry)": {
+      "id": "[129, 92]",
+      "name": "[\"BEANS\", \"BROAD BEAN\"]",
+      "reasoning": "השם 'Bean (dry)' מתייחס לשעועית יבשה. ברשימת הייחוס יש 'שעועית ירוקה' (ID 129, BEANS) ו-'פול' (ID 92, BROAD BEAN) שיכולים להתאים, כי לעיתים 'beans' באנגלית מתייחס גם לשעועית וגם לפול. מאחר ואין ברשימה 'שעועית יבשה' במפורש, נבחרו שתי האפשרויות הקרובות ביותר."
+    },
+    "Chard": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Chard' (מנגולד) אינו מופיע ברשימת הגידולים באנגלית או בעברית. ייתכן שמדובר בגידול שאינו נכלל ברשימת הייחוס."
+    },
+    "Chinese cabbage (type pack-choi)": {
+      "id": 59,
+      "name": "CHINESE CABBAGE",
+      "reasoning": "'Chinese cabbage (type pack-choi)' הוא סוג של כרוב סיני, שמופיע ברשימת הייחוס באנגלית כ-'CHINESE CABBAGE' (ID 59)."
+    },
+    "Peas (dry)": {
+      "id": 10,
+      "name": "PEAS",
+      "reasoning": "'Peas (dry)' מתייחס לאפונה יבשה. ברשימת הייחוס מופיע 'PEAS' (ID 10) כהתאמה הקרובה ביותר."
+    },
+    "Chinese cabbage (type pe-tsai)": {
+      "id": 59,
+      "name": "CHINESE CABBAGE",
+      "reasoning": "'Chinese cabbage (type pe-tsai)' הוא סוג של כרוב סיני, שמופיע ברשימת הייחוס באנגלית כ-'CHINESE CABBAGE' (ID 59)."
+    },
+    "Watercress": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Watercress' או תרגום ישיר ברשימת הגידולים. ייתכן שמדובר ב'גרגר הנחלים', אך הוא אינו מופיע ברשימה."
+    },
+    "Kale (including among others: Collards,curly,Scotch,thousand-headed; not including Marrow-stem kale)": {
+      "id": 113,
+      "name": "KALE",
+      "reasoning": "'Kale' תואם ל-'KALE' (קייל) ברשימה (ID 113). הפירוט בסוגריים מתאר זנים שונים של קייל, אך כולם נכנסים תחת אותו גידול."
+    },
+    "Lettuce, head": {
+      "id": 46,
+      "name": "LETTUCE",
+      "reasoning": "'Lettuce, head' הוא סוג של חסה, וברשימה יש רק ערך כללי ל-'LETTUCE' (ID 46). לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Corn salad": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Corn salad' (ולריאנלה/מכונה גם 'lamb's lettuce') אינו מופיע ברשימת הגידולים ולכן אין התאמה."
+    },
+    "Lettuce, leaf": {
+      "id": "[46, 52]",
+      "name": "[\"LETTUCE\", \"LEAFY VEGETABLES\"]",
+      "reasoning": "השם 'Lettuce, leaf' מתאים במדויק לגידול 'חסה' (ID 46), אך ייתכן גם התאמה ל'ירקות עלים' (ID 52) כקטגוריה רחבה יותר, במיוחד אם הכוונה היא לכל סוגי חסה עלים ולא רק לזן מסוים."
+    },
+    "Mustard greens": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Mustard greens' או תרגום ישיר ברשימת הגידולים. ייתכן שמדובר בזן של חרדל או ירק עלים, אך אין התאמה מדויקת או שם מקביל ברשימה."
+    },
+    "Radish leaves (including radish tops)": {
+      "id": "[83, 106]",
+      "name": "[\"BEET, GREENS\", \"RADISH\"]",
+      "reasoning": "המונח 'Radish leaves (including radish tops)' מתייחס גם לעלים וגם לחלק העליון של הצנון. ברשימה קיימים שני ערכים רלוונטיים: 'סלק עלים' (BEET, GREENS, ID 83) ו-'צנון' (RADISH, ID 106). עם זאת, 'צנון' הוא ההתאמה הישירה, אך ייתכן שכוונת העלים תואמת גם ל'סלק עלים' ולכן שניהם נכללו."
+    },
+    "Spinach": {
+      "id": 141,
+      "name": "SPINACH",
+      "reasoning": "השם 'Spinach' באנגלית תואם באופן מדויק לערך 'SPINACH' ברשימת הייחוס (ID 141). אין שמות נרדפים או אפשרויות נוספות."
+    },
+    "Cos lettuce": {
+      "id": 46,
+      "name": "LETTUCE",
+      "reasoning": "השם 'Cos lettuce' הוא שם נרדף ל'lettuce' (חסה), ולכן ההתאמה היא ל-46 (חסה)."
+    },
+    "Leafy vegetables (group)": {
+      "id": 52,
+      "name": "LEAFY VEGETABLES",
+      "reasoning": "'Leafy vegetables (group)' מתאר קבוצה של ירקות עלים, שמתאימה ל-52 (ירקות עלים)."
+    },
+    "Turnip greens": {
+      "id": 83,
+      "name": "BEET, GREENS",
+      "reasoning": "'Turnip greens' הם עלי לפת, כאשר ברשימה מופיע 'סלק עלים' (83) אך אין קטגוריה ייעודית לעלי לפת. עם זאת, 'Turnip' הוא לפת (67), אך מדובר בעלים. אין התאמה מדויקת, אך 83 הוא הקרוב ביותר כיוון שמדובר בעלים של ירק שורש."
+    },
+    "Sweet corn (kernels)": {
+      "id": 136,
+      "name": "SWEET CORN",
+      "reasoning": "המונח 'Sweet corn (kernels)' מתייחס לתירס מתוק, שהוא תרגום ישיר של הערך 'SWEET CORN' ברשימת הייחוס (ID 136). המילה 'kernels' מתייחסת לגרעינים אך אינה משנה את הסיווג הבסיסי של הגידול."
+    },
+    "Eggplant": {
+      "id": 47,
+      "name": "EGG PLANT",
+      "reasoning": "Eggplant הוא השם האנגלי של 'חציל', שמופיע ברשימת הייחוס תחת ID 47. אין שמות דומים נוספים שעשויים להתאים."
+    },
+    "Okra": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Okra' או תרגום ישיר שלו ברשימת הגידולים. ייתכן שמדובר בבמיה, אך היא אינה מופיעה ברשימה."
+    },
+    "Peppers chili, dried": {
+      "id": "[99, 101]",
+      "name": "[\"PEPPER\", \"RED SWEET PEPPER\"]",
+      "reasoning": "השם 'Peppers chili, dried' מתייחס לפלפל חריף מיובש. ברשימה יש 'פלפל' (99) ו'פפריקה' (101), שניהם יכולים להתאים: פלפל כולל גם פלפל חריף, ופפריקה היא פלפל מיובש וטחון. לכן שניהם נכללו."
+    },
+    "Peppers, sweet (including pimento or pimiento)": {
+      "id": "[99, 101]",
+      "name": "[\"PEPPER\", \"RED SWEET PEPPER\"]",
+      "reasoning": "השם 'Peppers, sweet (including pimento or pimiento)' מתייחס לפלפל מתוק ולפפריקה (פלפל אדום מתוק). ברשימת הייחוס, 'PEPPER' (פלפל) הוא מזהה 99 ו-'RED SWEET PEPPER' (פפריקה) הוא מזהה 101. שני המונחים עשויים להתאים ולכן שניהם נבחרו."
+    },
+    "Sweet corn (corn-on-the-cob)": {
+      "id": 136,
+      "name": "SWEET CORN",
+      "reasoning": "המונח 'Sweet corn (corn-on-the-cob)' מתאר תירס מתוק, שהוא תרגום ישיר ל-'SWEET CORN' שנמצא ברשימת הייחוס עם מזהה 136. אין גידולים דומים נוספים שמתאימים לתיאור זה."
+    },
+    "Tomato": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "השם 'Tomato' תואם במדויק את השם האנגלי 'TOMATO' ברשימת הייחוס (ID 84: עגבניה), ולכן זו התאמה חד-משמעית."
+    },
+    "Mushrooms": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Mushrooms' או שם דומה ברשימת הגידולים. ייתכן שמדובר בפטריות, אך אין קטגוריה כזו ברשימה."
+    },
+    "Fruiting vegetables, other than cucurbits (group)": {
+      "id": 51,
+      "name": "VEGETABLES",
+      "reasoning": "הביטוי 'Fruiting vegetables, other than cucurbits (group)' מתייחס לקטגוריה רחבה של ירקות הנושאים פרי, שאינם דלועיים. ברשימת הייחוס, הקטגוריה הכללית ביותר המתאימה היא 'ירקות' (ID 51), מאחר ואין קבוצה נפרדת ל'ירקות פרי' שאינם דלועיים."
+    },
+    "Peppers (subgroup)": {
+      "id": "[99, 101]",
+      "name": "[\"PEPPER\", \"RED SWEET PEPPER\"]",
+      "reasoning": "השם 'Peppers (subgroup)' מתייחס ככל הנראה לפלפלים באופן כללי, אך ייתכן שהוא כולל גם פלפל רגיל (ID 99) וגם פפריקה (ID 101), שהם סוגי פלפלים שונים ברשימה. לכן שניהם נכללו."
+    },
+    "Broad bean, without pods (succulent seeds)": {
+      "id": 92,
+      "name": "BROAD BEAN",
+      "reasoning": "השם 'Broad bean, without pods (succulent seeds)' מתאר את הצמח פול, כאשר ברשימת הייחוס מופיע 'פול - BROAD BEAN'. לכן, זוהי התאמה ישירה."
+    },
+    "Common bean (pods and/or immature seeds)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "השם 'Common bean (pods and/or immature seeds)' מתייחס לשעועית ירוקה, כאשר ברשימת הייחוס מופיע 'שעועית ירוקה - BEANS'. לכן, זו התאמה ישירה."
+    },
+    "Garden pea (young pods)(=succulent, immature seeds)": {
+      "id": "[10, 11]",
+      "name": "[\"PEAS\", \"SNOW PEAS\"]",
+      "reasoning": "השם 'Garden pea (young pods)(=succulent, immature seeds)' מתייחס לאפונה ירוקה. ברשימת הייחוס יש גם 'אפון - PEAS' (10) וגם 'אפונת שלג - SNOW PEAS' (11), ושניהם יכולים להתאים לתיאור זה. לכן, שניהם נכללים."
+    },
+    "Legume vegetables (group)": {
+      "id": 111,
+      "name": "LEGUMS",
+      "reasoning": "הביטוי 'Legume vegetables (group)' מתייחס לקטניות באופן כללי, ובטבלת הייחוס יש קטגוריה בשם 'קטניות' (ID 111) שמכסה את כל סוגי הקטניות."
+    },
+    "Garden pea, shelled (succulent seeds)": {
+      "id": 10,
+      "name": "PEAS",
+      "reasoning": "'Garden pea, shelled (succulent seeds)' מתייחס לאפונה (PEAS), שהיא 'אפונה' (ID 10) ברשימת הייחוס."
+    },
+    "Soya bean (immature seeds)": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Soya bean (immature seeds)' מתייחס לסויה, אך אין ברשימת הייחוס גידול בשם זה או תרגום ישיר, ולכן לא ניתן למפות."
+    },
+    "Lima bean (young pods and/or immature beans)": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Lima bean (young pods and/or immature beans)' מתייחס לשעועית לימה, אך אין ברשימת הייחוס גידול בשם זה או תרגום ישיר, ולכן לא ניתן למפות."
+    },
+    "Beans with pods (Phaseolus spp.) (immature pods and succulent seeds)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "השם 'Beans with pods (Phaseolus spp.) (immature pods and succulent seeds)' מתאר שעועית ירוקה עם תרמיל, כאשר ברשימת הייחוס מופיע 'שעועית ירוקה - BEANS' (ID 129) שמתאים לתיאור זה. לא נמצאו אפשרויות נוספות מתאימות."
+    },
+    "Beans without pods (Phaseolus spp.) (succulent seeds)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "השם באנגלית 'Beans without pods (Phaseolus spp.) (succulent seeds)' מתאר שעועית ירוקה ללא תרמיל, כאשר ברשימת הייחוס מופיע 'שעועית ירוקה - BEANS' (ID 129) שמתאים לסוג זה של גידול. לא נמצאו אפשרויות נוספות מתאימות."
+    },
+    "Peas (pods and succulent=immature seeds)": {
+      "id": "[10, 11]",
+      "name": "[\"PEAS\", \"SNOW PEAS\"]",
+      "reasoning": "השם 'Peas (pods and succulent=immature seeds)' מתייחס לאפונה, כאשר 'pods and succulent=immature seeds' מתאר אפונה ירוקה (אפונה טרייה) וייתכן שמדובר גם ב'אפונת שלג' (SNOW PEAS). לכן, שתי האפשרויות הרלוונטיות הן אפון (PEAS, מזהה 10) ואפונת שלג (SNOW PEAS, מזהה 11)."
+    },
+    "Peas, shelled (succulent seeds)": {
+      "id": 10,
+      "name": "PEAS",
+      "reasoning": "השם 'Peas, shelled (succulent seeds)' מתאר אפונה קלופה, כאשר 'PEAS' (אפונה) מופיע ברשימת הייחוס תחת מזהה 10. לא נמצאו שמות דומים יותר מתאימים."
+    },
+    "Radish": {
+      "id": 106,
+      "name": "RADISH",
+      "reasoning": "השם 'Radish' הוא התאמה מדויקת לשם האנגלי של הגידול 'צנון' (RADISH) ברשימת הייחוס. לא נמצאו שמות דומים נוספים שעשויים להתאים."
+    },
+    "Swede": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Swede' מתייחס לירק שורש הידוע גם כ'ראב', אך הוא אינו מופיע ברשימת הגידולים באנגלית או בעברית ולכן לא ניתן למפות בביטחון."
+    },
+    "Turnip, Garden": {
+      "id": 67,
+      "name": "TURNIP",
+      "reasoning": "'Turnip, Garden' הוא שם נפוץ ללפת, שמופיעה ברשימה באנגלית כ-TURNIP (ID 67)."
+    },
+    "Sweet potato": {
+      "id": 14,
+      "name": "SWEET POTATO",
+      "reasoning": "'Sweet potato' הוא תרגום מדויק של בטטה, שמופיעה ברשימה באנגלית כ-SWEET POTATO (ID 14)."
+    },
+    "Beetroot": {
+      "id": 80,
+      "name": "BEETROOT",
+      "reasoning": "המונח 'Beetroot' תואם באופן מדויק לשם האנגלי של גידול מספר 80 'סלק אדום (שורש ועלים)'. אין שמות נרדפים או אפשרויות נוספות ברשימה."
+    },
+    "Carrot": {
+      "id": 28,
+      "name": "CARROT",
+      "reasoning": "'Carrot' הוא תרגום מדויק של 'גזר' (ID 28) ואין שמות נרדפים או אפשרויות נוספות ברשימה."
+    },
+    "Celeriac": {
+      "id": 62,
+      "name": "CELERIAC",
+      "reasoning": "השם 'Celeriac' מופיע ברשימת הייחוס באנגלית עבור מזהה 62: 'כרפס/סלרי (שורש ועלים)'. לכן, יש התאמה מדויקת."
+    },
+    "Potato": {
+      "id": 139,
+      "name": "POTATO",
+      "reasoning": "Potato הוא תרגום ישיר ל-'תפוח אדמה' שמופיע ברשימת הייחוס תחת מזהה 139."
+    },
+    "Parsnip": {
+      "id": null,
+      "name": null,
+      "reasoning": "Parsnip הוא שורש פטרוזיליה (Pastinaca sativa), אך לא נמצא ברשימת הייחוס גידול בשם זה או שם דומה. לכן אין התאמה."
+    },
+    "Horseradish": {
+      "id": null,
+      "name": null,
+      "reasoning": "Horseradish הוא חזרת, אך לא נמצא גידול בשם זה או שם דומה ברשימת הייחוס. לכן אין התאמה."
+    },
+    "Radish, Japanese": {
+      "id": 106,
+      "name": "RADISH",
+      "reasoning": "השם 'Radish, Japanese' מתייחס לצנון יפני, שהוא סוג של צנון. ברשימת הייחוס יש 'צנון' (RADISH, קוד 106), ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Sugar beet": {
+      "id": 82,
+      "name": "SUGAR BEET",
+      "reasoning": "'Sugar beet' הוא 'סלק סוכר' באנגלית, וברשימת הייחוס יש התאמה מדויקת (קוד 82)."
+    },
+    "Root and tuber vegetables (group)": {
+      "id": "[53, 139, 28, 80, 67, 106, 107]",
+      "name": "[\"ROOT VEGETABLE\", \"POTATO\", \"CARROT\", \"BEETROOT\", \"TURNIP\", \"RADISH\", \"SMALL RADISH\"]",
+      "reasoning": "הביטוי 'Root and tuber vegetables (group)' מתייחס לקטגוריה של ירקות שורש ופקעת. ברשימת הייחוס קיימת קטגוריה בשם 'ירקות שורש' (ID 53), וכן גידולים עיקריים בקבוצה זו: תפוח אדמה (139), גזר (28), סלק אדום (80), לפת (67), צנון (106), צנונית (107). כללתי את כולם כי הם חלק מקבוצת ירקות שורש ופקעת."
+    },
+    "Artichoke, globe": {
+      "id": 114,
+      "name": "ARTICHOKE",
+      "reasoning": "Artichoke, globe הוא השם האנגלי של 'קינרס (ארטישוק)' שמופיע ברשימת הייחוס תחת מזהה 114. מדובר בהתאמה מדויקת לשם הגידול."
+    },
+    "Asparagus": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Asparagus' ברשימת הגידולים באנגלית או בעברית. ייתכן שמדובר בגידול שאינו מופיע ברשימת הייחוס."
+    },
+    "Celery": {
+      "id": 62,
+      "name": "CELERIAC",
+      "reasoning": "המונח 'Celery' באנגלית תואם ל-'כרפס/סלרי (שורש ועלים)' ברשימת הייחוס (ID 62). אין שמות נרדפים נוספים באנגלית שיכולים להתאים יותר."
+    },
+    "Tomato paste": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "המונח 'Tomato paste' מתייחס לרסק עגבניות, שמיוצר מעגבניות. לכן, הגידול המתאים ביותר הוא 'עגבניה' (ID 84). אין גידול אחר ברשימה שמתאים יותר."
+    },
+    "Milk fats": {
+      "id": 26,
+      "name": "FAT",
+      "reasoning": "הביטוי 'Milk fats' מתייחס לשומן חלב. ברשימת הגידולים, הערך הקרוב ביותר הוא 'בשר, שומן' (ID 26), אך אין ערך מדויק לשומן חלב. לכן בחרתי באפשרות הקרובה ביותר."
+    },
+    "Custard apple": {
+      "id": 7,
+      "name": "ANONA",
+      "reasoning": "השם 'Custard apple' הוא שם נפוץ לפרי 'אנונה', שמופיע ברשימת הייחוס תחת ANONA (ID 7). אין שמות דומים נוספים ברשימה."
+    },
+    "Litchi": {
+      "id": 66,
+      "name": "LICHEE",
+      "reasoning": "השם 'Litchi' תואם במדויק את השם LICHEE (ID 66) ברשימת הייחוס, שהוא תעתיק אחר לאותו פרי."
+    },
+    "Lipin (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Lipin (dry)' או שם דומה ברשימת הגידולים. ייתכן שמדובר בלופין (Lupin), אך הוא אינו מופיע ברשימת הייחוס."
+    },
+    "Persimmon, American": {
+      "id": 12,
+      "name": "PERSIMMON",
+      "reasoning": "'Persimmon, American' הוא סוג של אפרסמון. ברשימת הגידולים מופיע 'אפרסמון - PERSIMMON' (ID 12), ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Herbs": {
+      "id": 105,
+      "name": "HERBS",
+      "reasoning": "'Herbs' הוא תרגום ישיר ל-'צמחי תבלין' (ID 105) ברשימת הגידולים."
+    },
+    "Pomegranate": {
+      "id": 121,
+      "name": "POMEGRANATE",
+      "reasoning": "'Pomegranate' הוא תרגום ישיר ל-'רימון' (ID 121) ברשימת הגידולים."
+    },
+    "Straw of cereal grains": {
+      "id": 116,
+      "name": "WHEAT STRAW",
+      "reasoning": "'Straw of cereal grains' מתייחס ל-'קש חיטה' (ID 116), שהוא הקש של דגנים, וברשימה מופיע רק סוג זה."
+    },
+    "Spelt": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Spelt' (כוסמין) אינו מופיע ברשימת הגידולים ולכן אין התאמה ישירה."
+    },
+    "Longan": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Longan' (לונגן) אינו מופיע ברשימת הגידולים ולכן אין התאמה."
+    },
+    "Mangostan": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Mangostan' (מנגוסטין) אינו מופיע ברשימת הגידולים ולכן אין התאמה."
+    },
+    "Fodder (dry) of cereal grains": {
+      "id": 81,
+      "name": "FODDER BEET",
+      "reasoning": "'Fodder (dry) of cereal grains' מתייחס ל-'סלק מספוא' (ID 81) כאופציה הקרובה ביותר, אך ייתכן שאין התאמה מדויקת. אין ברשימה קטגוריה כללית יותר למספוא יבש מדגנים."
+    },
+    "Plantain": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Plantain' מתייחס בדרך כלל לזן של בננה שאינו מופיע ברשימת הגידולים באנגלית או בעברית. לא נמצאה התאמה מדויקת או קרובה ברשימת הגידולים."
+    },
+    "Spring onion": {
+      "id": 18,
+      "name": "SPRING ONION",
+      "reasoning": "'Spring onion' הוא שם נפוץ ל'בצל ירוק', שמופיע ברשימת הגידולים באנגלית תחת ID 18."
+    },
+    "Peppers chili": {
+      "id": "[99, 101]",
+      "name": "[\"PEPPER\", \"RED SWEET PEPPER\"]",
+      "reasoning": "השם 'Peppers chili' מתייחס לפלפלים חריפים. ברשימת הייחוס יש 'PEPPER' (פלפל, מזהה 99) ו-'RED SWEET PEPPER' (פפריקה, מזהה 101). מאחר ואין קטגוריה נפרדת לפלפל חריף, ייתכן שהכוונה ל-PEPPER, אך לעיתים פלפל חריף נכלל גם תחת פפריקה. לכן נכללו שתי האפשרויות."
+    },
+    "Kiwifruit": {
+      "id": 112,
+      "name": "KIWI",
+      "reasoning": "השם 'Kiwifruit' הוא שם נרדף ל-'KIWI' (קיווי, מזהה 112) ברשימת הייחוס. לכן זו התאמה ישירה."
+    },
+    "Mints": {
+      "id": 74,
+      "name": "MINT",
+      "reasoning": "השם 'Mints' הוא צורת הרבים של 'Mint', אשר תואם לגידול 'מנטה' (MINT) ברשימת הייחוס, מספר מזהה 74."
+    },
+    "Table-grapes": {
+      "id": 89,
+      "name": "GRAPES",
+      "reasoning": "השם 'Table-grapes' מתייחס לענבי מאכל, ובעברית 'ענבים' (ID 89) הוא המונח המתאים ביותר ברשימת הייחוס."
+    },
+    "Cashew apple": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Cashew apple' אינו מופיע ברשימת הייחוס, ואין מונח מקביל או דומה מספיק בעברית או באנגלית."
+    },
+    "Guava": {
+      "id": 27,
+      "name": "GUAVA",
+      "reasoning": "השם 'Guava' הוא התאמה מדויקת ל'גויאבה' (ID 27) ברשימת הייחוס."
+    },
+    "Rose hips": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Rose hips' אינו מופיע ברשימת הייחוס ואין מונח דומה מספיק, לכן אין התאמה."
+    },
+    "Wine-grapes": {
+      "id": 89,
+      "name": "GRAPES",
+      "reasoning": "השם 'Wine-grapes' מתייחס לענבים ליין, אך ברשימת הייחוס יש רק 'ענבים' (ID 89) ללא הבחנה בין סוגי ענבים."
+    },
+    "Assorted tropical and sub-tropical fruits - edible peel": {
+      "id": 98,
+      "name": "SUBTROPICAL FRUITS",
+      "reasoning": "השם 'Assorted tropical and sub-tropical fruits - edible peel' מתאים ל'פירות סובטרופיים' (ID 98) כי זהו הקטגוריה הרחבה ביותר ברשימת הייחוס."
+    },
+    "Lime": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "השם 'Lime' משתייך לקטגוריית 'פרי הדר' (ID 103) כי ברשימת הייחוס אין הבחנה בין סוגי הדרים."
+    },
+    "Bilberry, red": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Bilberry, red' אינו מופיע ברשימת הייחוס ואין מונח דומה מספיק, לכן אין התאמה."
+    },
+    "Onion, Chinese": {
+      "id": "[65, 85]",
+      "name": "[\"LEEK\", \"CHIVES\"]",
+      "reasoning": "השם 'Onion, Chinese' יכול להתאים גם ל'לוף (כרתי/כרש/כרשה)' (ID 65) וגם ל'עירית בצלית' (ID 85), כי שניהם משמשים לעיתים לתיאור בצל ירוק/סיני."
+    },
+    "Broccoli, Chinese": {
+      "id": "[21, 59]",
+      "name": "[\"BROCCOLI\", \"CHINESE CABBAGE\"]",
+      "reasoning": "השם 'Broccoli, Chinese' עשוי להתאים ל'ברוקולי' (ID 21) או ל'כרוב סיני' (ID 59), כי לעיתים משתמשים בשם זה לשני המינים."
+    },
+    "Garlic, great-headed": {
+      "id": 123,
+      "name": "GARLIC",
+      "reasoning": "השם 'Garlic, great-headed' מתייחס לזן של שום, ולכן 'שום' (ID 123) הוא ההתאמה הנכונה."
+    },
+    "Fennel, bulb": {
+      "id": 124,
+      "name": "FENNEL",
+      "reasoning": "השם 'Fennel, bulb' מתאים ל'שומר' (ID 124), שהוא השם העברי לשומר בולבוסי."
+    },
+    "Chervil, turnip-rooted": {
+      "id": 79,
+      "name": "CHERBIL",
+      "reasoning": "השם 'Chervil, turnip-rooted' מתייחס לסוג של סייגית (צ'רביל), שמופיע ברשימת הייחוס תחת מזהה 79. אין התאמות נוספות."
+    },
+    "Hyacinth bean (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Hyacinth bean (dry)' אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Buckwheat": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Buckwheat' (כוסמת) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Yard-long bean (pods)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "השם 'Yard-long bean (pods)' מתייחס לסוג של שעועית ירוקה (beans), שמופיע ברשימת הייחוס תחת מזהה 129."
+    },
+    "Yams": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Yams' (בטטה אפריקאית/סוגים שונים של פקעות) אינו מופיע ברשימת הייחוס; 'בטטה' (SWEET POTATO) היא מין אחר, ולכן אין התאמה ישירה."
+    },
+    "Komatsuma": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Komatsuma' (כרוב יפני/ירק עלים אסייתי) אינו מופיע ברשימת הייחוס תחת שם זה או שם דומה, ולכן אין התאמה."
+    },
+    "Cassava": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Cassava' (מניהוט) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Pepino": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Pepino' (מלון אגס/סולנום מוריצטום) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Stalk and stem vegetables": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Stalk and stem vegetables' הוא קטגוריה כללית שאינה מופיעה ברשימת הייחוס, ולכן אין התאמה."
+    },
+    "Rhubarb": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Rhubarb' (ריבס) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Pigeon pea (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Pigeon pea (dry)' (קונגו פיז/קטנית טרופית) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Roselle": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Roselle' (היביסקוס סבדריפה) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Taro leaves": {
+      "id": null,
+      "name": null,
+      "reasoning": "היבול 'Taro leaves' (עלים של קולוקסיה) אינו מופיע ברשימת הייחוס באנגלית או תחת שם דומה, ולכן אין התאמה."
+    },
+    "Cashew nut": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים 'Cashew nut' (אגוז קשיו), ואין שם דומה או תרגום מתאים ברשימה."
+    },
+    "Wild rice": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Wild rice' (אורז בר) אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מתאים."
+    },
+    "Fennel, seed": {
+      "id": 124,
+      "name": "FENNEL",
+      "reasoning": "'Fennel, seed' מתייחס לשומר (FENNEL), שהוא גידול מספר 124 ברשימה. אין הבחנה בין זרעים לשאר חלקי הצמח ברשימה."
+    },
+    "Sorgo or sorghum, sweet": {
+      "id": "[32, 36]",
+      "name": "[\"SORGHUM\", \"SORGHUM BICOLOR\"]",
+      "reasoning": "'Sorgo or sorghum, sweet' מתאים ל-'דורה-סורגום' (ID 32) וגם ל-'וידן' (SORGHUM BICOLOR, ID 36), שניהם סוגי סורגום. לא ניתן להבחין בוודאות בין השניים."
+    },
+    "Teosinte": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Teosinte' אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מתאים."
+    },
+    "Dill, leaves": {
+      "id": 127,
+      "name": "DILL",
+      "reasoning": "'Dill, leaves' מתאים ל-'שמיר (שבת)' (ID 127), שהוא שמיר עלים או שמיר בכלל, ואין הבחנה ברשימה בין עלים לזרעים."
+    },
+    "Dill seed": {
+      "id": 127,
+      "name": "DILL",
+      "reasoning": "'Dill seed' מתאים ל-'שמיר (שבת)' (ID 127), כי ברשימה אין הבחנה בין חלקי הצמח."
+    },
+    "Cardamom": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Cardamom' (הל) אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מתאים."
+    },
+    "Turmeric, root": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Turmeric, root' (כורכום שורש) אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מתאים."
+    },
+    "Millet": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Millet' (דוחן) אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מתאים."
+    },
+    "Chick-pea fodder": {
+      "id": 43,
+      "name": "CHICK PEA",
+      "reasoning": "המונח 'Chick-pea fodder' מתייחס ככל הנראה לחומוס, שהוא 'CHICK PEA' (חימצה/חומוס) ברשימה (ID 43). אין ברשימה התייחסות מיוחדת למספוא חומוס, אך זו ההתאמה הקרובה ביותר."
+    },
+    "Cumin seed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים 'Cumin' או 'Cumin seed' (כמון או זרעי כמון), ולכן אין התאמה."
+    },
+    "Buckwheat fodder": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא ברשימת הגידולים 'Buckwheat' או 'Buckwheat fodder' (כוסמת או מספוא כוסמת), ולכן אין התאמה."
+    },
+    "Clams": {
+      "id": null,
+      "name": null,
+      "reasoning": "Clams (צדפות) אינם מופיעים ברשימת הגידולים, לכן אין התאמה."
+    },
+    "Marine fish": {
+      "id": null,
+      "name": null,
+      "reasoning": "Marine fish (דגי ים) אינם מופיעים ברשימת הגידולים, לכן אין התאמה."
+    },
+    "Millet fodder, dry": {
+      "id": null,
+      "name": null,
+      "reasoning": "Millet (דוחן) או 'Millet fodder' אינם מופיעים ברשימת הגידולים, לכן אין התאמה."
+    },
+    "Diadromous fish": {
+      "id": null,
+      "name": null,
+      "reasoning": "Diadromous fish (דגים נודדים בין מים מתוקים למלוחים) אינם מופיעים ברשימת הגידולים, לכן אין התאמה."
+    },
+    "Ginger, rhizome": {
+      "id": null,
+      "name": null,
+      "reasoning": "Ginger (זנגביל) או 'Ginger, rhizome' אינם מופיעים ברשימת הגידולים, לכן אין התאמה."
+    },
+    "Coriander, seed": {
+      "id": 55,
+      "name": "CORIANDER",
+      "reasoning": "'Coriander, seed' מתייחס לכוסברה (Coriander), שמופיעה ברשימה כ-'כוסברה (גד השדה)' (ID 55). למרות שמדובר בזרעים, זו ההתאמה הקרובה ביותר."
+    },
+    "Apples, dried": {
+      "id": 140,
+      "name": "APPLE",
+      "reasoning": "השם 'Apples, dried' מתייחס לתפוחים מיובשים. ברשימת הייחוס יש 'תפוח עץ' (APPLE, ID 140), ואין קטגוריה נפרדת למיובשים, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Rice bran, processed": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Rice bran, processed' אינו מופיע ברשימת הייחוס. אין קטגוריה לאורז או לתת-מוצרי אורז, ולכן לא ניתן להתאים."
+    },
+    "Poppy seed": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Poppy seed' (זרעי פרג) אינו מופיע ברשימת הייחוס, ולכן לא ניתן להתאים."
+    },
+    "Acerola": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Acerola' (דובדבן ברזילאי) אינו מופיע ברשימת הייחוס, ולכן לא ניתן להתאים."
+    },
+    "Palm kernel oil, crude": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Palm kernel oil, crude' מתייחס לשמן מגלעין דקל, ואין קטגוריה כזו ברשימת הייחוס."
+    },
+    "Turnip fodder": {
+      "id": 67,
+      "name": "TURNIP",
+      "reasoning": "'Turnip fodder' מתייחס ללפת למספוא. ברשימת הייחוס יש 'לפת' (TURNIP, ID 67), ואין הבחנה בין מספוא למאכל."
+    },
+    "Sesame seed": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Sesame seed' (שומשום) אינו מופיע ברשימת הייחוס, ולכן לא ניתן להתאים."
+    },
+    "Teosinte fodder": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Teosinte fodder' (עשב בר קרוב לתירס) אינו מופיע ברשימת הייחוס, ולכן לא ניתן להתאים."
+    },
+    "Kale, curly": {
+      "id": 113,
+      "name": "KALE",
+      "reasoning": "השם 'Kale, curly' תואם ל-KALE (קייל) ברשימה, שהוא סוג של קייל, ולכן זוהי התאמה מדויקת."
+    },
+    "Cantaloupe": {
+      "id": 70,
+      "name": "MELON",
+      "reasoning": "'Cantaloupe' הוא סוג של מלון, וברשימה מופיע MELON (מלון) תחת מזהה 70, לכן זו התאמה ישירה."
+    },
+    "Chives": {
+      "id": 85,
+      "name": "CHIVES",
+      "reasoning": "'Chives' תואם ל-CHIVES (עירית בצלית) ברשימה, לכן זו התאמה מדויקת."
+    },
+    "Turnip": {
+      "id": 67,
+      "name": "TURNIP",
+      "reasoning": "'Turnip' הוא תרגום ישיר של 'לפת', שמופיע ברשימה תחת מזהה 67."
+    },
+    "Raisins (seedless white grape var., partially dried)": {
+      "id": 89,
+      "name": "GRAPES",
+      "reasoning": "'Raisins (seedless white grape var., partially dried)' הם צימוקים שמיוצרים מענבים, ולכן ההתאמה היא ל-GRAPES (ענבים), מזהה 89."
+    },
+    "Acha": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Acha' אינו מופיע ברשימת הגידולים באנגלית או בתרגום לעברית, ואין שם דומה, לכן אין התאמה."
+    },
+    "Cherry tomato": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "'Cherry tomato' הוא סוג של עגבניה, וברשימה מופיע TOMATO (עגבניה) תחת מזהה 84. אין הבחנה לזן עגבניה שרי."
+    },
+    "Spices, seeds": {
+      "id": 105,
+      "name": "HERBS",
+      "reasoning": "'Spices, seeds' מתייחס לצמחי תבלין, וברשימה מופיע HERBS (צמחי תבלין) תחת מזהה 105. אין קטגוריה מדויקת יותר לזרעי תבלין."
+    },
+    "Soybean (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Soybean (dry)' אינו מופיע ברשימת הגידולים באנגלית או בתרגום לעברית, ואין שם דומה, לכן אין התאמה."
+    },
+    "Flax-seed": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Flax-seed' (זרעי פשתן) אינו מופיע ברשימת הגידולים באנגלית או בתרגום לעברית, לכן אין התאמה."
+    },
+    "Spices, fruits and berries": {
+      "id": "[105, 95, 98]",
+      "name": "[\"HERBS\", \"FRUITS\", \"SUBTROPICAL FRUITS\"]",
+      "reasoning": "המונח 'Spices, fruits and berries' מתייחס לקבוצות של תבלינים, פירות ופירות יער. ברשימת הייחוס קיימת קטגוריה כללית 'צמחי תבלין' (105), 'פירות' (95) ו'פירות סובטרופיים' (98) שיכולות להתאים. לא נמצאה קטגוריה נפרדת לפירות יער, לכן נבחרו הקטגוריות הכלליות."
+    },
+    "Spices, roots and rhizomes": {
+      "id": "[105, 53]",
+      "name": "[\"HERBS\", \"ROOT VEGETABLE\"]",
+      "reasoning": "הביטוי 'Spices, roots and rhizomes' מתאר קבוצה של צמחי תבלין (Spices) וגם ירקות שורש (roots), לכן יש התאמה ל'צמחי תבלין' (ID 105) ול'ירקות שורש' (ID 53). לא צוין סוג מסוים ולכן נבחרו שתי הקטגוריות הכלליות ביותר."
+    },
+    "Citrus oil, edible": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "המונח 'Citrus oil, edible' מתייחס ככל הנראה לפרי הדר, שכן שמן אכיל מופק מהדרים (כגון תפוז, אשכולית וכו'). ברשימת הייחוס קיים 'פרי הדר' (CITRUS FRUIT, מזהה 103) שמתאים ביותר."
+    },
+    "Soya bean (young pod)": {
+      "id": null,
+      "name": null,
+      "reasoning": "Soya bean (young pod) מתייחס לפולי סויה ירוקים (אדממה), אך ברשימת הייחוס אין סויה או אדממה. לכן לא נמצאה התאמה."
+    },
+    "Ginseng": {
+      "id": null,
+      "name": null,
+      "reasoning": "Ginseng (ג'ינסנג) אינו מופיע ברשימת הגידולים ולכן לא נמצאה התאמה."
+    },
+    "Orange oil, edible": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Orange oil, edible' או שמן תפוז אכיל ברשימת הגידולים. ייתכן שמדובר במוצר מעובד או תוצר לוואי ולא בגידול חקלאי ישיר."
+    },
+    "Sweet corn": {
+      "id": 136,
+      "name": "SWEET CORN",
+      "reasoning": "'Sweet corn' הוא תירס מתוק, שמופיע ברשימת הגידולים תחת 'תירס מתוק' (ID 136)."
+    },
+    "Ginseng, dried including red ginseng": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Ginseng, dried including red ginseng' אינו מופיע ברשימת הגידולים באנגלית או בעברית, ואין שם דומה או שם נרדף ברשימה. לכן לא ניתן למפות גידול זה."
+    },
+    "Ginseng, extracts": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Ginseng, extracts' אינו מופיע ברשימת הגידולים באנגלית או בעברית, ואין שם דומה או שם נרדף ברשימה. לכן לא ניתן למפות גידול זה."
+    },
+    "Cotton gin trash": {
+      "id": 56,
+      "name": "COTTON",
+      "reasoning": "המונח 'Cotton gin trash' מתייחס לשאריות שנשארות לאחר עיבוד כותנה. ברשימת הייחוס מופיעה 'כותנה' (COTTON), שהיא הגידול הקרוב ביותר. אין קטגוריה נפרדת לשאריות או פסולת כותנה, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Tea, green": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Tea, green' (תה ירוק) אינו מופיע ברשימת הגידולים באנגלית או בעברית, ואין קטגוריה דומה או כללית (כגון 'עשבים' או 'משקאות'), לכן לא נמצאה התאמה."
+    },
+    "Sweet corn fodder": {
+      "id": 135,
+      "name": "FORAGE CORN",
+      "reasoning": "'Sweet corn fodder' מתייחס לתירס מתוק המשמש כמספוא. ברשימת הייחוס יש 'תירס מספוא' (FORAGE CORN), שהוא הגידול המתאים ביותר. למרות שמדובר בתירס מתוק, השימוש כמספוא מתאים לקטגוריה זו."
+    },
+    "Barley bran, processed": {
+      "id": 130,
+      "name": "BARLEY",
+      "reasoning": "'Barley bran, processed' הוא סובין שעורה מעובד. ברשימת הייחוס מופיעה 'שעורה תרבותית' (BARLEY), שהיא ההתאמה הקרובה ביותר, מאחר ואין קטגוריה נפרדת לסובין או תוצרי לוואי."
+    },
+    "Low growing berries (subgroup)": {
+      "id": "[133, 88]",
+      "name": "[\"STRAWBERRY\", \"GOOSEBERRY\"]",
+      "reasoning": "המונח 'Low growing berries (subgroup)' מתייחס לקבוצת פירות יער נמוכים. ברשימת הייחוס מופיע 'תות שדה לפרי' (ID 133) שהוא דוגמה עיקרית לפירות יער נמוכים, וכן 'ענבי שועל' (ID 88) שידוע גם כ-gooseberry ונחשב לפרי יער נמוך. לכן שניהם נכללים כמועמדים."
+    },
+    "Lupin (dry)": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Lupin (dry)' אינו מופיע ברשימת הייחוס באנגלית או בעברית, ואין שם מקביל ברור. ייתכן שמדובר בקטניה אך אין התאמה ישירה ולכן לא בוצעה מיפוי."
+    },
+    "Bush berries (subgroup)": {
+      "id": null,
+      "name": null,
+      "reasoning": "הביטוי 'Bush berries (subgroup)' מתייחס לתת-קבוצה של פירות יער שגדלים על שיחים, אך ברשימת הגידולים אין קטגוריה כזו או שמות דומים באנגלית או בעברית. לא ניתן למפות בוודאות לגידול מסוים."
+    },
+    "Cajou (pseudofruit)": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Cajou (pseudofruit)' מתייחס לפרי הקשיו (אגוז קשיו), שאינו מופיע ברשימת הגידולים. לא נמצאה התאמה ישירה או שם דומה ברשימה."
+    },
+    "Cane berries (subgroup)": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Cane berries (subgroup)' מתייחס לתת-קבוצה של פירות יער (כגון פטל, אוכמניות וכו'), אך לא נמצאה קטגוריה מתאימה או שם דומה ברשימת הגידולים."
+    },
+    "Peaches (including apricots and nectarine) (subgroup)": {
+      "id": "[13, 76, 77]",
+      "name": "[\"PEACH\", \"APRICOT\", \"NECTARINE\"]",
+      "reasoning": "השם באנגלית 'Peaches (including apricots and nectarine) (subgroup)' מתייחס לאפרסק (Peach, מזהה 13), משמש (Apricot, מזהה 76) ונקטרינה (Nectarine, מזהה 77). כל שלושת הגידולים נכללים בקבוצה זו ולכן יש למפות את כולם."
+    },
+    "Tomato, dried": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "השם 'Tomato, dried' מתייחס לעגבניה מיובשת. ברשימת הייחוס יש את 'TOMATO' (עגבניה, מזהה 84), ואין קטגוריה נפרדת לעגבניה מיובשת. לכן, עגבניה היא ההתאמה הסבירה ביותר."
+    },
+    "Lemons and limes, edible oil refined": {
+      "id": null,
+      "name": null,
+      "reasoning": "הערך 'Lemons and limes, edible oil refined' אינו תואם במדויק לאף גידול ברשימה. ישנם פירות הדר (ID 103), אך לא מצוין שמדובר בשמן אכיל או בזנים אלו, ולכן לא ניתן לקבוע התאמה חד-משמעית."
+    },
+    "Potato, flakes/granules": {
+      "id": 139,
+      "name": "POTATO",
+      "reasoning": "הערך 'Potato, flakes/granules' מתייחס לתפוח אדמה בצורת פתיתים/גרנולות. הגידול המתאים ברשימה הוא 'תפוח אדמה' (ID 139), מאחר שמדובר במוצר מעובד של תפוח אדמה."
+    },
+    "Tomato ketchup": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "הערך 'Tomato ketchup' הוא מוצר מעובד מעגבניות. הגידול המתאים ביותר הוא 'עגבניה' (ID 84), מאחר שהקטשופ מופק מעגבניות."
+    },
+    "Small fruit vine climbing (subgroup)": {
+      "id": "[88, 89]",
+      "name": "[\"GOOSEBERRY\", \"GRAPES\"]",
+      "reasoning": "הערך 'Small fruit vine climbing (subgroup)' מתייחס לתת-קבוצה של פירות קטנים מטפסים. ברשימה קיימים 'ענבי שועל' (ID 88) ו'ענבים' (ID 89) שמתאימים להגדרה זו, לכן שניהם נכללים."
+    },
+    "Olives for oil production": {
+      "id": 37,
+      "name": "OLIVES",
+      "reasoning": "הערך 'Olives for oil production' מתייחס לזית אירופאי (ID 37), שהוא הגידול המתאים ביותר לשמן זית."
+    },
+    "Pea hay": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Pea hay' ברשימת הייחוס. יש גידול בשם 'PEAS' (אפונה, ID 10), אך לא מצוין שמדובר בחציר (hay), ולכן לא ניתן לקבוע התאמה חד-משמעית."
+    },
+    "Maize bran, unprocessed": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Maize bran, unprocessed' ברשימת הייחוס. יש גידול בשם 'CORN' (תירס, ID 134), אך 'bran' מתייחס לסובין, שאינו מופיע ברשימה, ולכן לא ניתן לקבוע התאמה."
+    },
+    "Soya bean hay": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Soya bean hay' ברשימת הייחוס. יש גידול בשם 'LEGUMS' (קטניות, ID 111), אך לא מצוין סויה או חציר, ולכן לא ניתן לקבוע התאמה מדויקת."
+    },
+    "Pitaya": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Pitaya' (פרי הדרקון) אינו מופיע ברשימת הייחוס, ואין שם מקביל או דומה. לכן לא ניתן לקבוע התאמה."
+    },
+    "Sweet corn (corn on the cob) (kernels plus cob with husk removed)": {
+      "id": 136,
+      "name": "SWEET CORN",
+      "reasoning": "'Sweet corn (corn on the cob) (kernels plus cob with husk removed)' מתאר תירס מתוק, שהוא 'SWEET CORN' (תירס מתוק, ID 136) ברשימת הייחוס."
+    },
+    "Bean hay": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Bean hay' ברשימת הייחוס. יש גידול בשם 'BEANS' (שעועית ירוקה, ID 129), אך לא מצוין חציר, ולכן לא ניתן לקבוע התאמה חד-משמעית."
+    },
+    "Peanut hay": {
+      "id": 3,
+      "name": "PEANUT",
+      "reasoning": "'Peanut hay' מתייחס לחציר אגוז אדמה. ברשימת הייחוס מופיע 'PEANUT' (אגוז אדמה, ID 3), ולכן זו ההתאמה הסבירה ביותר למרות שלא מצוין חציר."
+    },
+    "Alfalfa hay": {
+      "id": 8,
+      "name": "ALFALFA",
+      "reasoning": "'Alfalfa hay' הוא חציר אספסת. ברשימת הייחוס מופיע 'ALFALFA' (אספסת, ID 8), ולכן זו ההתאמה הסבירה ביותר."
+    },
+    "Eggplants (subgroup)": {
+      "id": 47,
+      "name": "EGG PLANT",
+      "reasoning": "Eggplants (subgroup) הוא שם באנגלית המתייחס לחציל ולתתי-קבוצותיו. ברשימת הייחוס, 'EGG PLANT' (חציל) מופיע תחת מזהה 47, ולכן זו ההתאמה הנכונה ביותר."
+    },
+    "Beans with pods (subgroup)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "הביטוי 'Beans with pods (subgroup)' מתאר שעועית ירוקה עם תרמיל, שזה תואם את הערך 'שעועית ירוקה' (ID 129) ברשימת הייחוס. לא נמצאו ערכים נוספים המתאימים יותר."
+    },
+    "Dry beans (subgroup)": {
+      "id": 111,
+      "name": "LEGUMS",
+      "reasoning": "הביטוי 'Dry beans (subgroup)' מתייחס לשעועית יבשה, שהיא חלק מקבוצת הקטניות. הערך המתאים ביותר הוא 'קטניות' (ID 111), מאחר ואין ערך ייחודי לשעועית יבשה בלבד."
+    },
+    "Peas with pods (subgroup)": {
+      "id": "[10, 11]",
+      "name": "[\"PEAS\", \"SNOW PEAS\"]",
+      "reasoning": "השם 'Peas with pods (subgroup)' מתייחס לאפונה עם תרמיל. ברשימת הייחוס יש 'PEAS' (ID 10) ו-'SNOW PEAS' (ID 11), שניהם סוגי אפונה עם תרמיל ולכן שניהם רלוונטיים. לא ניתן לדעת בוודאות לאיזה סוג הכוונה, לכן שניהם נכללים."
+    },
+    "Succulent beans without pods (subgroup)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "הביטוי 'Succulent beans without pods' מתאר שעועית ירוקה (ללא תרמיל), שמתאים ל-'שעועית ירוקה' (ID 129) ברשימת הייחוס. לא נמצאו אפשרויות נוספות."
+    },
+    "Maize cereals (subgroup)": {
+      "id": "[134, 30]",
+      "name": "[\"CORN\", \"CEREALS\"]",
+      "reasoning": "'Maize cereals' מתייחס לתירס (ID 134), אך המונח 'cereals' עשוי לכלול גם דגניים באופן כללי (ID 30). לכן, שתי האפשרויות נכללות."
+    },
+    "Green onions (subgroup)": {
+      "id": 18,
+      "name": "SPRING ONION",
+      "reasoning": "'Green onions' הוא תרגום ישיר ל-'בצל ירוק' (ID 18) ברשימת הייחוס. לא נמצאו אפשרויות נוספות."
+    },
+    "Bulb onions (subgroup)": {
+      "id": "[17, 18]",
+      "name": "[\"ONION\", \"SPRING ONION\"]",
+      "reasoning": "הביטוי 'Bulb onions (subgroup)' מתייחס לבצל בצורתו הכללית (Onion) וייתכן גם לבצל ירוק (Spring Onion), כיוון ששניהם סוגי בצל הנכללים בתת-קבוצת בצל. לכן, שניהם נבחרו."
+    },
+    "Sweet corns (subgroup)": {
+      "id": 136,
+      "name": "SWEET CORN",
+      "reasoning": "'Sweet corns (subgroup)' הוא צורת ריבוי של 'Sweet corn', שהוא תירס מתוק. לכן, המיפוי הוא ל-'תירס מתוק' (ID 136)."
+    },
+    "Tuberous and corm vegetables (subgroup)": {
+      "id": "[53, 139]",
+      "name": "[\"ROOT VEGETABLE\", \"POTATO\"]",
+      "reasoning": "הביטוי 'Tuberous and corm vegetables (subgroup)' מתייחס לירקות שורש ופקעות. ברשימת הייחוס יש קטגוריה 'ירקות שורש' (ID 53) וגם 'תפוח אדמה' (ID 139) שהוא ירק פקעת נפוץ. לכן שניהם מתאימים."
+    },
+    "Tomatoes (subgroup)": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "'Tomatoes (subgroup)' הוא צורת ריבוי של 'Tomato', וברשימת הייחוס 'עגבניה' (ID 84) הוא המונח המתאים."
+    },
+    "Barley, similar grains, and pseudocereals with husks (subgroup)": {
+      "id": 130,
+      "name": "BARLEY",
+      "reasoning": "Barley הוא תרגום ישיר ל-\"שעורה תרבותית\" (ID 130). הביטוי 'similar grains, and pseudocereals with husks' מתייחס לדגנים נוספים, אך ברשימת הייחוס רק 'Barley' מופיע במפורש. לכן נבחר רק ID 130."
+    },
+    "Witloof chicory (sprouts)": {
+      "id": null,
+      "name": null,
+      "reasoning": "Witloof chicory (sprouts) אינו מופיע ברשימת הייחוס באנגלית או בתרגום ישיר לעברית. לא נמצאה התאמה."
+    },
+    "Common beans (succulent seeds)": {
+      "id": 129,
+      "name": "BEANS",
+      "reasoning": "\"Common beans (succulent seeds)\" מתאר שעועית ירוקה, שהיא באנגלית 'BEANS' וברשימת הייחוס ID 129. לכן זו התאמה ישירה."
+    },
+    "Root vegetables (subgroup)": {
+      "id": 53,
+      "name": "ROOT VEGETABLE",
+      "reasoning": "\"Root vegetables (subgroup)\" מתורגם ל\"ירקות שורש\" (ID 53) ברשימת הייחוס. לכן זו התאמה ישירה."
+    },
+    "Young shoots": {
+      "id": null,
+      "name": null,
+      "reasoning": "\"Young shoots\" הוא מונח כללי שאינו מופיע ברשימת הייחוס, ואין התאמה ישירה או ברורה."
+    },
+    "Wheat, similar grains, and pseudocereals without husks (subgroup)": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "\"Wheat\" הוא תרגום ישיר ל\"חיטה\" (ID 42). הביטוי 'similar grains, and pseudocereals without husks' מתייחס לדגנים נוספים, אך ברשימת הייחוס רק 'Wheat' מופיע במפורש. לכן נבחר רק ID 42."
+    },
+    "Guelder rose": {
+      "id": null,
+      "name": null,
+      "reasoning": "Guelder rose אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מקובל בעברית ברשימה."
+    },
+    "Palm fruit (African oil palm)": {
+      "id": null,
+      "name": null,
+      "reasoning": "Palm fruit (African oil palm) אינו מופיע ברשימת הגידולים, ואין שם דומה או תרגום מקובל בעברית ברשימה."
+    },
+    "Chive, dried": {
+      "id": 85,
+      "name": "CHIVES",
+      "reasoning": "Chive, dried מתאים ל-'עירית בצלית' (CHIVES), למרות שמדובר בגרסה מיובשת, זהו אותו גידול."
+    },
+    "Leafy greens (subgroup)": {
+      "id": 52,
+      "name": "LEAFY VEGETABLES",
+      "reasoning": "'Leafy greens (subgroup)' מתאים ל-'ירקות עלים' (LEAFY VEGETABLES) כי מדובר בתת-קבוצה של ירקות עלים."
+    },
+    "Peppermint oil, edible": {
+      "id": 74,
+      "name": "MINT",
+      "reasoning": "'Peppermint oil, edible' מתייחס לשמן מנטה אכיל, והגידול הקרוב ביותר הוא 'מנטה' (MINT)."
+    },
+    "Sorghum grain and millet (subgroup)": {
+      "id": "[32, 30]",
+      "name": "[\"SORGHUM\", \"CEREALS\"]",
+      "reasoning": "'Sorghum grain and millet (subgroup)' עשוי להתאים ל-'דורה-סורגום' (SORGHUM) ול-'דגניים' (CEREALS) כי מדובר בתת-קבוצה הכוללת דגנים שונים."
+    },
+    "Rice cereals (subgroup)": {
+      "id": 30,
+      "name": "CEREALS",
+      "reasoning": "'Rice cereals (subgroup)' משתייך לקטגוריית 'דגניים' (CEREALS) כי אורז הוא דגן, ואין קטגוריה נפרדת לאורז ברשימה."
+    },
+    "Stems and petioles (subgroup)": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Stems and petioles (subgroup)' הוא תיאור חלקי צמח ולא גידול מסוים, ואין קטגוריה מתאימה ברשימה."
+    },
+    "Coriander, leaves": {
+      "id": 55,
+      "name": "CORIANDER",
+      "reasoning": "'Coriander, leaves' מתאים ל-'כוסברה (גד השדה)' (CORIANDER), כי מדובר בעלים של כוסברה."
+    },
+    "Oat, hay and/or straw": {
+      "id": "[122, 116]",
+      "name": "[\"OAT\", \"WHEAT STRAW\"]",
+      "reasoning": "Oat, hay and/or straw מתייחס לשיבולת שועל (OAT, קוד 122) ולתוצרי קש, ובפרט קש חיטה (WHEAT STRAW, קוד 116) אך אין קש שיבולת שועל ברשימה. לכן בחרתי גם שיבולת שועל וגם קש חיטה כאופציות סבירות."
+    },
+    "Small seed oilseeds (subgroup)": {
+      "id": null,
+      "name": null,
+      "reasoning": "Small seed oilseeds (subgroup) מתייחס לתת-קבוצה של זרעי שמן קטנים, אך אין קטגוריה כזו ברשימת הייחוס. לא נמצאה התאמה ישירה או עקיפה."
+    },
+    "Martynia": {
+      "id": null,
+      "name": null,
+      "reasoning": "Martynia הוא צמח שאינו מופיע ברשימת הייחוס ולכן אין התאמה."
+    },
+    "Stem Brassicas (subgroup)": {
+      "id": 60,
+      "name": "BRASSICA",
+      "reasoning": "Stem Brassicas (subgroup) מתייחס לירקות ממשפחת המצליבים (Brassica) עם גבעול עיקרי, וברשימת הייחוס יש קטגוריה כללית 'כרוביים' (BRASSICA, קוד 60) שמכסה את הקבוצה הזו."
+    },
+    "Soya bean, meal": {
+      "id": null,
+      "name": null,
+      "reasoning": "Soya bean, meal מתייחס לארוחה (meal) של סויה, אך סויה אינה מופיעה ברשימת הייחוס ולכן אין התאמה."
+    },
+    "Sunflower seeds (subgroup)": {
+      "id": 45,
+      "name": "SUNFLOWER",
+      "reasoning": "Sunflower seeds (subgroup) מתייחס לזרעי חמנייה, וברשימת הייחוס מופיעה חמנית מצויה (SUNFLOWER, קוד 45) שהיא המקור לזרעים אלו."
+    },
+    "Underground immature beans and peas (subgroup)": {
+      "id": "[10, 11, 129]",
+      "name": "[\"PEAS\", \"SNOW PEAS\", \"BEANS\"]",
+      "reasoning": "Underground immature beans and peas (subgroup) מתייחס לאפונה (PEAS, קוד 10), אפונת שלג (SNOW PEAS, קוד 11) ושעועית ירוקה (BEANS, קוד 129) במצבם התת-קרקעי והלא בוגר. כללתי את כל האפשרויות הרלוונטיות."
+    },
+    "Tomato, puree": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "Tomato, puree הוא מוצר מעגבניה (TOMATO, קוד 84), ולכן ההתאמה היא לעגבניה."
+    },
+    "Soya bean, hulls": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Soya bean' או 'Soya bean, hulls' ברשימת הגידולים. ייתכן שמדובר בסויה, אך היא אינה מופיעה ברשימה."
+    },
+    "Maize, hay and/or straw": {
+      "id": "[134, 135, 116]",
+      "name": "[\"CORN\", \"FORAGE CORN\", \"WHEAT STRAW\"]",
+      "reasoning": "הביטוי 'Maize' הוא תירס באנגלית. 'Hay and/or straw' מתייחס למספוא או לקש. ברשימה מופיעים 'תירס' (134), 'תירס מספוא' (135) ו'קש חיטה' (116), אך קש חיטה פחות מתאים כי הוא חיטה ולא תירס. לכן, תירס ותירס מספוא הם ההתאמות המרכזיות, אך כללתי גם קש חיטה כאופציה רחבה."
+    },
+    "Pummelo and grapefruit, oil": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "'Pummelo and grapefruit' הם פירות הדר, וברשימה קיים 'פרי הדר' (103) כהתאמה כוללת. אין ברשימה התאמה פרטנית לפומלו או אשכולית."
+    },
+    "Rice, hulls": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rice' או 'Rice, hulls' ברשימת הגידולים. אורז אינו מופיע ברשימה."
+    },
+    "Rye, hay and/or straw": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול בשם 'Rye' או 'Rye, hay and/or straw' ברשימת הגידולים. שיפון אינו מופיע ברשימה."
+    },
+    "Sorghum, hay and/or straw": {
+      "id": "[32, 36]",
+      "name": "[\"SORGHUM\", \"SORGHUM BICOLOR\"]",
+      "reasoning": "'Sorghum' הוא דורה/סורגום. ברשימה מופיעים 'דורה-סורגום' (32) ו'וידן' (36) שהוא סוג של סורגום. שניהם רלוונטיים, במיוחד כאשר מדובר בחלקי מספוא ('hay and/or straw')."
+    },
+    "Ginger rhizome, dried": {
+      "id": null,
+      "name": null,
+      "reasoning": "לא נמצא גידול ברשימת הייחוס המתאים ל-Ginger rhizome, dried (ג'ינג'ר/זנגביל יבש). אין גידול כזה באנגלית או בעברית ברשימה."
+    },
+    "Popcorn, stover": {
+      "id": "[134, 135]",
+      "name": "[\"CORN\", \"FORAGE CORN\"]",
+      "reasoning": "Popcorn הוא סוג של תירס, ו-stover הוא שאריות הצמח לאחר הקטיף. קיימים שני ערכים רלוונטיים: תירס (134) ותירס מספוא (135), שניהם עשויים להתאים כי לא ברור אם הכוונה לתירס רגיל או למספוא."
+    },
+    "Pummelo and grapefruit, dried pulp": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "Pummelo ו-grapefruit הם פירות הדר, ו-dried pulp הוא תוצר לוואי. פרי הדר (103) הוא הקטגוריה המתאימה ביותר כי אין הבחנה בין סוגי הדרים ברשימה."
+    },
+    "Maize, stover": {
+      "id": "[134, 135]",
+      "name": "[\"CORN\", \"FORAGE CORN\"]",
+      "reasoning": "Maize הוא תירס, ו-stover הוא שאריות הצמח לאחר הקטיף. קיימים שני ערכים רלוונטיים: תירס (134) ותירס מספוא (135), שניהם עשויים להתאים כי לא ברור אם הכוונה לתירס רגיל או למספוא."
+    },
+    "Sweet corn, stover": {
+      "id": "[136, 135]",
+      "name": "[\"SWEET CORN\", \"FORAGE CORN\"]",
+      "reasoning": "Sweet corn הוא תירס מתוק (136), אך stover מתייחס לשאריות הצמח, מה שיכול להתאים גם לתירס מספוא (135). לכן שניהם רלוונטיים."
+    },
+    "Lemon and Lime, dried pulp": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "Lemon ו-Lime הם פירות הדר, ו-dried pulp הוא תוצר לוואי. פרי הדר (103) הוא הקטגוריה המתאימה ביותר כי אין הבחנה בין סוגי הדרים ברשימה."
+    },
+    "Soya flour": {
+      "id": null,
+      "name": null,
+      "reasoning": "Soya flour הוא קמח סויה. אין ברשימת הייחוס גידול סויה או מוצרי סויה, לכן אין התאמה."
+    },
+    "Orange, dried pulp": {
+      "id": 103,
+      "name": "CITRUS FRUIT",
+      "reasoning": "Orange הוא פרי הדר, ו-dried pulp הוא תוצר לוואי. פרי הדר (103) הוא הקטגוריה המתאימה ביותר כי אין הבחנה בין סוגי הדרים ברשימה."
+    },
+    "Sorghum, stover": {
+      "id": "[32, 36]",
+      "name": "[\"SORGHUM\", \"SORGHUM BICOLOR\"]",
+      "reasoning": "Sorghum הוא דורה-סורגום (32), אך קיים גם וידן (SORGHUM BICOLOR, 36) שהוא תת סוג של סורגום. שניהם עשויים להתאים כי לא ברור לאיזה סוג הכוונה."
+    },
+    "Goji berry, dried": {
+      "id": null,
+      "name": null,
+      "reasoning": "Goji berry (גוג'י ברי) אינו מופיע ברשימת הייחוס, ולכן אין התאמה."
+    },
+    "Almond oil": {
+      "id": 131,
+      "name": "ALMOND",
+      "reasoning": "המונח 'Almond oil' מתייחס לשמן שמופק משקד (Almond). ברשימת הייחוס יש 'שקד' (ID 131), אך אין התייחסות ישירה לשמן. לכן, בחרתי בשקד כהתאמה הסבירה ביותר."
+    },
+    "Goji berry": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Goji berry' (גוג'י ברי) אינו מופיע ברשימת הגידולים, ואין שם מקביל או שם נרדף ברשימה. לכן, אין התאמה."
+    },
+    "Legume feeds with low water (<20%) content (hay) (subgroup)": {
+      "id": "[111, 137]",
+      "name": "[\"LEGUMS\", \"CLOVER\"]",
+      "reasoning": "'Legume feeds' מתייחס לקטניות, ו-'hay' מתייחס למספוא. ברשימת הייחוס יש 'קטניות' (ID 111) ו-'תלתן' (ID 137) שהוא קטנית עיקרית למספוא. שתי האפשרויות רלוונטיות ולכן שתיהן נבחרו."
+    },
+    "Peanut, hay and/or straw": {
+      "id": 3,
+      "name": "PEANUT",
+      "reasoning": "'Peanut, hay and/or straw' מתייחס לאגוז אדמה (בוטן) ולמספוא או קש ממנו. ברשימת הייחוס יש 'אגוז אדמה' (ID 3), ואין קטגוריה נפרדת למספוא או קש של בוטן, לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Apple pomace, dried": {
+      "id": 140,
+      "name": "APPLE",
+      "reasoning": "'Apple pomace, dried' הוא תוצר לוואי של תפוח עץ (Apple). ברשימת הייחוס יש 'תפוח עץ' (ID 140), ואין קטגוריה נפרדת לתוצרי לוואי. לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Cereal grains (incl. pseudocereals) feed products with low water (<20%) content (hay and/or straw)": {
+      "id": 30,
+      "name": "CEREALS",
+      "reasoning": "'Cereal grains (incl. pseudocereals) feed products with low water (<20%) content (hay and/or straw)' מתייחס לדגניים ומוצרי מספוא/קש שלהם. ברשימת הייחוס יש 'דגניים' (ID 30), ולכן זו ההתאמה."
+    },
+    "Rape seed, hay and/or straw": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Rape seed' (קנולה/לפתית) אינו מופיע ברשימת הגידולים, ואין שם נרדף מתאים. לכן אין התאמה."
+    },
+    "Maize, bran": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "'Maize, bran' הוא סובין תירס. ברשימת הייחוס יש 'תירס' (ID 134), ואין קטגוריה נפרדת לסובין. לכן זו ההתאמה הסבירה ביותר."
+    },
+    "Nectarine, dried": {
+      "id": 77,
+      "name": "NECTARINE",
+      "reasoning": "המונח 'Nectarine, dried' מתייחס לנקטרינה מיובשת. ברשימת הייחוס יש 'NECTARINE' (נקטרינה, מזהה 77), ואין קטגוריה נפרדת למיובש. לכן, בחרתי במזהה 77."
+    },
+    "Wheat, shorts (cereal grain milling by-product)": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "'Wheat, shorts (cereal grain milling by-product)' הוא תוצר לוואי של חיטה בתהליך טחינה. ברשימת הייחוס יש 'WHEAT' (חיטה, מזהה 42), ואין קטגוריה לתוצרי לוואי, לכן בחרתי במזהה 42."
+    },
+    "Wheat aspirated grain fractions": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "'Wheat aspirated grain fractions' הם חלקי חיטה שנשאבו בתהליך עיבוד. ברשימת הייחוס יש 'WHEAT' (חיטה, מזהה 42), ואין קטגוריה לחלקים אלו, לכן בחרתי במזהה 42."
+    },
+    "Tomato, pomace": {
+      "id": 84,
+      "name": "TOMATO",
+      "reasoning": "'Tomato, pomace' הוא תוצר לוואי של עגבניה לאחר עיבוד. ברשימת הייחוס יש 'TOMATO' (עגבניה, מזהה 84), ואין קטגוריה לתוצרי לוואי, לכן בחרתי במזהה 84."
+    },
+    "Maize gluten": {
+      "id": 134,
+      "name": "CORN",
+      "reasoning": "'Maize gluten' הוא גלוטן תירס. ברשימת הייחוס יש 'CORN' (תירס, מזהה 134), ואין קטגוריה לגלוטן, לכן בחרתי במזהה 134."
+    },
+    "Wheat gluten meal": {
+      "id": 42,
+      "name": "WHEAT",
+      "reasoning": "'Wheat gluten meal' הוא קמח גלוטן מחיטה. ברשימת הייחוס יש 'WHEAT' (חיטה, מזהה 42), ואין קטגוריה לגלוטן, לכן בחרתי במזהה 42."
+    },
+    "Pseudoginseng": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pseudoginseng' אינו מופיע ברשימת הייחוס, ואין שם מקביל באנגלית או בעברית ברשימה. לכן לא ניתן למפות."
+    },
+    "Pseudoginseng, dried": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pseudoginseng, dried' אינו מופיע ברשימת הייחוס, ואין שם מקביל באנגלית או בעברית ברשימה. לכן לא ניתן למפות."
+    },
+    "Dried distiller’s grain from barley": {
+      "id": 130,
+      "name": "BARLEY",
+      "reasoning": "'Dried distiller’s grain from barley' הוא תוצר לוואי של שעורה. ברשימת הייחוס יש 'BARLEY' (שעורה תרבותית, מזהה 130), ואין קטגוריה לתוצרי לוואי, לכן בחרתי במזהה 130."
+    },
+    "Barley, flour": {
+      "id": 130,
+      "name": "BARLEY",
+      "reasoning": "'Barley, flour' הוא קמח שעורה. ברשימת הייחוס יש 'BARLEY' (שעורה תרבותית, מזהה 130), ואין קטגוריה לקמח, לכן בחרתי במזהה 130."
+    }
+  },
+  "pesticides": {
+    "Flusilazole": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Flusilazole' אינו מופיע ברשימת חומרי ההדברה ולכן אין התאמה."
+    },
+    "Azoxystrobin": {
+      "id": 19,
+      "name": "AZOXYSTROBIN",
+      "reasoning": "'Azoxystrobin' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 19)."
+    },
+    "Diquat": {
+      "id": 90,
+      "name": "DIQUAT",
+      "reasoning": "'Diquat' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 90)."
+    },
+    "Oxathiapiprolin": {
+      "id": 203,
+      "name": "OXATHIAPIPROLIN",
+      "reasoning": "'Oxathiapiprolin' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 203)."
+    },
+    "Fluazifop-p-butyl": {
+      "id": 118,
+      "name": "FLUAZIFOP-P-BUTYL",
+      "reasoning": "'Fluazifop-p-butyl' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 118)."
+    },
+    "Carbaryl": {
+      "id": 35,
+      "name": "CARBARYL",
+      "reasoning": "'Carbaryl' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 35)."
+    },
+    "Dicamba": {
+      "id": 74,
+      "name": "DICAMBA",
+      "reasoning": "'Dicamba' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 74)."
+    },
+    "Pydiflumetofen": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pydiflumetofen' אינו מופיע ברשימת חומרי ההדברה ולכן אין התאמה."
+    },
+    "Fluxapyroxad": {
+      "id": 138,
+      "name": "FLUXAPYROXAD",
+      "reasoning": "'Fluxapyroxad' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 138)."
+    },
+    "Tolfenpyrad": {
+      "id": 272,
+      "name": "TOLFENPYRAD",
+      "reasoning": "'Tolfenpyrad' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 272)."
+    },
+    "Boscalid": {
+      "id": 27,
+      "name": "BOSCALID",
+      "reasoning": "'Boscalid' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 27)."
+    },
+    "Fluensulfone": {
+      "id": 122,
+      "name": "FLUENSULFONE",
+      "reasoning": "'Fluensulfone' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 122)."
+    },
+    "Cypermethrins (including alpha- and zeta- cypermethrin)": {
+      "id": 66,
+      "name": "CYPERMETHRIN",
+      "reasoning": "'Cypermethrins (including alpha- and zeta- cypermethrin)' מתייחס לכלל קבוצת הציפרמתרינים, והשם 'CYERMETHRIN' (ID 66) הוא ההתאמה הקרובה ביותר."
+    },
+    "Methomyl": {
+      "id": 188,
+      "name": "METHOMYL",
+      "reasoning": "'Methomyl' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 188)."
+    },
+    "Teflubenzuron": {
+      "id": 260,
+      "name": "TEFLUBENZURON",
+      "reasoning": "'Teflubenzuron' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 260)."
+    },
+    "Propargite": {
+      "id": 226,
+      "name": "PROPARGITE",
+      "reasoning": "'Propargite' מופיע ברשימת חומרי ההדברה (ID 226) כהתאמה מדויקת."
+    },
+    "Trifloxystrobin": {
+      "id": 278,
+      "name": "TRIFLOXYSTROBIN",
+      "reasoning": "'Trifloxystrobin' מופיע ברשימת חומרי ההדברה (ID 278) כהתאמה מדויקת."
+    },
+    "Imidacloprid": {
+      "id": 157,
+      "name": "IMIDACLOPRID",
+      "reasoning": "'Imidacloprid' מופיע ברשימת חומרי ההדברה (ID 157) כהתאמה מדויקת."
+    },
+    "Fenbutatin Oxide": {
+      "id": 109,
+      "name": "FENBUTATIN OXIDE",
+      "reasoning": "'Fenbutatin Oxide' מופיע ברשימת חומרי ההדברה (ID 109) כהתאמה מדויקת."
+    },
+    "Imazalil": {
+      "id": 152,
+      "name": "IMAZALIL",
+      "reasoning": "'Imazalil' מופיע ברשימת חומרי ההדברה (ID 152) כהתאמה מדויקת."
+    },
+    "Tebuconazole": {
+      "id": 258,
+      "name": "TEBUCONAZOLE",
+      "reasoning": "'Tebuconazole' מופיע ברשימת חומרי ההדברה (ID 258) כהתאמה מדויקת."
+    },
+    "Mepiquat Chloride": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Mepiquat Chloride' אינו מופיע ברשימת חומרי ההדברה. ייתכן שמדובר בשם מסחרי או חומר שאינו כלול ברשימה."
+    },
+    "Afidopyropen": {
+      "id": 11,
+      "name": "AFIDOPYROPEN",
+      "reasoning": "'Afidopyropen' הוא שם מסחרי/כימי של 'AFIDOPYROPEN' (ID 11) ברשימה, התאמה מדויקת."
+    },
+    "Spiromesifen": {
+      "id": 251,
+      "name": "SPIROMESIFEN",
+      "reasoning": "'Spiromesifen' מופיע ברשימת חומרי ההדברה (ID 251) כהתאמה מדויקת."
+    },
+    "Buprofezin": {
+      "id": 33,
+      "name": "BUPROFEZIN",
+      "reasoning": "'Buprofezin' מופיע ברשימת חומרי ההדברה (ID 33) כהתאמה מדויקת."
+    },
+    "Flonicamid": {
+      "id": 116,
+      "name": "FLONICAMID",
+      "reasoning": "'Flonicamid' מופיע ברשימת חומרי ההדברה (ID 116) כהתאמה מדויקת."
+    },
+    "Mandipropamid": {
+      "id": 174,
+      "name": "MANDIPROPAMID",
+      "reasoning": "'Mandipropamid' מופיע ברשימת חומרי ההדברה (ID 174) כהתאמה מדויקת."
+    },
+    "Fenbuconazole": {
+      "id": 108,
+      "name": "FENBUCONAZOLE",
+      "reasoning": "'Fenbuconazole' מופיע ברשימת חומרי ההדברה (ID 108) כהתאמה מדויקת."
+    },
+    "Cyfluthrin/beta-cyfluthrin": {
+      "id": 63,
+      "name": "CYFLUTHRIN",
+      "reasoning": "'Cyfluthrin/beta-cyfluthrin' מתייחס ל-CYFLUTHRIN (ID 63), כאשר beta-cyfluthrin הוא איזומר של אותו חומר. לכן זו התאמה מתאימה."
+    },
+    "2-Phenylphenol": {
+      "id": 199,
+      "name": "ORTHO PHENYLPHENOL",
+      "reasoning": "'2-Phenylphenol' הוא שם נוסף ל'ORTHO PHENYLPHENOL' (ID 199), התאמה כימית מדויקת."
+    },
+    "Spirotetramat": {
+      "id": 252,
+      "name": "SPIROTETRAMAT",
+      "reasoning": "'Spirotetramat' מופיע ברשימת חומרי ההדברה (ID 252) כהתאמה מדויקת."
+    },
+    "Isocycloseram": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Isocycloseram' אינו מופיע ברשימת חומרי ההדברה. ייתכן שמדובר בשם מסחרי חדש או חומר שאינו כלול ברשימה."
+    },
+    "Tioxazafen": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Tioxazafen' אינו מופיע ברשימת חומרי ההדברה. ייתכן שמדובר בשם מסחרי חדש או חומר שאינו כלול ברשימה."
+    },
+    "Cyantraniliprole": {
+      "id": 58,
+      "name": "CYANTRANILIPROLE",
+      "reasoning": "'Cyantraniliprole' הוא שם זהה לרשימת הייחוס (CYANTRANILIPROLE, מזהה 58)."
+    },
+    "Acetochlor": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Acetochlor' אינו מופיע ברשימת הייחוס ולכן לא נמצאה התאמה."
+    },
+    "Chlorpyrifos-Methyl": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Chlorpyrifos-Methyl' אינו מופיע ברשימת הייחוס. קיים 'CHLORPYRIFOS' (מזהה 47), אך ללא ציון 'Methyl' ולכן לא ניתן לקבוע התאמה חד משמעית."
+    },
+    "Hexythiazox": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Hexythiazox' אינו מופיע ברשימת הייחוס ולכן לא נמצאה התאמה."
+    },
+    "Saflufenacil": {
+      "id": 247,
+      "name": "SAFLUFENACIL",
+      "reasoning": "'Saflufenacil' תואם בדיוק ל-'SAFLUFENACIL' (מזהה 247) ברשימת הייחוס."
+    },
+    "Fenpropimorph": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Fenpropimorph' אינו מופיע ברשימת הייחוס ולכן לא נמצאה התאמה."
+    },
+    "Famoxadone": {
+      "id": 103,
+      "name": "FAMOXADONE",
+      "reasoning": "'Famoxadone' מופיע ברשימת הייחוס (FAMOXADONE, מזהה 103)."
+    },
+    "Fluopicolide": {
+      "id": 128,
+      "name": "FLUOPICOLIDE",
+      "reasoning": "'Fluopicolide' מופיע ברשימת הייחוס (FLUOPICOLIDE, מזהה 128)."
+    },
+    "Mefentrifluconazole": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Mefentrifluconazole' אינו מופיע ברשימת הייחוס ולכן לא נמצאה התאמה."
+    },
+    "Indoxacarb": {
+      "id": 159,
+      "name": "INDOXACARB",
+      "reasoning": "Indoxacarb הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 159)."
+    },
+    "Chlorantraniliprole": {
+      "id": 39,
+      "name": "CHLORANTRANILIPROLE",
+      "reasoning": "Chlorantraniliprole הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 39)."
+    },
+    "Flumioxazin": {
+      "id": 126,
+      "name": "FLUMIOXAZIN",
+      "reasoning": "Flumioxazin הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 126)."
+    },
+    "Picoxystrobin": {
+      "id": 216,
+      "name": "PICOXYSTROBIN",
+      "reasoning": "Picoxystrobin הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 216)."
+    },
+    "Glyphosate": {
+      "id": 146,
+      "name": "GLYPHOSATE",
+      "reasoning": "Glyphosate הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 146)."
+    },
+    "Pyraclostrobin": {
+      "id": 232,
+      "name": "PYRACLOSTROBIN",
+      "reasoning": "Pyraclostrobin הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 232)."
+    },
+    "Penthiopyrad": {
+      "id": 213,
+      "name": "PENTHIOPYRAD",
+      "reasoning": "Penthiopyrad הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 213)."
+    },
+    "Bentazone": {
+      "id": 22,
+      "name": "BENTAZONE",
+      "reasoning": "Bentazone הוא שם כמעט זהה ל-BENTAZONE (ID 22) ברשימת הייחוס, מדובר בהבדל כתיב מינורי בלבד."
+    },
+    "Pendimethalin": {
+      "id": 211,
+      "name": "PENDIMETHALIN",
+      "reasoning": "Pendimethalin הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 211)."
+    },
+    "Clethodim": {
+      "id": 51,
+      "name": "CLETHODIM",
+      "reasoning": "Clethodim הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 51)."
+    },
+    "Permethrin": {
+      "id": 214,
+      "name": "PERMETHRIN",
+      "reasoning": "Permethrin הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 214)."
+    },
+    "Imazamox": {
+      "id": 153,
+      "name": "IMAZAMOX",
+      "reasoning": "Imazamox הוא התאמה מדויקת לשם חומר ההדברה ברשימת הייחוס (ID 153)."
+    },
+    "Norflurazon": {
+      "id": null,
+      "name": null,
+      "reasoning": "Norflurazon אינו מופיע ברשימת חומרי ההדברה ולכן אין התאמה."
+    },
+    "Disulfoton": {
+      "id": null,
+      "name": null,
+      "reasoning": "Disulfoton אינו מופיע ברשימת חומרי ההדברה ולכן אין התאמה."
+    },
+    "Myclobutanil": {
+      "id": 197,
+      "name": "MYCLOBUTANIL",
+      "reasoning": "'Myclobutanil' הוא שם זהה ל-'MYCLOBUTANIL' (ID 197) ברשימת הייחוס."
+    },
+    "Chlorfenapyr": {
+      "id": 41,
+      "name": "CHLORFENAPYR",
+      "reasoning": "'Chlorfenapyr' זהה לאיות ברשימת הייחוס (ID 41)."
+    },
+    "2,4-D": {
+      "id": 4,
+      "name": "2,4-D",
+      "reasoning": "'2,4-D' מופיע בדיוק באותו אופן ברשימת הייחוס (ID 4)."
+    },
+    "Propiconazole": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Propiconazole' אינו מופיע ברשימת הייחוס ולכן לא ניתן למפות."
+    },
+    "Sulfoxaflor": {
+      "id": 256,
+      "name": "SULFOXAFLOR",
+      "reasoning": "'Sulfoxaflor' זהה לאיות ברשימת הייחוס (ID 256)."
+    },
+    "Quintozene": {
+      "id": 208,
+      "name": "PCNB (QUINTOZENE)",
+      "reasoning": "'Quintozene' הוא שם נרדף ל-'PCNB (QUINTOZENE)' (ID 208) ברשימת הייחוס."
+    },
+    "Imazethapyr": {
+      "id": 156,
+      "name": "IMAZETHAPYR",
+      "reasoning": "'Imazethapyr' זהה לאיות ברשימת הייחוס (ID 156)."
+    },
+    "Cyproconazole": {
+      "id": 67,
+      "name": "CYPROCONAZOLE",
+      "reasoning": "'Cyproconazole' הוא התאמה מדויקת ל-CYPROCONAZOLE (ID 67) ברשימת הייחוס."
+    },
+    "Glufosinate-Ammonium": {
+      "id": 145,
+      "name": "GLUFOSINATE AMMONIUM",
+      "reasoning": "'Glufosinate-Ammonium' הוא וריאציה נפוצה של GLUFOSINATE AMMONIUM (ID 145) ברשימת הייחוס."
+    },
+    "Iprodione": {
+      "id": 161,
+      "name": "IPRODIONE",
+      "reasoning": "'Iprodione' הוא התאמה מדויקת ל-IPRODIONE (ID 161) ברשימת הייחוס."
+    },
+    "Paraquat": {
+      "id": 207,
+      "name": "PARAQUAT",
+      "reasoning": "'Paraquat' הוא התאמה מדויקת ל-PARAQUAT (ID 207) ברשימת הייחוס."
+    },
+    "Sedaxane": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Sedaxane' אינו מופיע ברשימת הייחוס ולכן לא ניתן למפות."
+    },
+    "Fluopyram": {
+      "id": 129,
+      "name": "FLUOPYRAM",
+      "reasoning": "'Fluopyram' הוא התאמה מדויקת ל-FLUOPYRAM (ID 129) ברשימת הייחוס."
+    },
+    "Carbendazim": {
+      "id": 36,
+      "name": "CARBENDAZIM",
+      "reasoning": "'Carbendazim' הוא התאמה מדויקת ל-CARBENDAZIM (ID 36) ברשימת הייחוס."
+    },
+    "Flubendiamide": {
+      "id": 120,
+      "name": "FLUBENDIAMIDE",
+      "reasoning": "'Flubendiamide' הוא התאמה מדויקת ל-FLUBENDIAMIDE (ID 120) ברשימת הייחוס."
+    },
+    "Methoxyfenozide": {
+      "id": 189,
+      "name": "METHOXYFENOZIDE",
+      "reasoning": "'Methoxyfenozide' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 189), לכן בוצעה התאמה מדויקת."
+    },
+    "Dithiocarbamates": {
+      "id": 92,
+      "name": "DITHIOCARBAMATES",
+      "reasoning": "'Dithiocarbamates' מופיע ברשימת חומרי ההדברה (ID 92), לכן בוצעה התאמה מדויקת."
+    },
+    "Diflubenzuron": {
+      "id": 80,
+      "name": "DIFLUBENZURON",
+      "reasoning": "'Diflubenzuron' מופיע ברשימת חומרי ההדברה (ID 80), לכן בוצעה התאמה מדויקת."
+    },
+    "Benzovindiflupyr": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Benzovindiflupyr' אינו מופיע ברשימת חומרי ההדברה, ולא נמצאה גרסה דומה בשם, לכן לא בוצעה התאמה."
+    },
+    "Haloxyfop": {
+      "id": 149,
+      "name": "HALOXYFOP R METHYL",
+      "reasoning": "'Haloxyfop' הוא קיצור של 'HALOXYFOP R METHYL' שמופיע ברשימה (ID 149), לכן בוצעה התאמה."
+    },
+    "Dimethenamid-P": {
+      "id": 82,
+      "name": "DIMETHENAMID",
+      "reasoning": "'Dimethenamid-P' הוא איזומר של 'DIMETHENAMID' (ID 82), לכן בוצעה התאמה למרות ההבדל הקטן בשם."
+    },
+    "Flutriafol": {
+      "id": 137,
+      "name": "FLUTRIAFOL",
+      "reasoning": "'Flutriafol' מופיע ברשימת חומרי ההדברה (ID 137), לכן בוצעה התאמה מדויקת."
+    },
+    "Pirimicarb": {
+      "id": 219,
+      "name": "PIRIMICARB",
+      "reasoning": "השם 'Pirimicarb' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 219: PIRIMICARB)."
+    },
+    "Piperonyl Butoxide": {
+      "id": 218,
+      "name": "PIPERONYL BUTOXIDE",
+      "reasoning": "השם 'Piperonyl Butoxide' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 218: PIPERONYL BUTOXIDE)."
+    },
+    "Prothioconazole": {
+      "id": 230,
+      "name": "PROTHIOCONAZOLE",
+      "reasoning": "השם 'Prothioconazole' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 230: PROTHIOCONAZOLE)."
+    },
+    "Methiocarb": {
+      "id": 187,
+      "name": "METHIOCARB",
+      "reasoning": "השם 'Methiocarb' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 187: METHIOCARB)."
+    },
+    "Bifenthrin": {
+      "id": 25,
+      "name": "BIFENTHRIN",
+      "reasoning": "השם 'Bifenthrin' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 25: BIFENTHRIN)."
+    },
+    "Pyrethrins": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Pyrethrins' אינו מופיע ברשימת חומרי ההדברה. ייתכן שמדובר בקבוצת חומרים טבעיים, אך אין התאמה מדויקת לשם זה ברשימה."
+    },
+    "Thiamethoxam": {
+      "id": 268,
+      "name": "THIAMETHOXAM",
+      "reasoning": "השם 'Thiamethoxam' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 268: THIAMETHOXAM)."
+    },
+    "Methamidophos": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Methamidophos' אינו מופיע ברשימת חומרי ההדברה ולכן לא נמצאה התאמה."
+    },
+    "Isoxaflutole": {
+      "id": 166,
+      "name": "ISOXAFLUTOLE",
+      "reasoning": "'Isoxaflutole' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 166)."
+    },
+    "Pyrimethanil": {
+      "id": 237,
+      "name": "PYRIMETHANIL",
+      "reasoning": "'Pyrimethanil' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 237)."
+    },
+    "Clothianidin": {
+      "id": 57,
+      "name": "CLOTHIANIDIN",
+      "reasoning": "'Clothianidin' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 57)."
+    },
+    "Ethoprophos": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Ethoprophos' אינו מופיע ברשימת חומרי ההדברה ולכן לא נמצאה התאמה."
+    },
+    "Fenhexamid": {
+      "id": 110,
+      "name": "FENHEXAMID",
+      "reasoning": "'Fenhexamid' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 110)."
+    },
+    "Spirodiclofen": {
+      "id": 250,
+      "name": "SPIRODICLOFEN",
+      "reasoning": "השם 'Spirodiclofen' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 250: SPIRODICLOFEN)."
+    },
+    "Tetraniliprole": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Tetraniliprole' אינו מופיע ברשימת חומרי ההדברה ולכן לא ניתן למפות."
+    },
+    "Cyprodinil": {
+      "id": 68,
+      "name": "CYPRODINIL",
+      "reasoning": "השם 'Cyprodinil' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 68: CYPRODINIL)."
+    },
+    "Isofetamid": {
+      "id": 163,
+      "name": "ISOFETAMID",
+      "reasoning": "השם 'Isofetamid' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 163: ISOFETAMID)."
+    },
+    "Cyhalothrin (includes lambda-cyhalothrin)": {
+      "id": 168,
+      "name": "LAMBDA CYHALOTHRIN",
+      "reasoning": "השם 'Cyhalothrin (includes lambda-cyhalothrin)' מתייחס ל-lambda-cyhalothrin, שהוא שם מסחרי עבור LAMBDA CYHALOTHRIN (ID 168)."
+    },
+    "Clofentezine": {
+      "id": 53,
+      "name": "CLOFENTEZINE",
+      "reasoning": "השם 'Clofentezine' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 53: CLOFENTEZINE)."
+    },
+    "Mesotrione": {
+      "id": 181,
+      "name": "MESOTRIONE",
+      "reasoning": "השם 'Mesotrione' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 181: MESOTRIONE)."
+    },
+    "Abamectin": {
+      "id": 5,
+      "name": "ABAMECTIN",
+      "reasoning": "השם 'Abamectin' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 5: ABAMECTIN)."
+    },
+    "Fenazaquin": {
+      "id": 107,
+      "name": "FENAZAQUIN",
+      "reasoning": "השם 'Fenazaquin' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 107: FENAZAQUIN)."
+    },
+    "Fluindapyr": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fluindapyr' אינו מופיע ברשימת חומרי ההדברה ולכן לא ניתן למפות."
+    },
+    "Cyflumetofen": {
+      "id": 62,
+      "name": "CYFLUMETOFEN",
+      "reasoning": "השם 'Cyflumetofen' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 62)."
+    },
+    "Tebufenozide": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Tebufenozide' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל, לכן לא נמצאה התאמה."
+    },
+    "Etoxazole": {
+      "id": 102,
+      "name": "ETOXAZOLE",
+      "reasoning": "השם 'Etoxazole' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 102)."
+    },
+    "Cyclaniliprole": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Cyclaniliprole' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל, לכן לא נמצאה התאמה."
+    },
+    "Bifenazate": {
+      "id": 24,
+      "name": "BIFENAZATE",
+      "reasoning": "השם 'Bifenazate' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 24)."
+    },
+    "Fenpropathrin": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fenpropathrin' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל, לכן לא נמצאה התאמה."
+    },
+    "Fludioxonil": {
+      "id": 121,
+      "name": "FLUDIOXONIL",
+      "reasoning": "השם 'Fludioxonil' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 121)."
+    },
+    "Thiacloprid": {
+      "id": 267,
+      "name": "THIACLOPRID",
+      "reasoning": "השם 'Thiacloprid' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 267)."
+    },
+    "Imazapic": {
+      "id": 154,
+      "name": "IMAZAPIC",
+      "reasoning": "'Imazapic' הוא שם זהה לרשימת החומרים (ID 154), ולכן זו התאמה מדויקת."
+    },
+    "Aminocyclopyrachlor": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Aminocyclopyrachlor' אינו מופיע ברשימת החומרים ולכן אין התאמה."
+    },
+    "Chlordane": {
+      "id": 40,
+      "name": "CHLORDANE",
+      "reasoning": "'Chlordane' מופיע ברשימת החומרים (ID 40), ולכן זו התאמה מדויקת."
+    },
+    "MCPA": {
+      "id": 175,
+      "name": "MCPA",
+      "reasoning": "'MCPA' מופיע ברשימת החומרים (ID 175), ולכן זו התאמה מדויקת."
+    },
+    "Imazapyr": {
+      "id": 155,
+      "name": "IMAZAPYR",
+      "reasoning": "'Imazapyr' מופיע ברשימת החומרים (ID 155), ולכן זו התאמה מדויקת."
+    },
+    "Aminopyralid": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Aminopyralid' אינו מופיע ברשימת החומרים ולכן אין התאמה."
+    },
+    "Ethephon": {
+      "id": 99,
+      "name": "ETHEPHON",
+      "reasoning": "Ethephon מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 99), לכן זו התאמה מדויקת."
+    },
+    "Isopyrazam": {
+      "id": null,
+      "name": null,
+      "reasoning": "Isopyrazam אינו מופיע ברשימת חומרי ההדברה, ולכן אין התאמה."
+    },
+    "Metrafenone": {
+      "id": 193,
+      "name": "METRAFENONE",
+      "reasoning": "Metrafenone מופיע ברשימת חומרי ההדברה (ID 193), לכן זו התאמה מדויקת."
+    },
+    "Aldicarb": {
+      "id": null,
+      "name": null,
+      "reasoning": "Aldicarb אינו מופיע ברשימת חומרי ההדברה, לכן אין התאמה."
+    },
+    "Bicyclopyrone": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Bicyclopyrone' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל, לכן לא נמצא התאמה."
+    },
+    "Pinoxaden": {
+      "id": 217,
+      "name": "PINOXADEN",
+      "reasoning": "'Pinoxaden' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 217), לכן זוהי התאמה מדויקת."
+    },
+    "Trinexapac-ethyl": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Trinexapac-ethyl' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצאה התאמה."
+    },
+    "Pyrasulfotole": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pyrasulfotole' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצאה התאמה."
+    },
+    "Metconazole": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Metconazole' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצאה התאמה."
+    },
+    "Oxydemeton-Methyl": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Oxydemeton-Methyl' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצאה התאמה."
+    },
+    "Bixafen": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Bixafen' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצאה התאמה."
+    },
+    "Bitertanol": {
+      "id": 26,
+      "name": "BITERTANOL",
+      "reasoning": "'Bitertanol' מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 26), לכן זוהי התאמה מדויקת."
+    },
+    "Isoflucypram": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Isoflucypram' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצאה התאמה."
+    },
+    "Chlormequat": {
+      "id": 44,
+      "name": "CHLORMEQUAT CHLORIDE",
+      "reasoning": "השם 'Chlormequat' הוא קיצור נפוץ של 'Chlormequat chloride', שמופיע ברשימת הייחוס תחת מזהה 44. לכן זו ההתאמה הנכונה."
+    },
+    "Fenpyroximate": {
+      "id": 114,
+      "name": "FENPYROXIMATE",
+      "reasoning": "השם 'Fenpyroximate' מופיע ברשימת הייחוס בדיוק באיות זהה תחת מזהה 114. לכן זו ההתאמה הנכונה."
+    },
+    "Spinosad": {
+      "id": 249,
+      "name": "SPINOSAD",
+      "reasoning": "השם 'Spinosad' מופיע ברשימת הייחוס בדיוק באיות זהה תחת מזהה 249. לכן זו ההתאמה הנכונה."
+    },
+    "Cycloxydim": {
+      "id": 60,
+      "name": "CYCLOXYDIM",
+      "reasoning": "השם 'Cycloxydim' מופיע ברשימת הייחוס בדיוק באיות זהה תחת מזהה 60. לכן זו ההתאמה הנכונה."
+    },
+    "Terbufos": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Terbufos' אינו מופיע ברשימת חומרי ההדברה ואין לו שם דומה או שם מסחרי מקביל ברשימה, לכן לא נמצא התאמה."
+    },
+    "Fipronil": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fipronil' אינו מופיע ברשימת חומרי ההדברה שבייחוס, ולכן לא ניתן למפות מזהה."
+    },
+    "Etofenprox": {
+      "id": 101,
+      "name": "ETOFENPROX",
+      "reasoning": "השם 'Etofenprox' מופיע ברשימת חומרי ההדברה (ID 101) כהתאמה מדויקת."
+    },
+    "Dinotefuran": {
+      "id": 88,
+      "name": "DINOTEFURAN",
+      "reasoning": "השם 'Dinotefuran' תואם בדיוק לשם באנגלית של קוטל חרקים ברשימת הייחוס (ID 88)."
+    },
+    "Tricyclazole": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Tricyclazole' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם כימי מקביל, לכן לא נמצא התאמה."
+    },
+    "Triflumezopyrim": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Triflumezopyrim' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם כימי מקביל, לכן לא נמצא התאמה."
+    },
+    "Flutolanil": {
+      "id": 136,
+      "name": "FLUTOLANIL",
+      "reasoning": "השם 'Flutolanil' תואם בדיוק לשם באנגלית של קוטל פטריות ברשימת הייחוס (ID 136)."
+    },
+    "Quinclorac": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Quinclorac' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם כימי מקביל, לכן לא נמצא התאמה."
+    },
+    "Difenoconazole": {
+      "id": 79,
+      "name": "DIFENOCONAZOLE",
+      "reasoning": "השם 'Difenoconazole' תואם בדיוק לשם באנגלית של קוטל פטריות ברשימת הייחוס (ID 79)."
+    },
+    "Spinetoram": {
+      "id": 248,
+      "name": "SPINETORAM",
+      "reasoning": "Spinetoram הוא שם זהה לרשימה (ID 248), ולכן ההתאמה ישירה וברורה."
+    },
+    "Acephate": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם Acephate אינו מופיע ברשימת חומרי ההדברה ולכן לא נמצאה התאמה."
+    },
+    "Esfenvalerate": {
+      "id": 97,
+      "name": "ESFENVALERATE",
+      "reasoning": "השם 'Esfenvalerate' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 97)."
+    },
+    "Dimethoate": {
+      "id": 83,
+      "name": "DIMETHOATE",
+      "reasoning": "השם 'Dimethoate' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 83)."
+    },
+    "Fenpicoxamid": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fenpicoxamid' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא ניתן למפות."
+    },
+    "Omethoate": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Omethoate' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא ניתן למפות."
+    },
+    "Florylpicoxamid": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Florylpicoxamid' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא ניתן למפות."
+    },
+    "Triadimefon": {
+      "id": 273,
+      "name": "TRIADIMEFON",
+      "reasoning": "'Triadimefon' מופיע ברשימת הייחוס תחת אותו שם (273), לכן זו התאמה מדויקת."
+    },
+    "Flupyradifurone": {
+      "id": 131,
+      "name": "FLUPYRADIFURONE",
+      "reasoning": "'Flupyradifurone' מופיע ברשימת הייחוס בשם זה (131), לכן זו התאמה מדויקת."
+    },
+    "Prochloraz": {
+      "id": 221,
+      "name": "PROCHLORAZ",
+      "reasoning": "'Prochloraz' מופיע ברשימת הייחוס בשם זה (221), לכן זו התאמה מדויקת."
+    },
+    "Kresoxim-Methyl": {
+      "id": 167,
+      "name": "KRESOXIM METHYL",
+      "reasoning": "'Kresoxim-Methyl' הוא שם זהה ל-KRESOXIM METHYL ברשימת הייחוס (ID 167). לכן, יש התאמה חד-משמעית."
+    },
+    "Triadimenol": {
+      "id": 274,
+      "name": "TRIADIMENOL",
+      "reasoning": "'Triadimenol' מופיע ברשימת הייחוס (ID 274) בשם זהה, ולכן יש התאמה ברורה."
+    },
+    "Dichlobenil": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Dichlobenil' אינו מופיע ברשימת חומרי ההדברה, ולכן לא ניתן למפות."
+    },
+    "Lindane": {
+      "id": 169,
+      "name": "LINDANE",
+      "reasoning": "'Lindane' מופיע ברשימת הייחוס (ID 169) בשם זהה, ולכן יש התאמה ברורה."
+    },
+    "Broflanilide": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Broflanilide' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל ברשימה. לכן, לא ניתן למפות."
+    },
+    "Sulfuryl fluoride": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Sulfuryl fluoride' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל ברשימה. לכן, לא ניתן למפות."
+    },
+    "Malathion": {
+      "id": 172,
+      "name": "MALATHION",
+      "reasoning": "'Malathion' הוא שם מדויק של חומר ההדברה ברשימת הייחוס (ID 172)."
+    },
+    "Dichlorvos": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Dichlorvos' אינו מופיע ברשימת הייחוס בשמו זה, ואין שם כימי דומה מספיק. ייתכן שמדובר בשם מסחרי או שם כימי אחר, אך לא נמצא ברשימה."
+    },
+    "Deltamethrin": {
+      "id": 72,
+      "name": "DELTAMETHRIN",
+      "reasoning": "'Deltamethrin' מופיע ברשימת הייחוס (ID 72) כהתאמה מדויקת."
+    },
+    "Phorate": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Phorate' אינו מופיע ברשימת חומרי ההדברה, לכן אין התאמה."
+    },
+    "Ethiprole": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Ethiprole' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או כינוי מקובל ברשימה. לכן לא ניתן למפות."
+    },
+    "Triazophos": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Triazophos' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או כינוי מקובל ברשימה. לכן לא ניתן למפות."
+    },
+    "Fenitrothion": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fenitrothion' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או כינוי מקובל ברשימה."
+    },
+    "Isoprothiolane": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Isoprothiolane' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או כינוי מקובל ברשימה."
+    },
+    "Methoprene": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Methoprene' אינו מופיע ברשימת חומרי ההדברה. ייתכן שמדובר בשם מסחרי או חומר שאינו ברשימה."
+    },
+    "Inpyrfluxam": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Inpyrfluxam' אינו מופיע ברשימת חומרי ההדברה. ייתכן שמדובר בשם חדש או שאינו כלול ברשימה."
+    },
+    "Fenthion": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fenthion' אינו מופיע ברשימת חומרי ההדברה ולכן לא ניתן למפות."
+    },
+    "Pirimiphos-Methyl": {
+      "id": 220,
+      "name": "PIRIMIPHOS-METHYL",
+      "reasoning": "השם 'Pirimiphos-Methyl' תואם באופן מדויק לשם ברשימת חומרי ההדברה (ID 220: PIRIMIPHOS-METHYL)."
+    },
+    "Acetamiprid": {
+      "id": 7,
+      "name": "ACETAMIPRID",
+      "reasoning": "השם 'Acetamiprid' מופיע ברשימת הייחוס תחת מזהה 7. זו התאמה מדויקת לשם הכימי."
+    },
+    "Novaluron": {
+      "id": 198,
+      "name": "NOVALURON",
+      "reasoning": "השם 'Novaluron' מופיע ברשימת הייחוס תחת מזהה 198. זו התאמה מדויקת לשם הכימי."
+    },
+    "Ametoctradin": {
+      "id": 14,
+      "name": "AMETOCTRADIN",
+      "reasoning": "השם 'Ametoctradin' תואם בדיוק לשם ברשימת הייחוס (ID 14), לכן זו ההתאמה הנכונה."
+    },
+    "Hydrogen Phosphide": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Hydrogen Phosphide' אינו מופיע ברשימת הייחוס, ייתכן שמדובר בשם אחר של חומר (כמו Phosphine), אך אין התאמה מדויקת ולכן לא ניתן לשייך."
+    },
+    "Pyriofenone": {
+      "id": 239,
+      "name": "PYRIOFENONE",
+      "reasoning": "השם 'Pyriofenone' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 239: PYRIOFENONE)."
+    },
+    "Folpet": {
+      "id": 139,
+      "name": "FOLPET",
+      "reasoning": "השם 'Folpet' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 139: FOLPET)."
+    },
+    "Dithianon": {
+      "id": 91,
+      "name": "DITHIANON",
+      "reasoning": "השם 'Dithianon' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 91: DITHIANON)."
+    },
+    "Metaflumizone": {
+      "id": 182,
+      "name": "METAFLUMIZONE",
+      "reasoning": "השם 'Metaflumizone' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 182: METAFLUMIZONE)."
+    },
+    "Parathion-Methyl": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Parathion-Methyl' אינו מופיע ברשימת חומרי ההדברה ולכן לא ניתן למפות."
+    },
+    "Zoxamide": {
+      "id": 284,
+      "name": "ZOXAMIDE",
+      "reasoning": "השם 'Zoxamide' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 284: ZOXAMIDE)."
+    },
+    "Mandestrobin": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Mandestrobin' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא ניתן למפות."
+    },
+    "Dimethomorph": {
+      "id": 84,
+      "name": "DIMETHOMORPH",
+      "reasoning": "Dimethomorph מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 84), לכן המיפוי ישיר."
+    },
+    "Fenpyrazamine": {
+      "id": 113,
+      "name": "FENPYRAZAMINE",
+      "reasoning": "השם 'Fenpyrazamine' תואם בדיוק לרשימת חומרי ההדברה (ID 113), לכן המיפוי ישיר."
+    },
+    "Penconazole": {
+      "id": 209,
+      "name": "PENCONAZOLE",
+      "reasoning": "Penconazole מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 209), לכן המיפוי ישיר."
+    },
+    "Pyraziflumid": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Pyraziflumid' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא ניתן למפות."
+    },
+    "Captan": {
+      "id": 34,
+      "name": "CAPTAN",
+      "reasoning": "Captan מופיע ברשימת חומרי ההדברה תחת אותו שם (ID 34), לכן המיפוי ישיר."
+    },
+    "Cyazofamid": {
+      "id": 59,
+      "name": "CYAZOFAMID",
+      "reasoning": "'Cyazofamid' הוא התאמה מדויקת לשם באנגלית של חומר ההדברה ברשימת הרפרנס (ID 59)."
+    },
+    "Triflumizole": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Triflumizole' אינו מופיע ברשימת חומרי ההדברה באנגלית, ולא נמצאה התאמה קרובה או שם דומה. ייתכן שהחומר אינו ברשימה."
+    },
+    "Metalaxyl": {
+      "id": 183,
+      "name": "METALAXYL",
+      "reasoning": "השם 'Metalaxyl' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 183: METALAXYL)."
+    },
+    "Fosetyl Al": {
+      "id": 144,
+      "name": "FOSETYL AL",
+      "reasoning": "'Fosetyl Al' הוא שם זהה לשם ברשימת חומרי ההדברה (ID 144: FOSETYL AL)."
+    },
+    "Quinoxyfen": {
+      "id": 243,
+      "name": "QUINOXYFEN",
+      "reasoning": "'Quinoxyfen' מופיע ברשימת חומרי ההדברה (ID 243: QUINOXYFEN) כהתאמה מדויקת."
+    },
+    "Emamectin benzoate": {
+      "id": 95,
+      "name": "EMAMECTIN BENZOATE",
+      "reasoning": "השם 'Emamectin benzoate' תואם בדיוק ל-EMAMECTIN BENZOATE ברשימת הייחוס (ID 95)."
+    },
+    "Flufenoxuron": {
+      "id": 124,
+      "name": "FLUFENOXURON",
+      "reasoning": "Flufenoxuron הוא שם מדויק של חומר הדברה ברשימה (ID 124: FLUFENOXURON)."
+    },
+    "Endosulfan": {
+      "id": null,
+      "name": null,
+      "reasoning": "Endosulfan אינו מופיע ברשימת חומרי ההדברה ולכן לא ניתן למפות אותו."
+    },
+    "Dicofol": {
+      "id": null,
+      "name": null,
+      "reasoning": "Dicofol אינו מופיע ברשימת חומרי ההדברה ולכן לא ניתן למפות אותו."
+    },
+    "Triforine": {
+      "id": 281,
+      "name": "TRIFORINE",
+      "reasoning": "'Triforine' הוא התאמה מדויקת לשם TRIFORINE (מזהה 281) ברשימת חומרי ההדברה."
+    },
+    "Cyhexatin": {
+      "id": 64,
+      "name": "CYHEXATIN",
+      "reasoning": "השם 'Cyhexatin' מופיע ברשימת הייחוס תחת אותו שם (ID 64), ולכן זו התאמה מדויקת."
+    },
+    "Phosmet": {
+      "id": 215,
+      "name": "PHOSMET",
+      "reasoning": "השם 'Phosmet' מופיע ברשימת הייחוס תחת אותו שם (ID 215), ולכן זו התאמה מדויקת."
+    },
+    "Azocyclotin": {
+      "id": 18,
+      "name": "AZOCYCLOTIN",
+      "reasoning": "Azocyclotin הוא התאמה מדויקת לשם ברשימת חומרי ההדברה (ID 18)."
+    },
+    "Chlorothalonil": {
+      "id": 45,
+      "name": "CHLOROTHALONIL",
+      "reasoning": "Chlorothalonil הוא התאמה מדויקת לשם ברשימת חומרי ההדברה (ID 45)."
+    },
+    "Dinocap": {
+      "id": 87,
+      "name": "DINOCAP",
+      "reasoning": "Dinocap מופיע ברשימת הייחוס באנגלית בדיוק כפי שנכתב, עם מזהה 87."
+    },
+    "Valifenalate": {
+      "id": 283,
+      "name": "VALIFENALATE",
+      "reasoning": "Valifenalate הוא התאמה מדויקת לשם החומר הפעיל ברשימת הרפרנס (VALIFENALATE, מזהה 283)."
+    },
+    "Amitrole": {
+      "id": null,
+      "name": null,
+      "reasoning": "Amitrole אינו מופיע ברשימת חומרי ההדברה ברפרנס ולכן לא ניתן למפות אותו."
+    },
+    "Meptyldinocap": {
+      "id": 179,
+      "name": "MEPTYLDINOCAP",
+      "reasoning": "השם 'Meptyldinocap' תואם בדיוק לשם באנגלית של קוטל המזיקים ברשימת הייחוס (ID 179: MEPTYLDINOCAP)."
+    },
+    "Fenamidone": {
+      "id": 104,
+      "name": "FENAMIDONE",
+      "reasoning": "השם 'Fenamidone' תואם בדיוק לשם באנגלית של קוטל המזיקים ברשימת הייחוס (ID 104: FENAMIDONE)."
+    },
+    "Benalaxyl": {
+      "id": 20,
+      "name": "BENALAXYL",
+      "reasoning": "השם 'Benalaxyl' תואם בדיוק לחומר ההדברה ברשימה (ID 20: BENALAXYL)."
+    },
+    "Fluazaindolizine": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Fluazaindolizine' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם כימי קרוב ברשימה. ייתכן שמדובר בחומר חדש או בשם מסחרי שאינו מופיע ברשימת הייחוס."
+    },
+    "Heptachlor": {
+      "id": 150,
+      "name": "HEPTACHLOR",
+      "reasoning": "'Heptachlor' הוא שם כימי מדויק התואם ל-ID 150 ברשימת חומרי ההדברה."
+    },
+    "Aldrin and Dieldrin": {
+      "id": 13,
+      "name": "ALDRIN",
+      "reasoning": "השם 'Aldrin and Dieldrin' מתייחס לשני חומרים: Aldrin ו-Dieldrin. ברשימת הרפרנס מופיע רק Aldrin (ID 13), אך Dieldrin אינו מופיע. לכן, מופה רק ל-Aldrin."
+    },
+    "Acibenzolar-S-methyl": {
+      "id": 8,
+      "name": "ACIBENZOLAR-S-METHYL",
+      "reasoning": "השם 'Acibenzolar-S-methyl' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 8)."
+    },
+    "Thiabendazole": {
+      "id": 266,
+      "name": "THIABENDAZOLE",
+      "reasoning": "השם 'Thiabendazole' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 266)."
+    },
+    "Pyriproxyfen": {
+      "id": 240,
+      "name": "PYRIPROXYFEN",
+      "reasoning": "השם 'Pyriproxyfen' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 240)."
+    },
+    "Isotianil": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Isotianil' אינו מופיע ברשימת חומרי ההדברה שבייחוס, ולכן לא ניתן לבצע התאמה."
+    },
+    "Lufenuron": {
+      "id": 171,
+      "name": "LUFENURON",
+      "reasoning": "'Lufenuron' הוא שם זהה לשם ברשימת הייחוס (ID 171), ולכן ההתאמה ישירה."
+    },
+    "Amitraz": {
+      "id": 16,
+      "name": "AMITRAZ",
+      "reasoning": "'Amitraz' מופיע ברשימת הייחוס (ID 16) כהתאמה מדויקת לשם באנגלית."
+    },
+    "Cadusafos": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Cadusafos' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או שם מסחרי מקביל ברשימה."
+    },
+    "Fenamiphos": {
+      "id": 105,
+      "name": "FENAMIPHOS",
+      "reasoning": "'Fenamiphos' תואם בדיוק לשם 'FENAMIPHOS' ברשימת חומרי ההדברה."
+    },
+    "Fenvalerate": {
+      "id": 97,
+      "name": "ESFENVALERATE",
+      "reasoning": "השם 'Fenvalerate' דומה מאוד לשם 'ESFENVALERATE' (ID 97) ברשימת הרפרנס, שהוא איזומר פעיל של אותו חומר. לא נמצאה אפשרות נוספת מתאימה."
+    },
+    "Profenofos": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Profenofos' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא ניתן למפות."
+    },
+    "Cyromazine": {
+      "id": 70,
+      "name": "CYROMAZINE",
+      "reasoning": "השם 'Cyromazine' תואם במדויק לשם CYROMAZINE (ID 70) ברשימת הרפרנס."
+    },
+    "Flutianil": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Flutianil' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה או כינוי מקובל ברשימה. ייתכן שמדובר בשם מסחרי או חומר שאינו ברשימת הייחוס."
+    },
+    "Diphenylamine": {
+      "id": 89,
+      "name": "DIPHENYLAMINE",
+      "reasoning": "השם 'Diphenylamine' מופיע ברשימת חומרי ההדברה תחת אותו שם בדיוק (ID 89)."
+    },
+    "Ethoxyquin": {
+      "id": 100,
+      "name": "ETHOXYQUIN",
+      "reasoning": "השם 'Ethoxyquin' תואם במדויק לשם האנגלי של חומר הדברה מספר 100 ברשימת הייחוס."
+    },
+    "Dodine": {
+      "id": 94,
+      "name": "DODINE",
+      "reasoning": "השם 'Dodine' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 94: DODINE)."
+    },
+    "DDT": {
+      "id": 71,
+      "name": "D.D.T.",
+      "reasoning": "השם 'DDT' הוא קיצור נפוץ ל-'D.D.T.' שמופיע ברשימת הייחוס (ID 71). מדובר באותו חומר הדברה."
+    },
+    "Vinclozolin": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Vinclozolin' אינו מופיע ברשימת חומרי ההדברה, ולכן אין התאמה."
+    },
+    "Azinphos-Methyl": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Azinphos-Methyl' אינו מופיע ברשימת חומרי ההדברה, ולכן אין התאמה."
+    },
+    "1,4-Dimethylnaphthalene": {
+      "id": 2,
+      "name": "1,4-DIMETHYLNAPHTALENE",
+      "reasoning": "השם '1,4-Dimethylnaphthalene' תואם בדיוק לרשימת חומרי ההדברה תחת מזהה 2."
+    },
+    "Tolclofos-Methyl": {
+      "id": 271,
+      "name": "TOLCLOFOS METHYL",
+      "reasoning": "השם 'Tolclofos-Methyl' תואם בדיוק לשם 'TOLCLOFOS METHYL' ברשימת חומרי ההדברה (ID 271)."
+    },
+    "Oxamyl": {
+      "id": 202,
+      "name": "OXAMYL",
+      "reasoning": "השם 'Oxamyl' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 202: OXAMYL)."
+    },
+    "Triflumuron": {
+      "id": 280,
+      "name": "TRIFLUMURON",
+      "reasoning": "השם 'Triflumuron' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 280: TRIFLUMURON)."
+    },
+    "Propamocarb": {
+      "id": 224,
+      "name": "PROPAMOCARB HCL",
+      "reasoning": "'Propamocarb' הוא שם זהה לשם באנגלית ברשימת חומרי ההדברה (ID 224: PROPAMOCARB HCL), ולכן זו התאמה ישירה."
+    },
+    "Spiropidion": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Spiropidion' אינו מופיע ברשימת חומרי ההדברה, ואין שם דומה מספיק. ייתכן שמדובר בשם מסחרי או חומר חדש שאינו ברשימה."
+    },
+    "Chlorpropham": {
+      "id": 46,
+      "name": "CHLORPROPHAM",
+      "reasoning": "השם 'Chlorpropham' תואם בדיוק לשם ברשימת חומרי ההדברה (ID 46: CHLORPROPHAM)."
+    },
+    "Dimethipin": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Dimethipin' אינו מופיע ברשימת חומרי ההדברה ואין שם דומה מספיק, לכן לא נמצא מיפוי מתאים."
+    },
+    "Flumethrin": {
+      "id": null,
+      "name": null,
+      "reasoning": "השם 'Flumethrin' אינו מופיע ברשימת חומרי ההדברה, ולא נמצאה וריאציה דומה. לכן לא ניתן למפות."
+    },
+    "Endrin": {
+      "id": 96,
+      "name": "ENDRIN",
+      "reasoning": "השם 'Endrin' תואם בדיוק לשם באנגלית ברשימת חומרי ההדברה (ID 96: ENDRIN)."
+    },
+    "Thiophanate-Methyl": {
+      "id": null,
+      "name": null,
+      "reasoning": "Thiophanate-Methyl אינו מופיע ברשימת חומרי ההדברה. ייתכן שהשם אינו קיים או נכתב בצורה שונה."
+    },
+    "Maleic Hydrazide": {
+      "id": 173,
+      "name": "MALEIC HYDRAZIDE",
+      "reasoning": "'Maleic Hydrazide' מופיע ברשימת הייחוס באנגלית כהתאמה מדויקת ל-MALEIC HYDRAZIDE. לכן זו התאמה חד-משמעית."
+    },
+    "Pyflubumide": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pyflubumide' אינו מופיע ברשימת חומרי ההדברה, ולכן לא ניתן להתאים."
+    },
+    "Fluazinam": {
+      "id": 119,
+      "name": "FLUAZINAM",
+      "reasoning": "'Fluazinam' מופיע ברשימת הייחוס כחומר הדברה (ID 119), לכן זו התאמה ישירה."
+    },
+    "Pyridate": {
+      "id": 236,
+      "name": "PYRIDATE",
+      "reasoning": "'Pyridate' מופיע ברשימת הייחוס (ID 236), לכן זו התאמה ישירה."
+    },
+    "Benzpyrimoxan": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Benzpyrimoxan' אינו מופיע ברשימת חומרי ההדברה, ולכן לא ניתן להתאים."
+    },
+    "Natamycin": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Natamycin' אינו מופיע ברשימת חומרי ההדברה, ולכן לא ניתן להתאים."
+    },
+    "Pyrifluquinazon": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Pyrifluquinazon' אינו מופיע ברשימת חומרי ההדברה, ולכן לא ניתן להתאים."
+    },
+    "Propylene oxide": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Propylene oxide' אינו מופיע ברשימת חומרי ההדברה, ולכן לא ניתן להתאים."
+    },
+    "Phenthoate": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Phenthoate' אינו מופיע ברשימת חומרי ההדברה, ואין שם דומה או כינוי מקובל, לכן אין התאמה."
+    },
+    "Metalaxyl-M": {
+      "id": 183,
+      "name": "METALAXYL",
+      "reasoning": "'Metalaxyl-M' הוא שם נוסף ל-METALAXYL (מזהה 183), לפי שמות מסחריים ונגזרות, לכן זו התאמה."
+    },
+    "Pymetrozine": {
+      "id": 231,
+      "name": "PYMETROZINE",
+      "reasoning": "'Pymetrozine' מופיע ברשימת חומרי ההדברה תחת מזהה 231, לכן זו התאמה ישירה."
+    },
+    "Chlorpyrifos": {
+      "id": 47,
+      "name": "CHLORPYRIFOS",
+      "reasoning": "'Chlorpyrifos' מופיע ברשימת חומרי ההדברה תחת מזהה 47, לכן זו התאמה ישירה."
+    },
+    "Phosphonic acid": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Phosphonic acid' אינו מופיע ברשימת חומרי ההדברה, ואין שם דומה או כינוי מקובל, לכן אין התאמה."
+    },
+    "Ethion": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Ethion' אינו מופיע ברשימת חומרי ההדברה שבידינו, ולכן לא ניתן למפות."
+    },
+    "Parathion": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Parathion' אינו מופיע ברשימת חומרי ההדברה שבידינו, ולכן לא ניתן למפות."
+    },
+    "Phosalone": {
+      "id": null,
+      "name": null,
+      "reasoning": "'Phosalone' אינו מופיע ברשימת חומרי ההדברה שבידינו, ולכן לא ניתן למפות."
+    }
+  }
+}
