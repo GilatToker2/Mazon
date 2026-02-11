@@ -25,21 +25,21 @@ def load_reference_lists():
 
 @st.cache_data
 def load_mapped_datasets():
-    """Load all mapped datasets"""
+    """Load all mapped datasets (Hebrew versions)"""
     datasets = {}
 
-    # Load IL dataset
-    il_path = Path("output/mapped_datasets/IL_He_with_ids.csv")
+    # Load IL dataset (Hebrew)
+    il_path = Path("output/mapped_datasets/IL_He_with_ids_he.csv")
     if il_path.exists():
         datasets['IL'] = pd.read_csv(il_path, encoding='utf-8-sig')
 
-    # Load EU dataset
-    eu_path = Path("output/mapped_datasets/EU_with_ids.csv")
+    # Load EU dataset (Hebrew)
+    eu_path = Path("output/mapped_datasets/EU_with_ids_he.csv")
     if eu_path.exists():
         datasets['EU'] = pd.read_csv(eu_path, encoding='utf-8-sig', low_memory=False)
 
-    # Load CODEX dataset
-    codex_path = Path("output/mapped_datasets/CODEX_with_ids.csv")
+    # Load CODEX dataset (Hebrew)
+    codex_path = Path("output/mapped_datasets/CODEX_with_ids_he.csv")
     if codex_path.exists():
         datasets['CODEX'] = pd.read_csv(codex_path, encoding='utf-8-sig')
 
@@ -50,10 +50,14 @@ def query_data(crop_id, pesticide_id, datasets):
     """Query all datasets for matching crop and pesticide"""
     results = {}
 
+    # Hebrew column names for the mapping columns
+    crop_id_col = 'מזהה גידול ממופה'
+    pesticide_id_col = 'מזהה חומר הדברה ממופה'
+
     for dataset_name, df in datasets.items():
         # Convert to numeric for comparison (handles int, float, and string types)
-        df_crop_ids = pd.to_numeric(df['crop_id_mapping'], errors='coerce')
-        df_pesticide_ids = pd.to_numeric(df['pesticide_id_mapping'], errors='coerce')
+        df_crop_ids = pd.to_numeric(df[crop_id_col], errors='coerce')
+        df_pesticide_ids = pd.to_numeric(df[pesticide_id_col], errors='coerce')
 
         # Filter rows where crop_id_mapping and pesticide_id_mapping match
         mask = (df_crop_ids == crop_id) & (df_pesticide_ids == pesticide_id)
@@ -61,8 +65,12 @@ def query_data(crop_id, pesticide_id, datasets):
 
         if not filtered_df.empty:
             # Fix data types for display - convert to int where possible
-            filtered_df['crop_id_mapping'] = df_crop_ids[mask].astype('Int64')
-            filtered_df['pesticide_id_mapping'] = df_pesticide_ids[mask].astype('Int64')
+            filtered_df[crop_id_col] = df_crop_ids[mask].astype('Int64')
+            filtered_df[pesticide_id_col] = df_pesticide_ids[mask].astype('Int64')
+
+            # Reverse column order for RTL display (right to left)
+            filtered_df = filtered_df[filtered_df.columns[::-1]]
+
             results[dataset_name] = filtered_df
 
     return results
@@ -107,6 +115,20 @@ st.markdown("""
 
     div[data-testid="stMarkdownContainer"] {
         direction: rtl !important;
+        text-align: right !important;
+    }
+
+    /* RTL for dataframe tables */
+    div[data-testid="stDataFrame"] {
+        direction: rtl !important;
+    }
+
+    div[data-testid="stDataFrame"] table {
+        direction: rtl !important;
+    }
+
+    div[data-testid="stDataFrame"] th,
+    div[data-testid="stDataFrame"] td {
         text-align: right !important;
     }
 </style>
