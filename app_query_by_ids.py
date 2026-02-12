@@ -238,27 +238,9 @@ st.markdown("""
     }
 
     .moh-logo {
-        font-size: 2rem;
-        filter: drop-shadow(0 2px 4px rgba(0, 86, 179, 0.2));
-    }
-
-    .moh-brand {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .moh-brand-title {
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: #0056b3;
-        line-height: 1.2;
-    }
-
-    .moh-brand-subtitle {
-        font-size: 0.875rem;
-        color: #64748b;
-        font-weight: 400;
+        height: 60px;
+        width: auto;
+        object-fit: contain;
     }
 
     .moh-header-center {
@@ -289,9 +271,12 @@ st.markdown("""
     .moh-header-left {
         display: flex;
         align-items: center;
-        font-weight: 600;
-        color: #475569;
-        font-size: 1rem;
+    }
+
+    .kpmg-logo {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
     }
 
     /* ===== FILTER CARD COMPONENT ===== */
@@ -475,19 +460,19 @@ st.markdown("""
     }
 
     .region-card.usa .region-card-header {
-        background-color: #ffe4e6;
-    }
-
-    .region-card.usa .region-name {
-        color: #e11d48;
-    }
-
-    .region-card.codex .region-card-header {
         background-color: #d1fae5;
     }
 
-    .region-card.codex .region-name {
+    .region-card.usa .region-name {
         color: #059669;
+    }
+
+    .region-card.codex .region-card-header {
+        background-color: #ccfbf1;
+    }
+
+    .region-card.codex .region-name {
+        color: #0891b2;
     }
 
     /* ===== REGION TABLE STYLING ===== */
@@ -646,33 +631,30 @@ st.markdown("""
 # CUSTOM HEADER COMPONENT
 # ============================================================================
 
-st.markdown("""
-<div class="moh-header">
-    <div class="moh-header-right">
-        <div class="moh-logo">🛡️</div>
-        <div class="moh-brand">
-            <div class="moh-brand-title">משרד הבריאות</div>
-            <div class="moh-brand-subtitle">Ministry of Health</div>
-        </div>
-    </div>
+# Create header with Streamlit columns
+header_cols = st.columns([1, 3, 1])
 
-    <div class="moh-header-center">
-        <h1 class="moh-title">
-            <span class="moh-badge">POC Version</span>
+with header_cols[0]:
+    st.image("Img/health.jpg", width=200)
+
+with header_cols[1]:
+    st.markdown("""
+    <div style="text-align: center; padding-top: 10px;">
+        <h1 style="font-size: 1.5rem; font-weight: 700; color: #1e293b; margin: 0;">
+            <span style="display: inline-block; background: linear-gradient(135deg, #e11d48 0%, #f43f5e 100%); color: white; font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 9999px; margin-left: 0.5rem; box-shadow: 0 2px 4px rgba(225, 29, 72, 0.3);">POC Version</span>
             מערכת השוואת רמות MRL
         </h1>
     </div>
+    """, unsafe_allow_html=True)
 
-    <div class="moh-header-left">
-        KPMG
-    </div>
-</div>
-""", unsafe_allow_html=True)
+with header_cols[2]:
+    st.image("Img/kpmg.jpg", width=120)
+
+st.markdown("<hr style='margin: 1rem 0; border: none; border-top: 1px solid #e2e8f0;'>", unsafe_allow_html=True)
 
 # ============================================================================
 # LOAD DATA
 # ============================================================================
-
 with st.spinner("טוען נתונים..."):
     crops, pesticides = load_reference_lists()
     datasets = load_mapped_datasets()
