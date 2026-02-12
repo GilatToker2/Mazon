@@ -619,13 +619,28 @@ async def main():
         limit_rows=TEST_ROWS if TEST_MODE else None
     )
 
+    # Process US dataset (English)
+    await process_dataset(
+        dataset_path=Path("Datasets/US/US_long_format.csv"),
+        dataset_name="US",
+        crop_col="Crop",
+        pesticide_col="Pesticide",
+        language="en",
+        crops_list=crops_list,
+        pesticides_list=pesticides_list,
+        output_path=output_dir / "US_with_ids.csv",
+        chunk_size=20,
+        limit_rows=TEST_ROWS if TEST_MODE else None
+    )
+
     print("\n" + "=" * 70)
     print("All datasets processed successfully!")
     print("=" * 70)
     print(f"\nOutput files:")
-    print(f"  - {output_dir / 'IL_He_with_ids.csv'}")
-    print(f"  - {output_dir / 'EU_with_ids.csv'}")
-    print(f"  - {output_dir / 'CODEX_with_ids.csv'}")
+    # print(f"  - {output_dir / 'IL_He_with_ids.csv'}")
+    # print(f"  - {output_dir / 'EU_with_ids.csv'}")
+    # print(f"  - {output_dir / 'CODEX_with_ids.csv'}")
+    print(f"  - {output_dir / 'US_with_ids.csv'}")
     print("=" * 70)
 
 

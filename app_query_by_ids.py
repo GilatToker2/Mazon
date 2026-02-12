@@ -49,6 +49,11 @@ def load_mapped_datasets():
     if codex_path.exists():
         datasets['CODEX'] = pd.read_csv(codex_path, encoding='utf-8-sig')
 
+    # Load US dataset (Hebrew)
+    us_path = Path("output/mapped_datasets/US_with_ids_he.csv")
+    if us_path.exists():
+        datasets['US'] = pd.read_csv(us_path, encoding='utf-8-sig')
+
     return datasets
 
 
@@ -736,7 +741,8 @@ if selected_crop_label and selected_crop_label != "" and selected_pesticide_labe
         region_config = {
             'IL': {'class': 'israel', 'flag': '🇮🇱', 'icon': '📋', 'name': 'ישראל'},
             'EU': {'class': 'eu', 'flag': '🇪🇺', 'icon': '🌍', 'name': 'איחוד אירופי'},
-            'CODEX': {'class': 'codex', 'flag': '🌐', 'icon': '📊', 'name': 'קודקס'}
+            'CODEX': {'class': 'codex', 'flag': '🌐', 'icon': '📊', 'name': 'קודקס'},
+            'US': {'class': 'usa', 'flag': '🇺🇸', 'icon': '🗽', 'name': 'ארצות הברית'}
         }
 
         # Start results grid

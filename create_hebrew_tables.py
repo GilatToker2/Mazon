@@ -60,6 +60,14 @@ IL_TRANSLATIONS = {
     **MAPPING_TRANSLATIONS
 }
 
+US_TRANSLATIONS = {
+    'Crop': 'גידול',
+    'Pesticide': 'חומר הדברה',
+    'MRL': 'MRL (PPM)',
+    'Source': 'מקור',
+    **MAPPING_TRANSLATIONS
+}
+
 
 def translate_and_reverse_columns(df, translation_dict):
     """
@@ -137,6 +145,17 @@ def main():
         create_hebrew_csv(codex_input, codex_output, CODEX_TRANSLATIONS)
     else:
         print(f"⚠ Warning: {codex_input} not found")
+
+    print()
+
+    # Process US dataset
+    us_input = output_dir / "US_with_ids.csv"
+    us_output = output_dir / "US_with_ids_he.csv"
+
+    if us_input.exists():
+        create_hebrew_csv(us_input, us_output, US_TRANSLATIONS)
+    else:
+        print(f"⚠ Warning: {us_input} not found")
 
     print("\n✅ Hebrew CSV files created successfully!")
     print("   Files are saved with RTL column order and Hebrew column names")
