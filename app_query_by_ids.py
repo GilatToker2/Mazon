@@ -57,6 +57,26 @@ def load_mapped_datasets():
     return datasets
 
 
+def check_id_match(value, target_id):
+    """בדוק אם value מכיל את target_id (יכול להיות ערך בודד או רשימת JSON)"""
+    if pd.isna(value):
+        return False
+
+    # אם זה מחרוזת שמתחילה ב-[ זו רשימת JSON
+    if isinstance(value, str) and value.strip().startswith('['):
+        try:
+            id_list = json.loads(value)
+            return target_id in id_list
+        except:
+            pass
+
+    # אחרת, נסה להשוות כמספר
+    try:
+        return float(value) == target_id
+    except:
+        return False
+
+
 def query_data(crop_id, pesticide_id, datasets):
     """Query all datasets for matching crop and pesticide"""
     results = {}
@@ -66,19 +86,15 @@ def query_data(crop_id, pesticide_id, datasets):
     pesticide_id_col = 'מזהה חומר הדברה ממופה'
 
     for dataset_name, df in datasets.items():
-        # Convert to numeric for comparison
-        df_crop_ids = pd.to_numeric(df[crop_id_col], errors='coerce')
-        df_pesticide_ids = pd.to_numeric(df[pesticide_id_col], errors='coerce')
+        # השתמש ב-apply לבדוק כל ערך בעמודה
+        crop_mask = df[crop_id_col].apply(lambda x: check_id_match(x, crop_id))
+        pesticide_mask = df[pesticide_id_col].apply(lambda x: check_id_match(x, pesticide_id))
 
-        # Filter rows
-        mask = (df_crop_ids == crop_id) & (df_pesticide_ids == pesticide_id)
+        # שלב את שתי המסכות
+        mask = crop_mask & pesticide_mask
         filtered_df = df[mask].copy()
 
         if not filtered_df.empty:
-            # Fix data types
-            filtered_df[crop_id_col] = df_crop_ids[mask].astype('Int64')
-            filtered_df[pesticide_id_col] = df_pesticide_ids[mask].astype('Int64')
-
             results[dataset_name] = filtered_df
 
     return results
@@ -635,7 +651,7 @@ st.markdown("""
 header_cols = st.columns([1, 3, 1])
 
 with header_cols[0]:
-    st.image("Img/health.jpg", width=200)
+    st.image("Img/health.png", width=200)
 
 with header_cols[1]:
     st.markdown("""
@@ -655,9 +671,9 @@ st.markdown("<hr style='margin: 1rem 0; border: none; border-top: 1px solid #e2e
 # ============================================================================
 # LOAD DATA
 # ============================================================================
-with st.spinner("טוען נתונים..."):
-    crops, pesticides = load_reference_lists()
-    datasets = load_mapped_datasets()
+
+crops, pesticides = load_reference_lists()
+datasets = load_mapped_datasets()
 
 # ============================================================================
 # FILTER SECTION (STYLED CARD)
