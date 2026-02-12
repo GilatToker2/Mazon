@@ -770,7 +770,12 @@ if selected_crop_label and selected_crop_label != "" and selected_pesticide_labe
 
             # Display dataframe with RTL support (from original approach)
             # Reverse column order for RTL
-            df_display = df[df.columns[::-1]]
+            df_display = df[df.columns[::-1]].copy()
+
+            # For Israel dataset, format the date column to show only date without time
+            if dataset_name == 'IL' and 'תאריך עדכון' in df_display.columns:
+                df_display['תאריך עדכון'] = pd.to_datetime(df_display['תאריך עדכון'], errors='coerce').dt.strftime('%Y-%m-%d')
+
             st.dataframe(df_display, use_container_width=True, hide_index=True)
 
         st.markdown('</div>', unsafe_allow_html=True)
