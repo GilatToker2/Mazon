@@ -1,0 +1,707 @@
+[
+  {
+    "id": 1,
+    "name_he": "אבוקדו",
+    "name_en": "AVOCADO"
+  },
+  {
+    "id": 2,
+    "name_he": "אבטיח",
+    "name_en": "WATERMELON"
+  },
+  {
+    "id": 3,
+    "name_he": "אגוז אדמה",
+    "name_en": "PEANUT"
+  },
+  {
+    "id": 4,
+    "name_he": "אגס",
+    "name_en": "PEAR"
+  },
+  {
+    "id": 5,
+    "name_he": "אורגנו",
+    "name_en": "OREGANO"
+  },
+  {
+    "id": 6,
+    "name_he": "אזוב מצוי (ראה גם זעתר)",
+    "name_en": "HYSSOP"
+  },
+  {
+    "id": 7,
+    "name_he": "אנונה",
+    "name_en": "ANONA"
+  },
+  {
+    "id": 8,
+    "name_he": "אספסת",
+    "name_en": "ALFALFA"
+  },
+  {
+    "id": 9,
+    "name_he": "אסתר",
+    "name_en": "ASTER"
+  },
+  {
+    "id": 10,
+    "name_he": "אפון",
+    "name_en": "PEAS"
+  },
+  {
+    "id": 11,
+    "name_he": "אפונת שלג",
+    "name_en": "SNOW PEAS"
+  },
+  {
+    "id": 12,
+    "name_he": "אפרסמון",
+    "name_en": "PERSIMMON"
+  },
+  {
+    "id": 13,
+    "name_he": "אפרסק",
+    "name_en": "PEACH"
+  },
+  {
+    "id": 14,
+    "name_he": "בטטה",
+    "name_en": "SWEET POTATO"
+  },
+  {
+    "id": 15,
+    "name_he": "ביצים",
+    "name_en": "EGGS"
+  },
+  {
+    "id": 16,
+    "name_he": "בננה",
+    "name_en": "BANANA"
+  },
+  {
+    "id": 17,
+    "name_he": "בצל",
+    "name_en": "ONION"
+  },
+  {
+    "id": 18,
+    "name_he": "בצל ירוק",
+    "name_en": "SPRING ONION"
+  },
+  {
+    "id": 19,
+    "name_he": "בקיה",
+    "name_en": "VETCH"
+  },
+  {
+    "id": 20,
+    "name_he": "בקר",
+    "name_en": "CATTLE"
+  },
+  {
+    "id": 21,
+    "name_he": "ברוקולי",
+    "name_en": "BROCCOLI"
+  },
+  {
+    "id": 22,
+    "name_he": "בשר",
+    "name_en": "MEAT"
+  },
+  {
+    "id": 23,
+    "name_he": "בשר עוף",
+    "name_en": "POULTRY MEAT"
+  },
+  {
+    "id": 24,
+    "name_he": "בשר עוף, חלקי פנים",
+    "name_en": "POULTRY OFFAL"
+  },
+  {
+    "id": 25,
+    "name_he": "בשר, חלקי פנים",
+    "name_en": "EDIBLE OFFAL"
+  },
+  {
+    "id": 26,
+    "name_he": "בשר, שומן",
+    "name_en": "FAT"
+  },
+  {
+    "id": 27,
+    "name_he": "גויאבה",
+    "name_en": "GUAVA"
+  },
+  {
+    "id": 28,
+    "name_he": "גזר",
+    "name_en": "CARROT"
+  },
+  {
+    "id": 29,
+    "name_he": "דבש",
+    "name_en": "HONEY"
+  },
+  {
+    "id": 30,
+    "name_he": "דגניים",
+    "name_en": "CEREALS"
+  },
+  {
+    "id": 31,
+    "name_he": "דובדבן",
+    "name_en": "CHERRY"
+  },
+  {
+    "id": 32,
+    "name_he": "דורה-סורגום",
+    "name_en": "SORGHUM"
+  },
+  {
+    "id": 33,
+    "name_he": "דלועיים",
+    "name_en": "CUCURBITS"
+  },
+  {
+    "id": 34,
+    "name_he": "דלורית",
+    "name_en": "SCARLET"
+  },
+  {
+    "id": 35,
+    "name_he": "דלעת",
+    "name_en": "PUMPKINS"
+  },
+  {
+    "id": 36,
+    "name_he": "וידן",
+    "name_en": "SORGHUM BICOLOR"
+  },
+  {
+    "id": 37,
+    "name_he": "זית אירופאי",
+    "name_en": "OLIVES"
+  },
+  {
+    "id": 38,
+    "name_he": "זעתר (אזוב מצוי)",
+    "name_en": "HYSSOP"
+  },
+  {
+    "id": 39,
+    "name_he": "חבוש",
+    "name_en": "QUINCE"
+  },
+  {
+    "id": 40,
+    "name_he": "חוחובה",
+    "name_en": "JUJUBE CHINESE(SIMMONDSIA"
+  },
+  {
+    "id": 41,
+    "name_he": "חומעת הגינה",
+    "name_en": "RUMEX CRISPUS"
+  },
+  {
+    "id": 42,
+    "name_he": "חיטה",
+    "name_en": "WHEAT"
+  },
+  {
+    "id": 43,
+    "name_he": "חימצה (חומוס)",
+    "name_en": "CHICK PEA"
+  },
+  {
+    "id": 44,
+    "name_he": "חלב",
+    "name_en": "MILK"
+  },
+  {
+    "id": 45,
+    "name_he": "חמנית מצויה",
+    "name_en": "SUNFLOWER"
+  },
+  {
+    "id": 46,
+    "name_he": "חסה",
+    "name_en": "LETTUCE"
+  },
+  {
+    "id": 47,
+    "name_he": "חציל",
+    "name_en": "EGG PLANT"
+  },
+  {
+    "id": 48,
+    "name_he": "חרוב מצוי",
+    "name_en": "CAROB"
+  },
+  {
+    "id": 49,
+    "name_he": "חריע",
+    "name_en": "SAFFLOWER"
+  },
+  {
+    "id": 50,
+    "name_he": "טרגון",
+    "name_en": "ESTRAGON"
+  },
+  {
+    "id": 51,
+    "name_he": "ירקות",
+    "name_en": "VEGETABLES"
+  },
+  {
+    "id": 52,
+    "name_he": "ירקות עלים",
+    "name_en": "LEAFY VEGETABLES"
+  },
+  {
+    "id": 53,
+    "name_he": "ירקות שורש",
+    "name_en": "ROOT VEGETABLE"
+  },
+  {
+    "id": 54,
+    "name_he": "כבשים",
+    "name_en": "SHEEPS"
+  },
+  {
+    "id": 55,
+    "name_he": "כוסברה (גד השדה)",
+    "name_en": "CORIANDER"
+  },
+  {
+    "id": 56,
+    "name_he": "כותנה",
+    "name_en": "COTTON"
+  },
+  {
+    "id": 57,
+    "name_he": "כרוב",
+    "name_en": "CABBAGE"
+  },
+  {
+    "id": 58,
+    "name_he": "כרוב ניצנים",
+    "name_en": "BRUSSELS SPROUTS"
+  },
+  {
+    "id": 59,
+    "name_he": "כרוב סיני",
+    "name_en": "CHINESE CABBAGE"
+  },
+  {
+    "id": 60,
+    "name_he": "כרוביים",
+    "name_en": "BRASSICA"
+  },
+  {
+    "id": 61,
+    "name_he": "כרובית",
+    "name_en": "CAULIFLOWER"
+  },
+  {
+    "id": 62,
+    "name_he": "כרפס/סלרי (שורש ועלים)",
+    "name_en": "CELERIAC"
+  },
+  {
+    "id": 63,
+    "name_he": "לואיזה (ליפיה לימונית)",
+    "name_en": "LUISA"
+  },
+  {
+    "id": 64,
+    "name_he": "לובאג'",
+    "name_en": "LOVAGE"
+  },
+  {
+    "id": 65,
+    "name_he": "לוף (כרתי/כרש/כרשה)",
+    "name_en": "LEEK"
+  },
+  {
+    "id": 66,
+    "name_he": "ליצי",
+    "name_en": "LICHEE"
+  },
+  {
+    "id": 67,
+    "name_he": "לפת",
+    "name_en": "TURNIP"
+  },
+  {
+    "id": 68,
+    "name_he": "מיורם",
+    "name_en": "MARJORAM"
+  },
+  {
+    "id": 69,
+    "name_he": "מיזונה (כרוב רפה)",
+    "name_en": "MIZONA"
+  },
+  {
+    "id": 70,
+    "name_he": "מלון",
+    "name_en": "MELON"
+  },
+  {
+    "id": 71,
+    "name_he": "מליסה",
+    "name_en": "MELISA"
+  },
+  {
+    "id": 72,
+    "name_he": "מלפפון",
+    "name_en": "CUCUMBER"
+  },
+  {
+    "id": 73,
+    "name_he": "מנגו",
+    "name_en": "MANGO"
+  },
+  {
+    "id": 74,
+    "name_he": "מנטה",
+    "name_en": "MINT"
+  },
+  {
+    "id": 75,
+    "name_he": "מרווה",
+    "name_en": "SAGE"
+  },
+  {
+    "id": 76,
+    "name_he": "משמש",
+    "name_en": "APRICOT"
+  },
+  {
+    "id": 77,
+    "name_he": "נקטרינה",
+    "name_en": "NECTARINE"
+  },
+  {
+    "id": 78,
+    "name_he": "סטיביה",
+    "name_en": "STEVIA"
+  },
+  {
+    "id": 79,
+    "name_he": "סייגית (צ'רביל)",
+    "name_en": "CHERBIL"
+  },
+  {
+    "id": 80,
+    "name_he": "סלק אדום (שורש ועלים)",
+    "name_en": "BEETROOT"
+  },
+  {
+    "id": 81,
+    "name_he": "סלק מספוא",
+    "name_en": "FODDER BEET"
+  },
+  {
+    "id": 82,
+    "name_he": "סלק סוכר",
+    "name_en": "SUGAR BEET"
+  },
+  {
+    "id": 83,
+    "name_he": "סלק עלים",
+    "name_en": "BEET, GREENS"
+  },
+  {
+    "id": 84,
+    "name_he": "עגבניה",
+    "name_en": "TOMATO"
+  },
+  {
+    "id": 85,
+    "name_he": "עירית בצלית",
+    "name_en": "CHIVES"
+  },
+  {
+    "id": 86,
+    "name_he": "עלי בוק צ'וי",
+    "name_en": "BOCK CHOY LEAVES"
+  },
+  {
+    "id": 87,
+    "name_he": "עלי טטסוי",
+    "name_en": "TATSUI LEAVES"
+  },
+  {
+    "id": 88,
+    "name_he": "ענבי שועל",
+    "name_en": "GOOSEBERRY"
+  },
+  {
+    "id": 89,
+    "name_he": "ענבים",
+    "name_en": "GRAPES"
+  },
+  {
+    "id": 90,
+    "name_he": "עשב לימון",
+    "name_en": "CYMBOPOGON"
+  },
+  {
+    "id": 91,
+    "name_he": "עשב רודס",
+    "name_en": "RHODS GRASS"
+  },
+  {
+    "id": 92,
+    "name_he": "פול",
+    "name_en": "BROAD BEAN"
+  },
+  {
+    "id": 93,
+    "name_he": "פטרוסלינון (שורש ועלים)",
+    "name_en": "PARSLEY (roots and leaves)"
+  },
+  {
+    "id": 94,
+    "name_he": "פיג'ואה",
+    "name_en": "FEIJOA"
+  },
+  {
+    "id": 95,
+    "name_he": "פירות",
+    "name_en": "FRUITS"
+  },
+  {
+    "id": 96,
+    "name_he": "פירות גלעיניים",
+    "name_en": "STONE FRUIT"
+  },
+  {
+    "id": 97,
+    "name_he": "פירות גרעיניים",
+    "name_en": "POME FRUITS"
+  },
+  {
+    "id": 98,
+    "name_he": "פירות סובטרופיים",
+    "name_en": "SUBTROPICAL FRUITS"
+  },
+  {
+    "id": 99,
+    "name_he": "פלפל",
+    "name_en": "PEPPER"
+  },
+  {
+    "id": 100,
+    "name_he": "פסיפלורה (שעונית)",
+    "name_en": "PASSION FRUIT"
+  },
+  {
+    "id": 101,
+    "name_he": "פפריקה",
+    "name_en": "RED SWEET PEPPER"
+  },
+  {
+    "id": 102,
+    "name_he": "פקאן תרבותי",
+    "name_en": "PECAN"
+  },
+  {
+    "id": 103,
+    "name_he": "פרי הדר",
+    "name_en": "CITRUS FRUIT"
+  },
+  {
+    "id": 104,
+    "name_he": "צבר",
+    "name_en": "PRICKLY PEAR CACTUS"
+  },
+  {
+    "id": 105,
+    "name_he": "צמחי תבלין",
+    "name_en": "HERBS"
+  },
+  {
+    "id": 106,
+    "name_he": "צנון",
+    "name_en": "RADISH"
+  },
+  {
+    "id": 107,
+    "name_he": "צנונית",
+    "name_en": "SMALL RADISH"
+  },
+  {
+    "id": 108,
+    "name_he": "קולרבי",
+    "name_en": "KOHLRABI"
+  },
+  {
+    "id": 109,
+    "name_he": "קומקואט (תפוזון)",
+    "name_en": "KUMQUATS"
+  },
+  {
+    "id": 110,
+    "name_he": "קורנית",
+    "name_en": "THYME"
+  },
+  {
+    "id": 111,
+    "name_he": "קטניות",
+    "name_en": "LEGUMS"
+  },
+  {
+    "id": 112,
+    "name_he": "קיווי",
+    "name_en": "KIWI"
+  },
+  {
+    "id": 113,
+    "name_he": "קייל",
+    "name_en": "KALE"
+  },
+  {
+    "id": 114,
+    "name_he": "קינרס (ארטישוק)",
+    "name_en": "ARTICHOKE"
+  },
+  {
+    "id": 115,
+    "name_he": "קישוא",
+    "name_en": "SQUASH"
+  },
+  {
+    "id": 116,
+    "name_he": "קש חיטה",
+    "name_en": "WHEAT STRAW"
+  },
+  {
+    "id": 117,
+    "name_he": "רוזמרין",
+    "name_en": "ROSMARINE"
+  },
+  {
+    "id": 118,
+    "name_he": "רוקולה",
+    "name_en": "ROKULA"
+  },
+  {
+    "id": 119,
+    "name_he": "רוקט (בן חרדל)",
+    "name_en": "ROKET"
+  },
+  {
+    "id": 120,
+    "name_he": "ריחן מצוי / בזיל",
+    "name_en": "BASIL"
+  },
+  {
+    "id": 121,
+    "name_he": "רימון",
+    "name_en": "POMEGRANATE"
+  },
+  {
+    "id": 122,
+    "name_he": "שבולת שועל",
+    "name_en": "OAT"
+  },
+  {
+    "id": 123,
+    "name_he": "שום",
+    "name_en": "GARLIC"
+  },
+  {
+    "id": 124,
+    "name_he": "שומר",
+    "name_en": "FENNEL"
+  },
+  {
+    "id": 125,
+    "name_he": "שונות",
+    "name_en": "OTHERS"
+  },
+  {
+    "id": 126,
+    "name_he": "שזיף",
+    "name_en": "PLUM"
+  },
+  {
+    "id": 127,
+    "name_he": "שמיר (שבת)",
+    "name_en": "DILL"
+  },
+  {
+    "id": 128,
+    "name_he": "שסק",
+    "name_en": "LOQUAT"
+  },
+  {
+    "id": 129,
+    "name_he": "שעועית ירוקה",
+    "name_en": "BEANS"
+  },
+  {
+    "id": 130,
+    "name_he": "שעורה תרבותית",
+    "name_en": "BARLEY"
+  },
+  {
+    "id": 131,
+    "name_he": "שקד",
+    "name_en": "ALMOND"
+  },
+  {
+    "id": 132,
+    "name_he": "תאנה",
+    "name_en": "FIG"
+  },
+  {
+    "id": 133,
+    "name_he": "תות שדה לפרי",
+    "name_en": "STRAWBERRY"
+  },
+  {
+    "id": 134,
+    "name_he": "תירס",
+    "name_en": "CORN"
+  },
+  {
+    "id": 135,
+    "name_he": "תירס מספוא",
+    "name_en": "FORAGE CORN"
+  },
+  {
+    "id": 136,
+    "name_he": "תירס מתוק",
+    "name_en": "SWEET CORN"
+  },
+  {
+    "id": 137,
+    "name_he": "תלתן",
+    "name_en": "CLOVER"
+  },
+  {
+    "id": 138,
+    "name_he": "תמר",
+    "name_en": "DATE"
+  },
+  {
+    "id": 139,
+    "name_he": "תפוח אדמה",
+    "name_en": "POTATO"
+  },
+  {
+    "id": 140,
+    "name_he": "תפוח עץ",
+    "name_en": "APPLE"
+  },
+  {
+    "id": 141,
+    "name_he": "תרד",
+    "name_en": "SPINACH"
+  }
+]

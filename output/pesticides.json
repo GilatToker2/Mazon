@@ -1,0 +1,1138 @@
+[
+  {
+    "id": 1,
+    "name": "1,3 DICHLOROPROPENE"
+  },
+  {
+    "id": 2,
+    "name": "1,4-DIMETHYLNAPHTALENE"
+  },
+  {
+    "id": 3,
+    "name": "1-MCP"
+  },
+  {
+    "id": 4,
+    "name": "2,4-D"
+  },
+  {
+    "id": 5,
+    "name": "ABAMECTIN"
+  },
+  {
+    "id": 6,
+    "name": "ACEQUINOCYL"
+  },
+  {
+    "id": 7,
+    "name": "ACETAMIPRID"
+  },
+  {
+    "id": 8,
+    "name": "ACIBENZOLAR-S-METHYL"
+  },
+  {
+    "id": 9,
+    "name": "ACLONIFEN"
+  },
+  {
+    "id": 10,
+    "name": "ACRINATHRIN"
+  },
+  {
+    "id": 11,
+    "name": "AFIDOPYROPEN"
+  },
+  {
+    "id": 12,
+    "name": "ALACHLOR"
+  },
+  {
+    "id": 13,
+    "name": "ALDRIN"
+  },
+  {
+    "id": 14,
+    "name": "AMETOCTRADIN"
+  },
+  {
+    "id": 15,
+    "name": "AMINOTRIAZOLE"
+  },
+  {
+    "id": 16,
+    "name": "AMITRAZ"
+  },
+  {
+    "id": 17,
+    "name": "ATRAZINE"
+  },
+  {
+    "id": 18,
+    "name": "AZOCYCLOTIN"
+  },
+  {
+    "id": 19,
+    "name": "AZOXYSTROBIN"
+  },
+  {
+    "id": 20,
+    "name": "BENALAXYL"
+  },
+  {
+    "id": 21,
+    "name": "BENFLURALIN"
+  },
+  {
+    "id": 22,
+    "name": "BENTAZONE"
+  },
+  {
+    "id": 23,
+    "name": "BENTHIAVALICARB- ISOPROPYL"
+  },
+  {
+    "id": 24,
+    "name": "BIFENAZATE"
+  },
+  {
+    "id": 25,
+    "name": "BIFENTHRIN"
+  },
+  {
+    "id": 26,
+    "name": "BITERTANOL"
+  },
+  {
+    "id": 27,
+    "name": "BOSCALID"
+  },
+  {
+    "id": 28,
+    "name": "BROMACIL"
+  },
+  {
+    "id": 29,
+    "name": "BROMOPROPYLATE"
+  },
+  {
+    "id": 30,
+    "name": "BROMOXYNIL"
+  },
+  {
+    "id": 31,
+    "name": "BROMUCONAZOLE"
+  },
+  {
+    "id": 32,
+    "name": "BUPIRIMATE"
+  },
+  {
+    "id": 33,
+    "name": "BUPROFEZIN"
+  },
+  {
+    "id": 34,
+    "name": "CAPTAN"
+  },
+  {
+    "id": 35,
+    "name": "CARBARYL"
+  },
+  {
+    "id": 36,
+    "name": "CARBENDAZIM"
+  },
+  {
+    "id": 37,
+    "name": "CARBOXIN"
+  },
+  {
+    "id": 38,
+    "name": "CARFENTRAZONE ETHYL"
+  },
+  {
+    "id": 39,
+    "name": "CHLORANTRANILIPROLE"
+  },
+  {
+    "id": 40,
+    "name": "CHLORDANE"
+  },
+  {
+    "id": 41,
+    "name": "CHLORFENAPYR"
+  },
+  {
+    "id": 42,
+    "name": "CHLORFLUAZURON"
+  },
+  {
+    "id": 43,
+    "name": "CHLORIDAZON"
+  },
+  {
+    "id": 44,
+    "name": "CHLORMEQUAT CHLORIDE"
+  },
+  {
+    "id": 45,
+    "name": "CHLOROTHALONIL"
+  },
+  {
+    "id": 46,
+    "name": "CHLORPROPHAM"
+  },
+  {
+    "id": 47,
+    "name": "CHLORPYRIFOS"
+  },
+  {
+    "id": 48,
+    "name": "CHLORSULFURON"
+  },
+  {
+    "id": 49,
+    "name": "CHLORTHAL DIMETHYL"
+  },
+  {
+    "id": 50,
+    "name": "CINIDON ETHYL"
+  },
+  {
+    "id": 51,
+    "name": "CLETHODIM"
+  },
+  {
+    "id": 52,
+    "name": "CLODINAFOP PROPARGYL"
+  },
+  {
+    "id": 53,
+    "name": "CLOFENTEZINE"
+  },
+  {
+    "id": 54,
+    "name": "CLOMAZONE"
+  },
+  {
+    "id": 55,
+    "name": "CLOPYRALID"
+  },
+  {
+    "id": 56,
+    "name": "CLOQUINTOCET MEXYL"
+  },
+  {
+    "id": 57,
+    "name": "CLOTHIANIDIN"
+  },
+  {
+    "id": 58,
+    "name": "CYANTRANILIPROLE"
+  },
+  {
+    "id": 59,
+    "name": "CYAZOFAMID"
+  },
+  {
+    "id": 60,
+    "name": "CYCLOXYDIM"
+  },
+  {
+    "id": 61,
+    "name": "CYFLUFENAMID"
+  },
+  {
+    "id": 62,
+    "name": "CYFLUMETOFEN"
+  },
+  {
+    "id": 63,
+    "name": "CYFLUTHRIN"
+  },
+  {
+    "id": 64,
+    "name": "CYHEXATIN"
+  },
+  {
+    "id": 65,
+    "name": "CYMOXANIL"
+  },
+  {
+    "id": 66,
+    "name": "CYPERMETHRIN"
+  },
+  {
+    "id": 67,
+    "name": "CYPROCONAZOLE"
+  },
+  {
+    "id": 68,
+    "name": "CYPRODINIL"
+  },
+  {
+    "id": 69,
+    "name": "CYPROSULFAMIDE"
+  },
+  {
+    "id": 70,
+    "name": "CYROMAZINE"
+  },
+  {
+    "id": 71,
+    "name": "D.D.T."
+  },
+  {
+    "id": 72,
+    "name": "DELTAMETHRIN"
+  },
+  {
+    "id": 73,
+    "name": "DIAFENTHIURON"
+  },
+  {
+    "id": 74,
+    "name": "DICAMBA"
+  },
+  {
+    "id": 75,
+    "name": "DICHLORPROP-P"
+  },
+  {
+    "id": 76,
+    "name": "DICLOFOP METHYL"
+  },
+  {
+    "id": 77,
+    "name": "DIDECYL DIMETHYL AMMONIUM CHLORIDE"
+  },
+  {
+    "id": 78,
+    "name": "DIETHOFENCARB"
+  },
+  {
+    "id": 79,
+    "name": "DIFENOCONAZOLE"
+  },
+  {
+    "id": 80,
+    "name": "DIFLUBENZURON"
+  },
+  {
+    "id": 81,
+    "name": "DIFLUFENICAN"
+  },
+  {
+    "id": 82,
+    "name": "DIMETHENAMID"
+  },
+  {
+    "id": 83,
+    "name": "DIMETHOATE"
+  },
+  {
+    "id": 84,
+    "name": "DIMETHOMORPH"
+  },
+  {
+    "id": 85,
+    "name": "DIMETHYL DISULFIDE"
+  },
+  {
+    "id": 86,
+    "name": "DINICONAZOLE-M"
+  },
+  {
+    "id": 87,
+    "name": "DINOCAP"
+  },
+  {
+    "id": 88,
+    "name": "DINOTEFURAN"
+  },
+  {
+    "id": 89,
+    "name": "DIPHENYLAMINE"
+  },
+  {
+    "id": 90,
+    "name": "DIQUAT"
+  },
+  {
+    "id": 91,
+    "name": "DITHIANON"
+  },
+  {
+    "id": 92,
+    "name": "DITHIOCARBAMATES"
+  },
+  {
+    "id": 93,
+    "name": "DIURON"
+  },
+  {
+    "id": 94,
+    "name": "DODINE"
+  },
+  {
+    "id": 95,
+    "name": "EMAMECTIN BENZOATE"
+  },
+  {
+    "id": 96,
+    "name": "ENDRIN"
+  },
+  {
+    "id": 97,
+    "name": "ESFENVALERATE"
+  },
+  {
+    "id": 98,
+    "name": "ETHALFLURALIN"
+  },
+  {
+    "id": 99,
+    "name": "ETHEPHON"
+  },
+  {
+    "id": 100,
+    "name": "ETHOXYQUIN"
+  },
+  {
+    "id": 101,
+    "name": "ETOFENPROX"
+  },
+  {
+    "id": 102,
+    "name": "ETOXAZOLE"
+  },
+  {
+    "id": 103,
+    "name": "FAMOXADONE"
+  },
+  {
+    "id": 104,
+    "name": "FENAMIDONE"
+  },
+  {
+    "id": 105,
+    "name": "FENAMIPHOS"
+  },
+  {
+    "id": 106,
+    "name": "FENARIMOL"
+  },
+  {
+    "id": 107,
+    "name": "FENAZAQUIN"
+  },
+  {
+    "id": 108,
+    "name": "FENBUCONAZOLE"
+  },
+  {
+    "id": 109,
+    "name": "FENBUTATIN OXIDE"
+  },
+  {
+    "id": 110,
+    "name": "FENHEXAMID"
+  },
+  {
+    "id": 111,
+    "name": "FENOXAPROP-P-ETHYL"
+  },
+  {
+    "id": 112,
+    "name": "FENOXYCARB"
+  },
+  {
+    "id": 113,
+    "name": "FENPYRAZAMINE"
+  },
+  {
+    "id": 114,
+    "name": "FENPYROXIMATE"
+  },
+  {
+    "id": 115,
+    "name": "FLAZASULFURON"
+  },
+  {
+    "id": 116,
+    "name": "FLONICAMID"
+  },
+  {
+    "id": 117,
+    "name": "FLORASULAM"
+  },
+  {
+    "id": 118,
+    "name": "FLUAZIFOP-P-BUTYL"
+  },
+  {
+    "id": 119,
+    "name": "FLUAZINAM"
+  },
+  {
+    "id": 120,
+    "name": "FLUBENDIAMIDE"
+  },
+  {
+    "id": 121,
+    "name": "FLUDIOXONIL"
+  },
+  {
+    "id": 122,
+    "name": "FLUENSULFONE"
+  },
+  {
+    "id": 123,
+    "name": "FLUFENACET"
+  },
+  {
+    "id": 124,
+    "name": "FLUFENOXURON"
+  },
+  {
+    "id": 125,
+    "name": "FLUMETSULAM"
+  },
+  {
+    "id": 126,
+    "name": "FLUMIOXAZIN"
+  },
+  {
+    "id": 127,
+    "name": "FLUOMETURON"
+  },
+  {
+    "id": 128,
+    "name": "FLUOPICOLIDE"
+  },
+  {
+    "id": 129,
+    "name": "FLUOPYRAM"
+  },
+  {
+    "id": 130,
+    "name": "FLUOXASTROBIN"
+  },
+  {
+    "id": 131,
+    "name": "FLUPYRADIFURONE"
+  },
+  {
+    "id": 132,
+    "name": "FLUROCHLORIDONE"
+  },
+  {
+    "id": 133,
+    "name": "FLUROXYPYR"
+  },
+  {
+    "id": 134,
+    "name": "FLURPRIMIDOL"
+  },
+  {
+    "id": 135,
+    "name": "FLUSULFAMIDE"
+  },
+  {
+    "id": 136,
+    "name": "FLUTOLANIL"
+  },
+  {
+    "id": 137,
+    "name": "FLUTRIAFOL"
+  },
+  {
+    "id": 138,
+    "name": "FLUXAPYROXAD"
+  },
+  {
+    "id": 139,
+    "name": "FOLPET"
+  },
+  {
+    "id": 140,
+    "name": "FOMESAFEN"
+  },
+  {
+    "id": 141,
+    "name": "FORAMSULFURON"
+  },
+  {
+    "id": 142,
+    "name": "FORCHLORFENURON"
+  },
+  {
+    "id": 143,
+    "name": "FORMETANATE HCL"
+  },
+  {
+    "id": 144,
+    "name": "FOSETYL AL"
+  },
+  {
+    "id": 145,
+    "name": "GLUFOSINATE AMMONIUM"
+  },
+  {
+    "id": 146,
+    "name": "GLYPHOSATE"
+  },
+  {
+    "id": 147,
+    "name": "GUAZATINE"
+  },
+  {
+    "id": 148,
+    "name": "HALAUXIFEN METHYL"
+  },
+  {
+    "id": 149,
+    "name": "HALOXYFOP R METHYL"
+  },
+  {
+    "id": 150,
+    "name": "HEPTACHLOR"
+  },
+  {
+    "id": 151,
+    "name": "HYMEXAZOL"
+  },
+  {
+    "id": 152,
+    "name": "IMAZALIL"
+  },
+  {
+    "id": 153,
+    "name": "IMAZAMOX"
+  },
+  {
+    "id": 154,
+    "name": "IMAZAPIC"
+  },
+  {
+    "id": 155,
+    "name": "IMAZAPYR"
+  },
+  {
+    "id": 156,
+    "name": "IMAZETHAPYR"
+  },
+  {
+    "id": 157,
+    "name": "IMIDACLOPRID"
+  },
+  {
+    "id": 158,
+    "name": "IN ACCREDITATION="
+  },
+  {
+    "id": 159,
+    "name": "INDOXACARB"
+  },
+  {
+    "id": 160,
+    "name": "IODOSULFURON METHYL SODIUM"
+  },
+  {
+    "id": 161,
+    "name": "IPRODIONE"
+  },
+  {
+    "id": 162,
+    "name": "IPROVALICARB"
+  },
+  {
+    "id": 163,
+    "name": "ISOFETAMID"
+  },
+  {
+    "id": 164,
+    "name": "ISOXABEN"
+  },
+  {
+    "id": 165,
+    "name": "ISOXADIFEN ETHYL"
+  },
+  {
+    "id": 166,
+    "name": "ISOXAFLUTOLE"
+  },
+  {
+    "id": 167,
+    "name": "KRESOXIM METHYL"
+  },
+  {
+    "id": 168,
+    "name": "LAMBDA CYHALOTHRIN"
+  },
+  {
+    "id": 169,
+    "name": "LINDANE"
+  },
+  {
+    "id": 170,
+    "name": "LINURON"
+  },
+  {
+    "id": 171,
+    "name": "LUFENURON"
+  },
+  {
+    "id": 172,
+    "name": "MALATHION"
+  },
+  {
+    "id": 173,
+    "name": "MALEIC HYDRAZIDE"
+  },
+  {
+    "id": 174,
+    "name": "MANDIPROPAMID"
+  },
+  {
+    "id": 175,
+    "name": "MCPA"
+  },
+  {
+    "id": 176,
+    "name": "MECOPROP-P"
+  },
+  {
+    "id": 177,
+    "name": "MEFENPYR DIETHYL"
+  },
+  {
+    "id": 178,
+    "name": "MEPANIPYRIM"
+  },
+  {
+    "id": 179,
+    "name": "MEPTYLDINOCAP"
+  },
+  {
+    "id": 180,
+    "name": "MESOSULFURON-METHYL"
+  },
+  {
+    "id": 181,
+    "name": "MESOTRIONE"
+  },
+  {
+    "id": 182,
+    "name": "METAFLUMIZONE"
+  },
+  {
+    "id": 183,
+    "name": "METALAXYL"
+  },
+  {
+    "id": 184,
+    "name": "METAM SODIUM"
+  },
+  {
+    "id": 185,
+    "name": "METAMITRON"
+  },
+  {
+    "id": 186,
+    "name": "METAZACHLOR"
+  },
+  {
+    "id": 187,
+    "name": "METHIOCARB"
+  },
+  {
+    "id": 188,
+    "name": "METHOMYL"
+  },
+  {
+    "id": 189,
+    "name": "METHOXYFENOZIDE"
+  },
+  {
+    "id": 190,
+    "name": "METOBROMURON"
+  },
+  {
+    "id": 191,
+    "name": "METOLACHLOR"
+  },
+  {
+    "id": 192,
+    "name": "METOMINOSTROBIN"
+  },
+  {
+    "id": 193,
+    "name": "METRAFENONE"
+  },
+  {
+    "id": 194,
+    "name": "METRIBUZIN"
+  },
+  {
+    "id": 195,
+    "name": "MILBEMECTIN"
+  },
+  {
+    "id": 196,
+    "name": "MSMA"
+  },
+  {
+    "id": 197,
+    "name": "MYCLOBUTANIL"
+  },
+  {
+    "id": 198,
+    "name": "NOVALURON"
+  },
+  {
+    "id": 199,
+    "name": "ORTHO PHENYLPHENOL"
+  },
+  {
+    "id": 200,
+    "name": "OXADIARGYL"
+  },
+  {
+    "id": 201,
+    "name": "OXADIAZON"
+  },
+  {
+    "id": 202,
+    "name": "OXAMYL"
+  },
+  {
+    "id": 203,
+    "name": "OXATHIAPIPROLIN"
+  },
+  {
+    "id": 204,
+    "name": "OXOLINIC ACID"
+  },
+  {
+    "id": 205,
+    "name": "OXYFLUORFEN"
+  },
+  {
+    "id": 206,
+    "name": "PACLOBUTRAZOLE"
+  },
+  {
+    "id": 207,
+    "name": "PARAQUAT"
+  },
+  {
+    "id": 208,
+    "name": "PCNB (QUINTOZENE)"
+  },
+  {
+    "id": 209,
+    "name": "PENCONAZOLE"
+  },
+  {
+    "id": 210,
+    "name": "PENCYCURON"
+  },
+  {
+    "id": 211,
+    "name": "PENDIMETHALIN"
+  },
+  {
+    "id": 212,
+    "name": "PENFLUFEN"
+  },
+  {
+    "id": 213,
+    "name": "PENTHIOPYRAD"
+  },
+  {
+    "id": 214,
+    "name": "PERMETHRIN"
+  },
+  {
+    "id": 215,
+    "name": "PHOSMET"
+  },
+  {
+    "id": 216,
+    "name": "PICOXYSTROBIN"
+  },
+  {
+    "id": 217,
+    "name": "PINOXADEN"
+  },
+  {
+    "id": 218,
+    "name": "PIPERONYL BUTOXIDE"
+  },
+  {
+    "id": 219,
+    "name": "PIRIMICARB"
+  },
+  {
+    "id": 220,
+    "name": "PIRIMIPHOS-METHYL"
+  },
+  {
+    "id": 221,
+    "name": "PROCHLORAZ"
+  },
+  {
+    "id": 222,
+    "name": "PROHEXADIONE CALCIUM"
+  },
+  {
+    "id": 223,
+    "name": "PROMETRYNE"
+  },
+  {
+    "id": 224,
+    "name": "PROPAMOCARB HCL"
+  },
+  {
+    "id": 225,
+    "name": "PROPAQUIZAFOP"
+  },
+  {
+    "id": 226,
+    "name": "PROPARGITE"
+  },
+  {
+    "id": 227,
+    "name": "PROPOXYCARBAZONE-SODIUM"
+  },
+  {
+    "id": 228,
+    "name": "PROPYZAMIDE"
+  },
+  {
+    "id": 229,
+    "name": "PROQUINAZID"
+  },
+  {
+    "id": 230,
+    "name": "PROTHIOCONAZOLE"
+  },
+  {
+    "id": 231,
+    "name": "PYMETROZINE"
+  },
+  {
+    "id": 232,
+    "name": "PYRACLOSTROBIN"
+  },
+  {
+    "id": 233,
+    "name": "PYRAFLUFEN-ETHYL"
+  },
+  {
+    "id": 234,
+    "name": "PYRIDABEN"
+  },
+  {
+    "id": 235,
+    "name": "PYRIDALYL"
+  },
+  {
+    "id": 236,
+    "name": "PYRIDATE"
+  },
+  {
+    "id": 237,
+    "name": "PYRIMETHANIL"
+  },
+  {
+    "id": 238,
+    "name": "PYRIMIDIFEN"
+  },
+  {
+    "id": 239,
+    "name": "PYRIOFENONE"
+  },
+  {
+    "id": 240,
+    "name": "PYRIPROXYFEN"
+  },
+  {
+    "id": 241,
+    "name": "PYRITHIOBAC SODIUM"
+  },
+  {
+    "id": 242,
+    "name": "PYROXASULFONE"
+  },
+  {
+    "id": 243,
+    "name": "QUINOXYFEN"
+  },
+  {
+    "id": 244,
+    "name": "QUIZALOFOP-P-ETHYL"
+  },
+  {
+    "id": 245,
+    "name": "QUIZALOFOP-P-TEFURYL"
+  },
+  {
+    "id": 246,
+    "name": "RIMSULFURON"
+  },
+  {
+    "id": 247,
+    "name": "SAFLUFENACIL"
+  },
+  {
+    "id": 248,
+    "name": "SPINETORAM"
+  },
+  {
+    "id": 249,
+    "name": "SPINOSAD"
+  },
+  {
+    "id": 250,
+    "name": "SPIRODICLOFEN"
+  },
+  {
+    "id": 251,
+    "name": "SPIROMESIFEN"
+  },
+  {
+    "id": 252,
+    "name": "SPIROTETRAMAT"
+  },
+  {
+    "id": 253,
+    "name": "SPIROXAMINE"
+  },
+  {
+    "id": 254,
+    "name": "SULFENTRAZONE"
+  },
+  {
+    "id": 255,
+    "name": "SULFOSULFURON"
+  },
+  {
+    "id": 256,
+    "name": "SULFOXAFLOR"
+  },
+  {
+    "id": 257,
+    "name": "TAU-FLUVALINATE"
+  },
+  {
+    "id": 258,
+    "name": "TEBUCONAZOLE"
+  },
+  {
+    "id": 259,
+    "name": "TEBUFENPYRAD"
+  },
+  {
+    "id": 260,
+    "name": "TEFLUBENZURON"
+  },
+  {
+    "id": 261,
+    "name": "TERBACIL"
+  },
+  {
+    "id": 262,
+    "name": "TERBUTHYLAZINE"
+  },
+  {
+    "id": 263,
+    "name": "TERBUTRYN"
+  },
+  {
+    "id": 264,
+    "name": "TETRACONAZOLE"
+  },
+  {
+    "id": 265,
+    "name": "TETRADIFON"
+  },
+  {
+    "id": 266,
+    "name": "THIABENDAZOLE"
+  },
+  {
+    "id": 267,
+    "name": "THIACLOPRID"
+  },
+  {
+    "id": 268,
+    "name": "THIAMETHOXAM"
+  },
+  {
+    "id": 269,
+    "name": "THIDIAZURON"
+  },
+  {
+    "id": 270,
+    "name": "THIOCYCLAM HYDROGEN OXALATE"
+  },
+  {
+    "id": 271,
+    "name": "TOLCLOFOS METHYL"
+  },
+  {
+    "id": 272,
+    "name": "TOLFENPYRAD"
+  },
+  {
+    "id": 273,
+    "name": "TRIADIMEFON"
+  },
+  {
+    "id": 274,
+    "name": "TRIADIMENOL"
+  },
+  {
+    "id": 275,
+    "name": "TRIASULFURON"
+  },
+  {
+    "id": 276,
+    "name": "TRIBENURON METHYL"
+  },
+  {
+    "id": 277,
+    "name": "TRICLOPYR (3,5,6-TPA)"
+  },
+  {
+    "id": 278,
+    "name": "TRIFLOXYSTROBIN"
+  },
+  {
+    "id": 279,
+    "name": "TRIFLOXYSULFURON"
+  },
+  {
+    "id": 280,
+    "name": "TRIFLUMURON"
+  },
+  {
+    "id": 281,
+    "name": "TRIFORINE"
+  },
+  {
+    "id": 282,
+    "name": "UNICONAZOLE"
+  },
+  {
+    "id": 283,
+    "name": "VALIFENALATE"
+  },
+  {
+    "id": 284,
+    "name": "ZOXAMIDE"
+  }
+]
