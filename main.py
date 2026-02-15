@@ -682,6 +682,51 @@ st.markdown("""
             font-size: 0.875rem;
         }
     }
+    
+    
+    /* ===== NO HORIZONTAL SCROLL TABLE (HTML TABLE) ===== */
+    .no-scroll-table-wrap{
+        width: 100%;
+        overflow-x: hidden;   /* no horizontal scroll */
+    }
+    
+    table.no-scroll-table{
+        width: 100%;
+        table-layout: fixed;  /* force column widths */
+        border-collapse: collapse;
+    }
+    
+    table.no-scroll-table thead{
+        background-color: #f8fafc;
+        border-bottom: 2px solid #e2e8f0;
+    }
+    
+    table.no-scroll-table th{
+        padding: 0.75rem 1rem;
+        text-align: right;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #475569;
+    }
+    
+    table.no-scroll-table td{
+        padding: 0.75rem 1rem;
+        text-align: right;
+        font-size: 0.9375rem;
+    
+        /* WRAP instead of horizontal scroll */
+        white-space: normal;
+        word-break: break-word;
+        overflow: hidden;
+    }
+    
+    /* soft highlight for explanation columns */
+    table.no-scroll-table td.expl-col,
+    table.no-scroll-table th.expl-col{
+        background-color: #eff6ff;      /* soft blue */
+        border-right: 3px solid #bfdbfe; /* soft divider */
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -812,7 +857,7 @@ if selected_crop_label and selected_crop_label != "" and selected_pesticide_labe
 
             # Display dataframe with RTL support (from original approach)
             # Reverse column order for RTL
-            df_display = df[df.columns[::-1]].copy()
+            df_display = df.copy()
 
             # For Israel dataset, format the date column to show only date without time
             if dataset_name == 'IL' and 'תאריך עדכון' in df_display.columns:
@@ -822,18 +867,37 @@ if selected_crop_label and selected_crop_label != "" and selected_pesticide_labe
             extra_cols = df_display.columns[:6]
 
 
-            def highlight_extra_columns(col):
-                if col.name in extra_cols:
-                    return [
-                        "background-color: #f8fafc; border-right: 3px solid #e2e8f0"
-                    ] * len(col)
-                else:
-                    return [""] * len(col)
+            # ---- NO SCROLL TABLE (HTML) ----
+            extra_cols = list(df_display.columns[-6:])  # אצלך: 6 ראשונות הן תוספת
 
+            # build header with class on explanation columns
+            thead = "<tr>" + "".join(
+                f'<th class="{"expl-col" if c in extra_cols else ""}">{c}</th>'
+                for c in df_display.columns
+            ) + "</tr>"
 
-            styled_df = df_display.style.apply(highlight_extra_columns)
+            # build body rows
+            tbody_rows = []
+            for _, row in df_display.iterrows():
+                tds = "".join(
+                    f'<td class="{"expl-col" if c in extra_cols else ""}">{row[c] if pd.notna(row[c]) else ""}</td>'
+                    for c in df_display.columns
+                )
+                tbody_rows.append(f"<tr>{tds}</tr>")
 
-            st.dataframe(styled_df, use_container_width=True, hide_index=True)
+            table_html = f"""
+            <div class="no-scroll-table-wrap">
+              <table class="no-scroll-table">
+                <thead>{thead}</thead>
+                <tbody>
+                  {''.join(tbody_rows)}
+                </tbody>
+              </table>
+            </div>
+            """
+
+            st.markdown(table_html, unsafe_allow_html=True)
+
         st.markdown('</div>', unsafe_allow_html=True)
 
         # Scroll to results
