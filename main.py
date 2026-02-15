@@ -7,52 +7,94 @@ import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
 import json
-from pathlib import Path
+import os
+from io import BytesIO
+from azure.storage.blob import BlobServiceClient
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 # ============================================================================
-# DATA LOADING FUNCTIONS (FROM ORIGINAL)
+# DATA LOADING FUNCTIONS (FROM AZURE BLOB STORAGE)
 # ============================================================================
+
+def get_blob_client():
+    """Initialize Azure Blob Storage client"""
+    connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+    if not connection_string:
+        st.error("❌ חסר connection string של Azure Storage. הגדר את המשתנה AZURE_STORAGE_CONNECTION_STRING")
+        st.stop()
+
+    blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+    return blob_service_client
+
+def load_json_from_blob(blob_path):
+    """Load JSON file from Azure Blob Storage"""
+    blob_service_client = get_blob_client()
+    container_name = "mazoncontainer"
+
+    try:
+        blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_path)
+        blob_data = blob_client.download_blob()
+        content = blob_data.readall()
+        return json.loads(content.decode('utf-8'))
+    except Exception as e:
+        st.error(f"❌ שגיאה בטעינת {blob_path}: {str(e)}")
+        return None
+
+def load_csv_from_blob(blob_path):
+    """Load CSV file from Azure Blob Storage"""
+    blob_service_client = get_blob_client()
+    container_name = "mazoncontainer"
+
+    try:
+        blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_path)
+        blob_data = blob_client.download_blob()
+        content = blob_data.readall()
+        return pd.read_csv(BytesIO(content), encoding='utf-8-sig')
+    except Exception as e:
+        st.error(f"❌ שגיאה בטעינת {blob_path}: {str(e)}")
+        return None
 
 @st.cache_data
 def load_reference_lists():
-    """Load crops and pesticides reference lists"""
-    crops_path = Path("output/crops.json")
-    pesticides_path = Path("output/pesticides.json")
+    """Load crops and pesticides reference lists from Azure Blob Storage"""
+    crops = load_json_from_blob("output/crops.json")
+    pesticides = load_json_from_blob("output/pesticides.json")
 
-    with open(crops_path, 'r', encoding='utf-8') as f:
-        crops = json.load(f)
-
-    with open(pesticides_path, 'r', encoding='utf-8') as f:
-        pesticides = json.load(f)
+    if crops is None or pesticides is None:
+        st.error("❌ לא ניתן לטעון את קבצי הייחוס")
+        st.stop()
 
     return crops, pesticides
 
 
 @st.cache_data
 def load_mapped_datasets():
-    """Load all mapped datasets (Hebrew versions)"""
+    """Load all mapped datasets (Hebrew versions) from Azure Blob Storage"""
     datasets = {}
 
     # Load IL dataset (Hebrew)
-    il_path = Path("output/mapped_datasets/IL_He_with_ids_he.csv")
-    if il_path.exists():
-        datasets['IL'] = pd.read_csv(il_path, encoding='utf-8-sig')
+    il_data = load_csv_from_blob("output/mapped_datasets/IL_He_with_ids_he.csv")
+    if il_data is not None:
+        datasets['IL'] = il_data
 
     # Load EU dataset (Hebrew)
-    eu_path = Path("output/mapped_datasets/EU_with_ids_he.csv")
-    if eu_path.exists():
-        datasets['EU'] = pd.read_csv(eu_path, encoding='utf-8-sig', low_memory=False)
+    eu_data = load_csv_from_blob("output/mapped_datasets/EU_with_ids_he.csv")
+    if eu_data is not None:
+        datasets['EU'] = eu_data
 
     # Load CODEX dataset (Hebrew)
-    codex_path = Path("output/mapped_datasets/CODEX_with_ids_he.csv")
-    if codex_path.exists():
-        datasets['CODEX'] = pd.read_csv(codex_path, encoding='utf-8-sig')
+    codex_data = load_csv_from_blob("output/mapped_datasets/CODEX_with_ids_he.csv")
+    if codex_data is not None:
+        datasets['CODEX'] = codex_data
 
     # Load US dataset (Hebrew)
-    us_path = Path("output/mapped_datasets/US_with_ids_he.csv")
-    if us_path.exists():
-        datasets['US'] = pd.read_csv(us_path, encoding='utf-8-sig')
+    us_data = load_csv_from_blob("output/mapped_datasets/US_with_ids_he.csv")
+    if us_data is not None:
+        datasets['US'] = us_data
 
     return datasets
 
