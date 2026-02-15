@@ -11,10 +11,11 @@ import os
 from io import BytesIO
 from azure.storage.blob import BlobServiceClient
 from dotenv import load_dotenv
+from pathlib import Path
 
 # Load environment variables from .env file
 load_dotenv()
-
+BASE_DIR = Path(__file__).resolve().parent
 
 # ============================================================================
 # DATA LOADING FUNCTIONS (FROM AZURE BLOB STORAGE)
@@ -738,7 +739,7 @@ st.markdown("""
 header_cols = st.columns([1, 3, 1])
 
 with header_cols[0]:
-    st.image("Img/health.png", width=200)
+    st.image(str(BASE_DIR / "Img" / "health.png"), width=200)
 
 with header_cols[1]:
     st.markdown("""
@@ -751,7 +752,7 @@ with header_cols[1]:
     """, unsafe_allow_html=True)
 
 with header_cols[2]:
-    st.image("Img/kpmg.jpg", width=120)
+    st.image(str(BASE_DIR / "Img" / "kpmg.jpg"), width=120)
 
 st.markdown("<hr style='margin: 1rem 0; border: none; border-top: 1px solid #e2e8f0;'>", unsafe_allow_html=True)
 
