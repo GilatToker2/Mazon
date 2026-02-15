@@ -818,8 +818,22 @@ if selected_crop_label and selected_crop_label != "" and selected_pesticide_labe
             if dataset_name == 'IL' and 'תאריך עדכון' in df_display.columns:
                 df_display['תאריך עדכון'] = pd.to_datetime(df_display['תאריך עדכון'], errors='coerce').dt.strftime('%Y-%m-%d')
 
-            st.dataframe(df_display, use_container_width=True, hide_index=True)
+            # ---- Highlight explanation columns ----
+            extra_cols = df_display.columns[:6]
 
+
+            def highlight_extra_columns(col):
+                if col.name in extra_cols:
+                    return [
+                        "background-color: #f8fafc; border-right: 3px solid #e2e8f0"
+                    ] * len(col)
+                else:
+                    return [""] * len(col)
+
+
+            styled_df = df_display.style.apply(highlight_extra_columns)
+
+            st.dataframe(styled_df, use_container_width=True, hide_index=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
         # Scroll to results
